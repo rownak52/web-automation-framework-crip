@@ -28,8 +28,6 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 
-
-
 public class CommonAPI {
 
     static String currentDir = System.getProperty("user.dir");
@@ -40,10 +38,10 @@ public class CommonAPI {
     public void getLocalDriver(String browser, String os){
         if (os.equalsIgnoreCase("windows")){
             if (browser.equalsIgnoreCase("chrome")){
-                System.setProperty("webdriver.chrome.driver", currentDir+"\\driver\\windows\\chromedriver");
+                System.setProperty("webdriver.chrome.driver", currentDir+"\\driver\\windows\\chromedriver.exe");
                 driver = new ChromeDriver();
             }else if (browser.equalsIgnoreCase("firefox")){
-                System.setProperty("webdriver.gecko.driver", currentDir+"\\driver\\windows\\geckodriver");
+                System.setProperty("webdriver.gecko.driver", currentDir+"\\driver\\windows\\geckodriver.exe");
                 driver = new FirefoxDriver();
             }
         }else if (os.equalsIgnoreCase("mac")){
@@ -97,7 +95,7 @@ public class CommonAPI {
         }else{
             getLocalDriver(browserName, os);
         }
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.get(url);
     }
@@ -178,6 +176,10 @@ public class CommonAPI {
 
     }
 
+    public String alertMessage() {
+       String alertMessage = getDriver().switchTo().alert().getText();
+       return alertMessage;
+    }
     public void okAlert(){
         Alert alert = driver.switchTo().alert();
         alert.accept();

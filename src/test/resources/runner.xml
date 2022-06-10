@@ -4,37 +4,37 @@
 
 <suite name="CRIP Suite">
 
-    <test name="com.UITAP Tests">
+<!--    <test name="com.UITAP Tests">-->
 
-        <parameter name="useCloudEnv" value="false"></parameter>
-        <parameter name="envName" value="browserstack"></parameter>
-        <parameter name="os" value="windows"></parameter>
-        <parameter name="osVersion" value="11"></parameter>
-        <parameter name="browserName" value="chrome"/>
-        <parameter name="browserVersion" value="102"/>
-        <parameter name="url" value="http://uitestingplayground.com/"/>
+<!--        <parameter name="useCloudEnv" value="false"></parameter>-->
+<!--        <parameter name="envName" value="browserstack"></parameter>-->
+<!--        <parameter name="os" value="windows"></parameter>-->
+<!--        <parameter name="osVersion" value="11"></parameter>-->
+<!--        <parameter name="browserName" value="chrome"/>-->
+<!--        <parameter name="browserVersion" value="102"/>-->
+<!--        <parameter name="url" value="http://uitestingplayground.com/"/>-->
 
-        <classes>
+<!--        <classes>-->
 
-        </classes>
+<!--        </classes>-->
 
-    </test>
+<!--    </test>-->
 
-    <test name="com.SauceDemo Tests">
+<!--    <test name="com.SauceDemo Tests">-->
 
-        <parameter name="useCloudEnv" value="false"></parameter>
-        <parameter name="envName" value="browserstack"></parameter>
-        <parameter name="os" value="windows"></parameter>
-        <parameter name="osVersion" value="11"></parameter>
-        <parameter name="browserName" value="chrome"/>
-        <parameter name="browserVersion" value="102"/>
-        <parameter name="url" value="http://saucedemo.com/"/>
+<!--        <parameter name="useCloudEnv" value="false"></parameter>-->
+<!--        <parameter name="envName" value="browserstack"></parameter>-->
+<!--        <parameter name="os" value="windows"></parameter>-->
+<!--        <parameter name="osVersion" value="11"></parameter>-->
+<!--        <parameter name="browserName" value="chrome"/>-->
+<!--        <parameter name="browserVersion" value="102"/>-->
+<!--        <parameter name="url" value="http://saucedemo.com/"/>-->
 
-        <classes>
+<!--        <classes>-->
 
-        </classes>
+<!--        </classes>-->
 
-    </test>
+<!--    </test>-->
 
 
     <test name="com.GlobalSQA Tests">
@@ -48,7 +48,21 @@
         <parameter name="url" value="https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login"/>
 
         <classes>
-
+            <class name="globalsqatests.DeleteButton"></class>
+            <class name="globalsqatests.ResetButton"></class>
+            <class name="globalsqatests.BackButton"></class>
+            <class name="globalsqatests.AccountNumberDropDown"></class>
+            <class name="globalsqatests.TransactionsButton"></class>
+            <class name="globalsqatests.SearchCustomer"></class>
+            <class name="globalsqatests.AddCustomer"></class>
+            <class name="globalsqatests.WithdrawlButton"></class>
+            <class name="globalsqatests.DepositButton"></class>
+            <class name="globalsqatests.OpenAccount"></class>
+            <class name="globalsqatests.UserLogin"></class>
+            <class name="globalsqatests.LogoutButton"></class>
+            <class name="globalsqatests.HomeButton"></class>
+            <class name="globalsqatests.CustomerLoginButton"></class>
+            <class name="globalsqatests.BankManagerLoginButton"></class>
         </classes>
 
     </test>
