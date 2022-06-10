@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="CRIP Suite">
+
+    <test name="com.UITAP Tests">
+
+        <parameter name="useCloudEnv" value="false"></parameter>
+        <parameter name="envName" value="browserstack"></parameter>
+        <parameter name="os" value="windows"></parameter>
+        <parameter name="osVersion" value="11"></parameter>
+        <parameter name="browserName" value="chrome"/>
+        <parameter name="browserVersion" value="102"/>
+        <parameter name="url" value="http://uitestingplayground.com/"/>
+
+        <classes>
+
+        </classes>
+
+    </test>
+
+    <test name="com.SauceDemo Tests">
+
+        <parameter name="useCloudEnv" value="false"></parameter>
+        <parameter name="envName" value="browserstack"></parameter>
+        <parameter name="os" value="windows"></parameter>
+        <parameter name="osVersion" value="11"></parameter>
+        <parameter name="browserName" value="chrome"/>
+        <parameter name="browserVersion" value="102"/>
+        <parameter name="url" value="http://saucedemo.com/"/>
+
+        <classes>
+
+        </classes>
+
+    </test>
+
+
+    <test name="com.GlobalSQA Tests">
+
+        <parameter name="useCloudEnv" value="false"></parameter>
+        <parameter name="envName" value="browserstack"></parameter>
+        <parameter name="os" value="windows"></parameter>
+        <parameter name="osVersion" value="11"></parameter>
+        <parameter name="browserName" value="chrome"/>
+        <parameter name="browserVersion" value="102"/>
+        <parameter name="url" value="https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login"/>
+
+        <classes>
+
+        </classes>
+
+    </test>
+
+</suite>
