@@ -4,21 +4,21 @@
 
 <suite name="CRIP Suite">
 
-<!--    <test name="com.UITAP Tests">-->
+    <test name="com.UITAP Tests">
 
-<!--        <parameter name="useCloudEnv" value="false"></parameter>-->
-<!--        <parameter name="envName" value="browserstack"></parameter>-->
-<!--        <parameter name="os" value="windows"></parameter>-->
-<!--        <parameter name="osVersion" value="11"></parameter>-->
-<!--        <parameter name="browserName" value="chrome"/>-->
-<!--        <parameter name="browserVersion" value="102"/>-->
-<!--        <parameter name="url" value="http://uitestingplayground.com/"/>-->
+        <parameter name="useCloudEnv" value="false"></parameter>
+        <parameter name="envName" value="browserstack"></parameter>
+        <parameter name="os" value="windows"></parameter>
+        <parameter name="osVersion" value="11"></parameter>
+        <parameter name="browserName" value="chrome"/>
+        <parameter name="browserVersion" value="102"/>
+        <parameter name="url" value="http://uitestingplayground.com/"/>
 
-<!--        <classes>-->
+        <classes>
+            <class name="uitaptests.VerifyOpeningLinks"></class>
+        </classes>
 
-<!--        </classes>-->
-
-<!--    </test>-->
+    </test>
 
 <!--    <test name="com.SauceDemo Tests">-->
 
