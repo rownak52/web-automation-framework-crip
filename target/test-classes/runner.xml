@@ -8,7 +8,7 @@
 
         <parameter name="useCloudEnv" value="false"></parameter>
         <parameter name="envName" value="browserstack"></parameter>
-        <parameter name="os" value="windows"></parameter>
+        <parameter name="os" value="mac"></parameter>
         <parameter name="osVersion" value="11"></parameter>
         <parameter name="browserName" value="chrome"/>
         <parameter name="browserVersion" value="102"/>
@@ -20,28 +20,31 @@
 
     </test>
 
-<!--    <test name="com.SauceDemo Tests">-->
+    <test name="com.SauceDemo Tests">
 
-<!--        <parameter name="useCloudEnv" value="false"></parameter>-->
-<!--        <parameter name="envName" value="browserstack"></parameter>-->
-<!--        <parameter name="os" value="windows"></parameter>-->
-<!--        <parameter name="osVersion" value="11"></parameter>-->
-<!--        <parameter name="browserName" value="chrome"/>-->
-<!--        <parameter name="browserVersion" value="102"/>-->
-<!--        <parameter name="url" value="http://saucedemo.com/"/>-->
+        <parameter name="useCloudEnv" value="false"></parameter>
+        <parameter name="envName" value="browserstack"></parameter>
+        <parameter name="os" value="mac"></parameter>
+        <parameter name="osVersion" value="11"></parameter>
+        <parameter name="browserName" value="chrome"/>
+        <parameter name="browserVersion" value="102"/>
+        <parameter name="url" value="http://saucedemo.com/"/>
 
-<!--        <classes>-->
+        <classes>
+            <class name="saucedemotests.AddItemsToCart"></class>
+            <class name="saucedemotests.CheckOut"></class>
+            <class name="saucedemotests.DropDown"></class>
+            <class name="saucedemotests.Login"></class>
+            <class name="saucedemotests.MenuBar"></class>
+        </classes>
 
-<!--        </classes>-->
-
-<!--    </test>-->
-
-
+    </test>
+    
     <test name="com.GlobalSQA Tests">
 
         <parameter name="useCloudEnv" value="false"></parameter>
         <parameter name="envName" value="browserstack"></parameter>
-        <parameter name="os" value="windows"></parameter>
+        <parameter name="os" value="mac"></parameter>
         <parameter name="osVersion" value="11"></parameter>
         <parameter name="browserName" value="chrome"/>
         <parameter name="browserVersion" value="102"/>
