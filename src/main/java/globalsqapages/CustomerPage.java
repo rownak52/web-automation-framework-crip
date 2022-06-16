@@ -6,13 +6,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-import java.util.List;
 
 public class CustomerPage extends CommonAPI {
 
-
-
+    private final Logger LOG = LoggerFactory.getLogger(CustomerPage.class);
     @FindBy(xpath = "//button[contains(text(),'Customer Login')]")
     private WebElement customerLoginButton;
 
@@ -72,6 +72,7 @@ public class CustomerPage extends CommonAPI {
         }catch(Exception e){
             select.selectByValue(option);
         }
+        LOG.info(option + " is selected");
     }
 
     public void selectOptionFromAccountNumberDropDown(String option) {
@@ -81,6 +82,7 @@ public class CustomerPage extends CommonAPI {
         }catch(Exception e){
             select.selectByValue(option);
         }
+        LOG.info(option + " account number is selected");
     }
     public void clickCustomerLoginButton(){
         click(customerLoginButton);
@@ -98,7 +100,7 @@ public class CustomerPage extends CommonAPI {
         click(logoutButton);
     }
 
-    public void clickTransactionsButton(){
+    public void clickTransactionsTab(){
         click(transactionsButton);
     }
 
@@ -112,18 +114,22 @@ public class CustomerPage extends CommonAPI {
 
     public void clickBackButton(){
         click(backButton);
+
     }
 
     public void typeDepositAmount(String amount){
         type(depositTextBox, amount);
+        LOG.info(amount + " deposit input successful");
     }
 
     public void confirmDepositAmount(){
         click(confirmDepositButton);
+
     }
 
     public void typeWithdrawlAmount(String amount){
         type(withdrawlTextBox, amount);
+        LOG.info(amount + " withdrawl input successful");
     }
 
     public void confirmWithdrawlAmount(){

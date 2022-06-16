@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [CRIP Automation Script]">
+  <test thread-count="5" verbose="0" name="com.GlobalSQA Tests(failed)">
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="os" value="windows"/>
+    <parameter name="osVersion" value="11"/>
+    <parameter name="envName" value="browserstack"/>
+    <parameter name="browserVersion" value="102"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="url" value="https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login"/>
+    <classes>
+      <class name="globalsqatests.BackButton">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="tearDown"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="backButtonTest"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- globalsqatests.BackButton -->
+      <class name="globalsqatests.AccountNumberDropDown">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="tearDown"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="accountNumberDropDownTest"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- globalsqatests.AccountNumberDropDown -->
+    </classes>
+  </test> <!-- com.GlobalSQA Tests(failed) -->
+</suite> <!-- Failed suite [CRIP Automation Script] -->

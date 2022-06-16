@@ -1,5 +1,6 @@
 package base;
 
+import com.relevantcodes.extentreports.LogStatus;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -10,54 +11,131 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.testng.ITestContext;
+import org.testng.ITestResult;
+import org.testng.annotations.*;
 import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
+import reporting.ExtentManager;
+import reporting.ExtentTestManager;
+import utility.Utility;
+
 
 import java.io.File;
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.StringWriter;
+import java.lang.reflect.Method;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.concurrent.TimeUnit;
+import java.util.*;
+
 
 
 public class CommonAPI {
 
-    static String currentDir = System.getProperty("user.dir");
+    private final Logger LOG = LoggerFactory.getLogger(CommonAPI.class);
+    Properties prop = Utility.loadProperties();
+    String duration = prop.getProperty("implicit.wait", "10");
+
+    String maximizeBrowser = prop.getProperty("maximize.browser", "true");
+    String takeScreenshot = prop.getProperty("take.screenshot", "false");
+    String browserstackUsername = prop.getProperty("browserstack.username");
+    String browserstackPassword = prop.getProperty("browserstack.password");
+
+    public static String currentDir = System.getProperty("user.dir");
+
 
     private WebDriver driver;
     private boolean flag;
 
+    //ExtentReport
+    public static com.relevantcodes.extentreports.ExtentReports extent;
+
+    @BeforeSuite
+    public void extentSetup(ITestContext context) {
+        ExtentManager.setOutputDirectory(context);
+        extent = ExtentManager.getInstance();
+    }
+
+    @BeforeMethod
+    public void startExtent(Method method) {
+        String className = method.getDeclaringClass().getSimpleName();
+        String methodName = method.getName().toLowerCase();
+        ExtentTestManager.startTest(method.getName());
+        ExtentTestManager.getTest().assignCategory(className);
+    }
+    protected String getStackTrace(Throwable t) {
+        StringWriter sw = new StringWriter();
+        PrintWriter pw = new PrintWriter(sw);
+        t.printStackTrace(pw);
+        return sw.toString();
+    }
+
+    @AfterMethod
+    public void afterEachTestMethod(ITestResult result) {
+        ExtentTestManager.getTest().getTest().setStartedTime(getTime(result.getStartMillis()));
+        ExtentTestManager.getTest().getTest().setEndedTime(getTime(result.getEndMillis()));
+
+        for (String group : result.getMethod().getGroups()) {
+            ExtentTestManager.getTest().assignCategory(group);
+        }
+
+        if (result.getStatus() == 1) {
+            ExtentTestManager.getTest().log(LogStatus.PASS, "Test Passed");
+        } else if (result.getStatus() == 2) {
+            ExtentTestManager.getTest().log(LogStatus.FAIL, getStackTrace(result.getThrowable()));
+        } else if (result.getStatus() == 3) {
+            ExtentTestManager.getTest().log(LogStatus.SKIP, "Test Skipped");
+        }
+        ExtentTestManager.endTest();
+        extent.flush();
+
+        if (takeScreenshot.equalsIgnoreCase("true")) {
+            if (result.getStatus() == ITestResult.FAILURE) {
+                takeScreenshot(result.getName());
+            }
+        }
+        driver.quit();
+    }
+    @AfterSuite
+    public void generateReport() {
+        extent.close();
+    }
+
+    private Date getTime(long millis) {
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTimeInMillis(millis);
+        return calendar.getTime();
+    }
+
     public void getLocalDriver(String browser, String os){
         if (os.equalsIgnoreCase("windows")){
             if (browser.equalsIgnoreCase("chrome")){
-                System.setProperty("webdriver.chrome.driver", currentDir+"\\driver\\windows\\chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", Utility.currentDir+"\\driver\\windows\\chromedriver.exe");
                 driver = new ChromeDriver();
             }else if (browser.equalsIgnoreCase("firefox")){
-                System.setProperty("webdriver.gecko.driver", currentDir+"\\driver\\windows\\geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver", Utility.currentDir+"\\driver\\windows\\geckodriver.exe");
                 driver = new FirefoxDriver();
             }
         }else if (os.equalsIgnoreCase("mac")){
             if (browser.equalsIgnoreCase("chrome")){
-                System.setProperty("webdriver.chrome.driver", currentDir+"\\driver\\mac\\chromedriver");
+                System.setProperty("webdriver.chrome.driver", Utility.currentDir + "\\driver\\mac\\chromedriver");
                 driver = new ChromeDriver();
             }else if (browser.equalsIgnoreCase("firefox")){
-                System.setProperty("webdriver.gecko.driver", currentDir+"\\driver\\mac\\geckodriver");
+                System.setProperty("webdriver.gecko.driver", Utility.currentDir + "\\driver\\mac\\geckodriver");
                 driver = new FirefoxDriver();
             }
         }else if (os.equalsIgnoreCase("linux")){
             if (browser.equalsIgnoreCase("chrome")){
-                System.setProperty("webdriver.chrome.driver", currentDir+"\\driver\\linux\\chromedriver");
+                System.setProperty("webdriver.chrome.driver", Utility.currentDir + "\\driver\\linux\\chromedriver");
                 driver = new ChromeDriver();
             }else if (browser.equalsIgnoreCase("firefox")){
-                System.setProperty("webdriver.gecko.driver", currentDir+"\\driver\\linux\\geckodriver");
+                System.setProperty("webdriver.gecko.driver", Utility.currentDir+"\\driver\\linux\\geckodriver");
                 driver = new FirefoxDriver();
             }
         }
@@ -83,26 +161,28 @@ public class CommonAPI {
                       @Optional("windows") String os, @Optional("10") String osVersion, @Optional("chrome") String browserName,
                       @Optional("102") String browserVersion, @Optional("https://www.google.com") String url) throws MalformedURLException {
 
-        if(useCloudEnv == true){
-            if(envName.equalsIgnoreCase("browserstack")){
-                getCloudDriver(envName, "pollakrahman_FSHoC6", "2hb5L28wkM2zCeAxYfyy", os, osVersion, browserName, browserVersion);
+        if (useCloudEnv == true) {
+            if (envName.equalsIgnoreCase("browserstack")) {
+                getCloudDriver(envName, Utility.decode(browserstackUsername), Utility.decode(browserstackPassword), os, osVersion, browserName, browserVersion);
 
-            }else if (envName.equalsIgnoreCase("saucelabs")){
+            } else if (envName.equalsIgnoreCase("saucelabs")) {
                 getCloudDriver(envName, "pollakrahman_FSHoC6", "2hb5L28wkM2zCeAxYfyy", os, osVersion, browserName, browserVersion);
 
             }
 
-        }else{
+        } else {
             getLocalDriver(browserName, os);
         }
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Integer.parseInt(duration)));
+        if (maximizeBrowser.equalsIgnoreCase("true")) {
+            driver.manage().window().maximize();
+        }
         driver.get(url);
     }
 
     @AfterMethod
     public void tearDown(){
-        driver.close();
+        driver.quit();
     }
 
     public WebDriver getDriver() {
@@ -273,7 +353,7 @@ public class CommonAPI {
         }
     }
 
-    public void takeScreenshot(WebDriver driver, String screenshotName){
+    public void takeScreenshot(String screenshotName){
         DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
         Date date = new Date();
         df.format(date);
@@ -285,8 +365,8 @@ public class CommonAPI {
             System.out.println("Screenshot captured");
         } catch (Exception e) {
             String path = System.getProperty("user.dir")+ "/screenshots/"+screenshotName+" "+df.format(date)+".png";
-            System.out.println(path);
-            System.out.println("Exception while taking screenshot "+e.getMessage());;
+            LOG.info(path);
+            LOG.info("Exception while taking screenshot "+e.getMessage());
         }
     }
 }

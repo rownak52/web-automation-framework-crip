@@ -6,11 +6,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
-
-import java.util.List;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class BankManagerPage extends CommonAPI {
 
+    private final Logger LOG = LoggerFactory.getLogger(BankManagerPage.class);
     @FindBy(xpath = "//body/div[1]/div[1]/div[2]/div[1]/div[1]/button[1]")
     private WebElement addCustomerButton;
     @FindBy(xpath = "//td[contains(text(),'Harry')]")
@@ -79,7 +80,7 @@ public class BankManagerPage extends CommonAPI {
         }catch(Exception e){
             select.selectByValue(option);
         }
-
+        LOG.info(option + " is selected");
     }
 
     public void selectOptionFromCurrencyDropDown(String option) {
@@ -89,7 +90,7 @@ public class BankManagerPage extends CommonAPI {
         }catch(Exception e){
             select.selectByValue(option);
         }
-
+        LOG.info(option + " currency is selected");
     }
 
     public void clickProcess() {

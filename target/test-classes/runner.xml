@@ -1,50 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
+<suite name="CRIP Automation Script">
 
-<suite name="CRIP Suite">
+<!--    <test name="com.UITAP Tests">-->
 
-    <test name="com.UITAP Tests">
+<!--        <parameter name="useCloudEnv" value="false"></parameter>-->
+<!--        <parameter name="envName" value="browserstack"></parameter>-->
+<!--        <parameter name="os" value="windows"></parameter>-->
+<!--        <parameter name="osVersion" value="11"></parameter>-->
+<!--        <parameter name="browserName" value="chrome"/>-->
+<!--        <parameter name="browserVersion" value="102"/>-->
+<!--        <parameter name="url" value="http://uitestingplayground.com/"/>-->
 
-        <parameter name="useCloudEnv" value="false"></parameter>
-        <parameter name="envName" value="browserstack"></parameter>
-        <parameter name="os" value="mac"></parameter>
-        <parameter name="osVersion" value="11"></parameter>
-        <parameter name="browserName" value="chrome"/>
-        <parameter name="browserVersion" value="102"/>
-        <parameter name="url" value="http://uitestingplayground.com/"/>
+<!--        <classes>-->
+<!--            <class name="uitaptests.VerifyOpeningLinks"></class>-->
+<!--        </classes>-->
 
-        <classes>
-            <class name="uitaptests.VerifyOpeningLinks"></class>
-        </classes>
+<!--    </test>-->
 
-    </test>
+<!--    <test name="com.SauceDemo Tests">-->
 
-    <test name="com.SauceDemo Tests">
+<!--        <parameter name="useCloudEnv" value="false"></parameter>-->
+<!--        <parameter name="envName" value="browserstack"></parameter>-->
+<!--        <parameter name="os" value="windows"></parameter>-->
+<!--        <parameter name="osVersion" value="11"></parameter>-->
+<!--        <parameter name="browserName" value="chrome"/>-->
+<!--        <parameter name="browserVersion" value="102"/>-->
+<!--        <parameter name="url" value="http://saucedemo.com/"/>-->
 
-        <parameter name="useCloudEnv" value="false"></parameter>
-        <parameter name="envName" value="browserstack"></parameter>
-        <parameter name="os" value="mac"></parameter>
-        <parameter name="osVersion" value="11"></parameter>
-        <parameter name="browserName" value="chrome"/>
-        <parameter name="browserVersion" value="102"/>
-        <parameter name="url" value="http://saucedemo.com/"/>
+<!--        <classes>-->
+<!--            <class name="saucedemotests.AddItemsToCart"></class>-->
+<!--            <class name="saucedemotests.CheckOut"></class>-->
+<!--            <class name="saucedemotests.DropDown"></class>-->
+<!--            <class name="saucedemotests.Login"></class>-->
+<!--            <class name="saucedemotests.MenuBar"></class>-->
+<!--        </classes>-->
 
-        <classes>
-            <class name="saucedemotests.AddItemsToCart"></class>
-            <class name="saucedemotests.CheckOut"></class>
-            <class name="saucedemotests.DropDown"></class>
-            <class name="saucedemotests.Login"></class>
-            <class name="saucedemotests.MenuBar"></class>
-        </classes>
+<!--    </test>-->
 
-    </test>
-    
     <test name="com.GlobalSQA Tests">
 
         <parameter name="useCloudEnv" value="false"></parameter>
         <parameter name="envName" value="browserstack"></parameter>
-        <parameter name="os" value="mac"></parameter>
+        <parameter name="os" value="windows"></parameter>
         <parameter name="osVersion" value="11"></parameter>
         <parameter name="browserName" value="chrome"/>
         <parameter name="browserVersion" value="102"/>

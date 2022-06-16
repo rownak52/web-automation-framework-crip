@@ -1,0 +1,1269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="28" total="45" passed="17" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report Directory C:\Users\EvilT\IdeaProjects\FinalFrameworkProject\web-automation-framework-crip\target\surefire-reports\CRIP Automation Script\html]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-06-16T07:25:02Z" name="CRIP Automation Script" finished-at="2022-06-16T07:29:18Z" duration-ms="256037">
+    <groups>
+    </groups>
+    <test started-at="2022-06-16T07:25:02Z" name="com.GlobalSQA Tests" finished-at="2022-06-16T07:29:18Z" duration-ms="256037">
+      <class name="globalsqatests.AddCustomer">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:globalsqatests.AddCustomer@28194a50]" started-at="2022-06-16T07:26:47Z" name="setUp" finished-at="2022-06-16T07:26:55Z" duration-ms="7958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:globalsqatests.AddCustomer@28194a50]" started-at="2022-06-16T07:26:55Z" name="startExtent" finished-at="2022-06-16T07:26:55Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void globalsqatests.AddCustomer.addCustomerTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="addCustomerTest()[pri:0, instance:globalsqatests.AddCustomer@28194a50]" started-at="2022-06-16T07:26:55Z" name="addCustomerTest" finished-at="2022-06-16T07:26:58Z" duration-ms="3299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:globalsqatests.AddCustomer@28194a50]" started-at="2022-06-16T07:26:58Z" name="afterEachTestMethod" finished-at="2022-06-16T07:27:01Z" duration-ms="2220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addCustomerTest status=SUCCESS method=AddCustomer.addCustomerTest()[pri:0, instance:globalsqatests.AddCustomer@28194a50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:globalsqatests.AddCustomer@28194a50]" started-at="2022-06-16T07:27:01Z" name="tearDown" finished-at="2022-06-16T07:27:01Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- globalsqatests.AddCustomer -->
+      <class name="globalsqatests.DeleteButton">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:globalsqatests.DeleteButton@18f8cd79]" started-at="2022-06-16T07:25:01Z" name="extentSetup" finished-at="2022-06-16T07:25:02Z" duration-ms="1165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4f3fec43]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report Directory C:\Users\EvilT\IdeaProjects\FinalFrameworkProject\web-automation-framework-crip\target\surefire-reports\CRIP Automation Script\html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:globalsqatests.DeleteButton@18f8cd79]" started-at="2022-06-16T07:25:02Z" name="setUp" finished-at="2022-06-16T07:25:20Z" duration-ms="17960" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:globalsqatests.DeleteButton@18f8cd79]" started-at="2022-06-16T07:25:20Z" name="startExtent" finished-at="2022-06-16T07:25:20Z" duration-ms="39" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void globalsqatests.DeleteButton.deleteCustomerTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="deleteCustomerTest()[pri:0, instance:globalsqatests.DeleteButton@18f8cd79]" started-at="2022-06-16T07:25:20Z" name="deleteCustomerTest" finished-at="2022-06-16T07:25:22Z" duration-ms="2407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomerTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:globalsqatests.DeleteButton@18f8cd79]" started-at="2022-06-16T07:25:22Z" name="afterEachTestMethod" finished-at="2022-06-16T07:25:31Z" duration-ms="8989" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteCustomerTest status=SUCCESS method=DeleteButton.deleteCustomerTest()[pri:0, instance:globalsqatests.DeleteButton@18f8cd79] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:globalsqatests.DeleteButton@18f8cd79]" started-at="2022-06-16T07:25:31Z" name="tearDown" finished-at="2022-06-16T07:25:31Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:globalsqatests.DeleteButton@18f8cd79]" started-at="2022-06-16T07:29:18Z" name="generateReport" finished-at="2022-06-16T07:29:18Z" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- globalsqatests.DeleteButton -->
+      <class name="globalsqatests.WithdrawlButton">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:globalsqatests.WithdrawlButton@7f2cfe3f]" started-at="2022-06-16T07:27:01Z" name="setUp" finished-at="2022-06-16T07:27:09Z" duration-ms="8620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:globalsqatests.WithdrawlButton@7f2cfe3f]" started-at="2022-06-16T07:27:09Z" name="startExtent" finished-at="2022-06-16T07:27:09Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void globalsqatests.WithdrawlButton.withdrawlButtonTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="withdrawlButtonTest()[pri:0, instance:globalsqatests.WithdrawlButton@7f2cfe3f]" started-at="2022-06-16T07:27:09Z" name="withdrawlButtonTest" finished-at="2022-06-16T07:27:13Z" duration-ms="3639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withdrawlButtonTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:globalsqatests.WithdrawlButton@7f2cfe3f]" started-at="2022-06-16T07:27:13Z" name="afterEachTestMethod" finished-at="2022-06-16T07:27:14Z" duration-ms="1554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=withdrawlButtonTest status=SUCCESS method=WithdrawlButton.withdrawlButtonTest()[pri:0, instance:globalsqatests.WithdrawlButton@7f2cfe3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:globalsqatests.WithdrawlButton@7f2cfe3f]" started-at="2022-06-16T07:27:14Z" name="tearDown" finished-at="2022-06-16T07:27:14Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- globalsqatests.WithdrawlButton -->
+      <class name="globalsqatests.DepositButton">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:globalsqatests.DepositButton@1a5b6f42]" started-at="2022-06-16T07:27:14Z" name="setUp" finished-at="2022-06-16T07:27:23Z" duration-ms="8389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:globalsqatests.DepositButton@1a5b6f42]" started-at="2022-06-16T07:27:23Z" name="startExtent" finished-at="2022-06-16T07:27:23Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void globalsqatests.DepositButton.depositButtonTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="depositButtonTest()[pri:0, instance:globalsqatests.DepositButton@1a5b6f42]" started-at="2022-06-16T07:27:23Z" name="depositButtonTest" finished-at="2022-06-16T07:27:27Z" duration-ms="4125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- depositButtonTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:globalsqatests.DepositButton@1a5b6f42]" started-at="2022-06-16T07:27:27Z" name="afterEachTestMethod" finished-at="2022-06-16T07:27:29Z" duration-ms="1749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=depositButtonTest status=SUCCESS method=DepositButton.depositButtonTest()[pri:0, instance:globalsqatests.DepositButton@1a5b6f42] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:globalsqatests.DepositButton@1a5b6f42]" started-at="2022-06-16T07:27:29Z" name="tearDown" finished-at="2022-06-16T07:27:29Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- globalsqatests.DepositButton -->
+      <class name="globalsqatests.SearchCustomer">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:globalsqatests.SearchCustomer@6cc4cdb9]" started-at="2022-06-16T07:26:35Z" name="setUp" finished-at="2022-06-16T07:26:43Z" duration-ms="7538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:globalsqatests.SearchCustomer@6cc4cdb9]" started-at="2022-06-16T07:26:43Z" name="startExtent" finished-at="2022-06-16T07:26:43Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void globalsqatests.SearchCustomer.searchCustomerTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="searchCustomerTest()[pri:0, instance:globalsqatests.SearchCustomer@6cc4cdb9]" started-at="2022-06-16T07:26:43Z" name="searchCustomerTest" finished-at="2022-06-16T07:26:45Z" duration-ms="2089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomerTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:globalsqatests.SearchCustomer@6cc4cdb9]" started-at="2022-06-16T07:26:45Z" name="afterEachTestMethod" finished-at="2022-06-16T07:26:47Z" duration-ms="2202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchCustomerTest status=SUCCESS method=SearchCustomer.searchCustomerTest()[pri:0, instance:globalsqatests.SearchCustomer@6cc4cdb9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:globalsqatests.SearchCustomer@6cc4cdb9]" started-at="2022-06-16T07:26:47Z" name="tearDown" finished-at="2022-06-16T07:26:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- globalsqatests.SearchCustomer -->
+      <class name="globalsqatests.LogoutButton">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:globalsqatests.LogoutButton@2ad48653]" started-at="2022-06-16T07:28:04Z" name="setUp" finished-at="2022-06-16T07:28:12Z" duration-ms="7362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:globalsqatests.LogoutButton@2ad48653]" started-at="2022-06-16T07:28:12Z" name="startExtent" finished-at="2022-06-16T07:28:12Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void globalsqatests.LogoutButton.logOutTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="logOutTest()[pri:0, instance:globalsqatests.LogoutButton@2ad48653]" started-at="2022-06-16T07:28:12Z" name="logOutTest" finished-at="2022-06-16T07:28:20Z" duration-ms="8154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:globalsqatests.LogoutButton@2ad48653]" started-at="2022-06-16T07:28:20Z" name="afterEachTestMethod" finished-at="2022-06-16T07:28:24Z" duration-ms="4508" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logOutTest status=SUCCESS method=LogoutButton.logOutTest()[pri:0, instance:globalsqatests.LogoutButton@2ad48653] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:globalsqatests.LogoutButton@2ad48653]" started-at="2022-06-16T07:28:24Z" name="tearDown" finished-at="2022-06-16T07:28:24Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- globalsqatests.LogoutButton -->
+      <class name="globalsqatests.OpenAccount">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:globalsqatests.OpenAccount@5038d0b5]" started-at="2022-06-16T07:27:29Z" name="setUp" finished-at="2022-06-16T07:27:36Z" duration-ms="7500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:globalsqatests.OpenAccount@5038d0b5]" started-at="2022-06-16T07:27:36Z" name="startExtent" finished-at="2022-06-16T07:27:36Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void globalsqatests.OpenAccount.openAccountTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="openAccountTest()[pri:0, instance:globalsqatests.OpenAccount@5038d0b5]" started-at="2022-06-16T07:27:36Z" name="openAccountTest" finished-at="2022-06-16T07:27:39Z" duration-ms="3010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:globalsqatests.OpenAccount@5038d0b5]" started-at="2022-06-16T07:27:39Z" name="afterEachTestMethod" finished-at="2022-06-16T07:27:41Z" duration-ms="1743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openAccountTest status=SUCCESS method=OpenAccount.openAccountTest()[pri:0, instance:globalsqatests.OpenAccount@5038d0b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:globalsqatests.OpenAccount@5038d0b5]" started-at="2022-06-16T07:27:41Z" name="tearDown" finished-at="2022-06-16T07:27:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- globalsqatests.OpenAccount -->
+      <class name="globalsqatests.HomeButton">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:globalsqatests.HomeButton@6bb4dd34]" started-at="2022-06-16T07:28:24Z" name="setUp" finished-at="2022-06-16T07:28:31Z" duration-ms="6604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:globalsqatests.HomeButton@6bb4dd34]" started-at="2022-06-16T07:28:31Z" name="startExtent" finished-at="2022-06-16T07:28:31Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void globalsqatests.HomeButton.bankManagerHomeButtonTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="bankManagerHomeButtonTest()[pri:0, instance:globalsqatests.HomeButton@6bb4dd34]" started-at="2022-06-16T07:28:31Z" name="bankManagerHomeButtonTest" finished-at="2022-06-16T07:28:33Z" duration-ms="1508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankManagerHomeButtonTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:globalsqatests.HomeButton@6bb4dd34]" started-at="2022-06-16T07:28:33Z" name="afterEachTestMethod" finished-at="2022-06-16T07:28:35Z" duration-ms="2094" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bankManagerHomeButtonTest status=SUCCESS method=HomeButton.bankManagerHomeButtonTest()[pri:0, instance:globalsqatests.HomeButton@6bb4dd34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:globalsqatests.HomeButton@6bb4dd34]" started-at="2022-06-16T07:28:35Z" name="tearDown" finished-at="2022-06-16T07:28:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:globalsqatests.HomeButton@6bb4dd34]" started-at="2022-06-16T07:28:35Z" name="setUp" finished-at="2022-06-16T07:28:43Z" duration-ms="8388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:globalsqatests.HomeButton@6bb4dd34]" started-at="2022-06-16T07:28:43Z" name="startExtent" finished-at="2022-06-16T07:28:43Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void globalsqatests.HomeButton.customerHomeButtonTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="customerHomeButtonTest()[pri:0, instance:globalsqatests.HomeButton@6bb4dd34]" started-at="2022-06-16T07:28:43Z" name="customerHomeButtonTest" finished-at="2022-06-16T07:28:48Z" duration-ms="4848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerHomeButtonTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:globalsqatests.HomeButton@6bb4dd34]" started-at="2022-06-16T07:28:48Z" name="afterEachTestMethod" finished-at="2022-06-16T07:28:52Z" duration-ms="3650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customerHomeButtonTest status=SUCCESS method=HomeButton.customerHomeButtonTest()[pri:0, instance:globalsqatests.HomeButton@6bb4dd34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:globalsqatests.HomeButton@6bb4dd34]" started-at="2022-06-16T07:28:52Z" name="tearDown" finished-at="2022-06-16T07:28:52Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- globalsqatests.HomeButton -->
+      <class name="globalsqatests.BackButton">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:globalsqatests.BackButton@50029372]" started-at="2022-06-16T07:25:49Z" name="setUp" finished-at="2022-06-16T07:25:59Z" duration-ms="10351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:globalsqatests.BackButton@50029372]" started-at="2022-06-16T07:25:59Z" name="startExtent" finished-at="2022-06-16T07:25:59Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void globalsqatests.BackButton.backButtonTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="backButtonTest()[pri:0, instance:globalsqatests.BackButton@50029372]" started-at="2022-06-16T07:25:59Z" name="backButtonTest" finished-at="2022-06-16T07:26:04Z" duration-ms="5203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backButtonTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:globalsqatests.BackButton@50029372]" started-at="2022-06-16T07:26:04Z" name="afterEachTestMethod" finished-at="2022-06-16T07:26:06Z" duration-ms="1620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=backButtonTest status=SUCCESS method=BackButton.backButtonTest()[pri:0, instance:globalsqatests.BackButton@50029372] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:globalsqatests.BackButton@50029372]" started-at="2022-06-16T07:26:06Z" name="tearDown" finished-at="2022-06-16T07:26:06Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- globalsqatests.BackButton -->
+      <class name="globalsqatests.ResetButton">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:globalsqatests.ResetButton@3e2055d6]" started-at="2022-06-16T07:25:31Z" name="setUp" finished-at="2022-06-16T07:25:42Z" duration-ms="10048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:globalsqatests.ResetButton@3e2055d6]" started-at="2022-06-16T07:25:42Z" name="startExtent" finished-at="2022-06-16T07:25:42Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void globalsqatests.ResetButton.resetButtonTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="resetButtonTest()[pri:0, instance:globalsqatests.ResetButton@3e2055d6]" started-at="2022-06-16T07:25:42Z" name="resetButtonTest" finished-at="2022-06-16T07:25:47Z" duration-ms="5427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetButtonTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:globalsqatests.ResetButton@3e2055d6]" started-at="2022-06-16T07:25:47Z" name="afterEachTestMethod" finished-at="2022-06-16T07:25:49Z" duration-ms="1883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=resetButtonTest status=SUCCESS method=ResetButton.resetButtonTest()[pri:0, instance:globalsqatests.ResetButton@3e2055d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:globalsqatests.ResetButton@3e2055d6]" started-at="2022-06-16T07:25:49Z" name="tearDown" finished-at="2022-06-16T07:25:49Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- globalsqatests.ResetButton -->
+      <class name="globalsqatests.CustomerLoginButton">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:globalsqatests.CustomerLoginButton@7d9f158f]" started-at="2022-06-16T07:28:52Z" name="setUp" finished-at="2022-06-16T07:28:59Z" duration-ms="7382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:globalsqatests.CustomerLoginButton@7d9f158f]" started-at="2022-06-16T07:28:59Z" name="startExtent" finished-at="2022-06-16T07:28:59Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void globalsqatests.CustomerLoginButton.customerLoginButtonTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="customerLoginButtonTest()[pri:0, instance:globalsqatests.CustomerLoginButton@7d9f158f]" started-at="2022-06-16T07:28:59Z" name="customerLoginButtonTest" finished-at="2022-06-16T07:29:03Z" duration-ms="3772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerLoginButtonTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:globalsqatests.CustomerLoginButton@7d9f158f]" started-at="2022-06-16T07:29:03Z" name="afterEachTestMethod" finished-at="2022-06-16T07:29:05Z" duration-ms="2142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customerLoginButtonTest status=SUCCESS method=CustomerLoginButton.customerLoginButtonTest()[pri:0, instance:globalsqatests.CustomerLoginButton@7d9f158f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:globalsqatests.CustomerLoginButton@7d9f158f]" started-at="2022-06-16T07:29:05Z" name="tearDown" finished-at="2022-06-16T07:29:05Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- globalsqatests.CustomerLoginButton -->
+      <class name="globalsqatests.BankManagerLoginButton">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:globalsqatests.BankManagerLoginButton@45efd90f]" started-at="2022-06-16T07:29:05Z" name="setUp" finished-at="2022-06-16T07:29:12Z" duration-ms="7247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:globalsqatests.BankManagerLoginButton@45efd90f]" started-at="2022-06-16T07:29:12Z" name="startExtent" finished-at="2022-06-16T07:29:12Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void globalsqatests.BankManagerLoginButton.bankManagerLoginButtonTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="bankManagerLoginButtonTest()[pri:0, instance:globalsqatests.BankManagerLoginButton@45efd90f]" started-at="2022-06-16T07:29:12Z" name="bankManagerLoginButtonTest" finished-at="2022-06-16T07:29:16Z" duration-ms="3731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankManagerLoginButtonTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:globalsqatests.BankManagerLoginButton@45efd90f]" started-at="2022-06-16T07:29:16Z" name="afterEachTestMethod" finished-at="2022-06-16T07:29:18Z" duration-ms="2116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bankManagerLoginButtonTest status=SUCCESS method=BankManagerLoginButton.bankManagerLoginButtonTest()[pri:0, instance:globalsqatests.BankManagerLoginButton@45efd90f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:globalsqatests.BankManagerLoginButton@45efd90f]" started-at="2022-06-16T07:29:18Z" name="tearDown" finished-at="2022-06-16T07:29:18Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- globalsqatests.BankManagerLoginButton -->
+      <class name="globalsqatests.AccountNumberDropDown">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:globalsqatests.AccountNumberDropDown@e3b3b2f]" started-at="2022-06-16T07:26:06Z" name="setUp" finished-at="2022-06-16T07:26:14Z" duration-ms="7815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:globalsqatests.AccountNumberDropDown@e3b3b2f]" started-at="2022-06-16T07:26:14Z" name="startExtent" finished-at="2022-06-16T07:26:14Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void globalsqatests.AccountNumberDropDown.accountNumberDropDownTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="accountNumberDropDownTest()[pri:0, instance:globalsqatests.AccountNumberDropDown@e3b3b2f]" started-at="2022-06-16T07:26:14Z" name="accountNumberDropDownTest" finished-at="2022-06-16T07:26:18Z" duration-ms="3983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountNumberDropDownTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:globalsqatests.AccountNumberDropDown@e3b3b2f]" started-at="2022-06-16T07:26:18Z" name="afterEachTestMethod" finished-at="2022-06-16T07:26:21Z" duration-ms="3680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=accountNumberDropDownTest status=SUCCESS method=AccountNumberDropDown.accountNumberDropDownTest()[pri:0, instance:globalsqatests.AccountNumberDropDown@e3b3b2f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:globalsqatests.AccountNumberDropDown@e3b3b2f]" started-at="2022-06-16T07:26:21Z" name="tearDown" finished-at="2022-06-16T07:26:21Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- globalsqatests.AccountNumberDropDown -->
+      <class name="globalsqatests.TransactionsButton">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:globalsqatests.TransactionsButton@50f6ac94]" started-at="2022-06-16T07:26:21Z" name="setUp" finished-at="2022-06-16T07:26:29Z" duration-ms="7636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:globalsqatests.TransactionsButton@50f6ac94]" started-at="2022-06-16T07:26:29Z" name="startExtent" finished-at="2022-06-16T07:26:29Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void globalsqatests.TransactionsButton.transactionsButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="transactionsButton()[pri:0, instance:globalsqatests.TransactionsButton@50f6ac94]" started-at="2022-06-16T07:26:29Z" name="transactionsButton" finished-at="2022-06-16T07:26:33Z" duration-ms="3490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transactionsButton -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:globalsqatests.TransactionsButton@50f6ac94]" started-at="2022-06-16T07:26:33Z" name="afterEachTestMethod" finished-at="2022-06-16T07:26:35Z" duration-ms="2703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=transactionsButton status=SUCCESS method=TransactionsButton.transactionsButton()[pri:0, instance:globalsqatests.TransactionsButton@50f6ac94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:globalsqatests.TransactionsButton@50f6ac94]" started-at="2022-06-16T07:26:35Z" name="tearDown" finished-at="2022-06-16T07:26:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- globalsqatests.TransactionsButton -->
+      <class name="globalsqatests.UserLogin">
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:globalsqatests.UserLogin@32115b28]" started-at="2022-06-16T07:27:41Z" name="setUp" finished-at="2022-06-16T07:27:49Z" duration-ms="7704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:globalsqatests.UserLogin@32115b28]" started-at="2022-06-16T07:27:49Z" name="startExtent" finished-at="2022-06-16T07:27:49Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void globalsqatests.UserLogin.harryPotterLoginTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="harryPotterLoginTest()[pri:0, instance:globalsqatests.UserLogin@32115b28]" started-at="2022-06-16T07:27:49Z" name="harryPotterLoginTest" finished-at="2022-06-16T07:27:51Z" duration-ms="2298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- harryPotterLoginTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:globalsqatests.UserLogin@32115b28]" started-at="2022-06-16T07:27:51Z" name="afterEachTestMethod" finished-at="2022-06-16T07:27:53Z" duration-ms="1836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=harryPotterLoginTest status=SUCCESS method=UserLogin.harryPotterLoginTest()[pri:0, instance:globalsqatests.UserLogin@32115b28] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:globalsqatests.UserLogin@32115b28]" started-at="2022-06-16T07:27:53Z" name="tearDown" finished-at="2022-06-16T07:27:53Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:globalsqatests.UserLogin@32115b28]" started-at="2022-06-16T07:27:53Z" name="setUp" finished-at="2022-06-16T07:28:00Z" duration-ms="7555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:globalsqatests.UserLogin@32115b28]" started-at="2022-06-16T07:28:00Z" name="startExtent" finished-at="2022-06-16T07:28:00Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void globalsqatests.UserLogin.ronWeaslyLoginTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method signature="ronWeaslyLoginTest()[pri:0, instance:globalsqatests.UserLogin@32115b28]" started-at="2022-06-16T07:28:00Z" name="ronWeaslyLoginTest" finished-at="2022-06-16T07:28:03Z" duration-ms="2245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ronWeaslyLoginTest -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:globalsqatests.UserLogin@32115b28]" started-at="2022-06-16T07:28:03Z" name="afterEachTestMethod" finished-at="2022-06-16T07:28:04Z" duration-ms="1783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ronWeaslyLoginTest status=SUCCESS method=UserLogin.ronWeaslyLoginTest()[pri:0, instance:globalsqatests.UserLogin@32115b28] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:globalsqatests.UserLogin@32115b28]" started-at="2022-06-16T07:28:04Z" name="tearDown" finished-at="2022-06-16T07:28:04Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- globalsqatests.UserLogin -->
+    </test> <!-- com.GlobalSQA Tests -->
+  </suite> <!-- CRIP Automation Script -->
+</testng-results>
