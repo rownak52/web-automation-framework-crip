@@ -16,31 +16,40 @@ public class SampleAppPage extends CommonAPI {
     @FindBy(xpath = "//a[contains(text(),'Resources')]")
     private WebElement resources;
 
-    @FindBy(xpath = "//input[@id='2c90d07a-7269-fbd0-6925-75d5b1224996']")
-    private WebElement userName;
+    @FindBy(xpath = "/html[1]/body[1]/section[1]/div[1]/div[2]/div[1]/input[1]")
+    private WebElement userNameField;
 
     @FindBy(xpath = "/html[1]/body[1]/section[1]/div[1]/div[3]/div[1]/input[1]")
     private WebElement password;
 
-    public SampleAppPage(WebDriver driver){
-        PageFactory.initElements(driver,this);
+    @FindBy(css = "#login")
+    private WebElement logBtn;
+
+    public SampleAppPage(WebDriver driver) {
+        PageFactory.initElements(driver, this);
     }
-    public void clickLogo(){
+
+    public void clickLogo() {
         click(logo);
     }
-    public void clickHome(){
+
+    public void clickHome() {
         click(home);
     }
-    public void clickResources(){
+
+    public void clickResources() {
         click(resources);
     }
 
-    public void typeUserName(String text){
-        type(userName,text);
+    public void typeUserName(String userName) {
+        type(userNameField, userName);
     }
 
-    public void typePassword(String text){
-        type(password,text);
+    public void typePassword(String passWord) {
+        type(password, passWord);
     }
 
+    public void clickLogBtn() {
+        click(logBtn);
+    }
 }

@@ -20,6 +20,12 @@ public class ClientDelayPage extends CommonAPI {
     @FindBy(xpath = "//a[contains(text(),'Resources')]")
     private WebElement resources;
 
+    @FindBy (css = "#ajaxButton")
+    private WebElement btnTriggClient;
+
+    @FindBy (css = "body:nth-child(2) section:nth-child(2) div.container div:nth-child(8) > p.bg-success")
+    private WebElement triggBtnTxt;
+
     public ClientDelayPage(WebDriver driver){
         PageFactory.initElements(driver,this);
     }
@@ -32,7 +38,8 @@ public class ClientDelayPage extends CommonAPI {
         click(resources);
     }
 
-    public void clickAjaxButton(){ click(ajaxButton); }
-
+    public void clickBtnTriggering(){
+        click(btnTriggClient);
+    }
 
 }
