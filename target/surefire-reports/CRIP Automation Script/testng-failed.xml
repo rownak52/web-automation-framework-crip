@@ -10,50 +10,18 @@
     <parameter name="browserName" value="chrome"/>
     <parameter name="url" value="http://saucedemo.com/"/>
     <classes>
-      <class name="saucedemotests.HoverOver">
+      <class name="saucedemotests.SearchBar">
         <methods>
-          <include name="hoverOverContactTest"/>
-          <include name="hoverOverAPITestingAndClickTest"/>
+          <include name="searchDogsTest"/>
           <include name="afterEachTestMethod"/>
+          <include name="searchAndRedirectBackToHomeTest"/>
           <include name="tearDown"/>
           <include name="generateReport"/>
           <include name="extentSetup"/>
           <include name="setUp"/>
           <include name="startExtent"/>
         </methods>
-      </class> <!-- saucedemotests.HoverOver -->
-      <class name="saucedemotests.PlayVideo">
-        <methods>
-          <include name="afterEachTestMethod"/>
-          <include name="tearDown"/>
-          <include name="playVideoTest"/>
-          <include name="generateReport"/>
-          <include name="extentSetup"/>
-          <include name="setUp"/>
-          <include name="startExtent"/>
-        </methods>
-      </class> <!-- saucedemotests.PlayVideo -->
-      <class name="saucedemotests.ClickFunctionality">
-        <methods>
-          <include name="clickSignUpTermsAndConditionsTest"/>
-          <include name="clickPrivacyTest"/>
-          <include name="afterEachTestMethod"/>
-          <include name="extentSetup"/>
-          <include name="clickCCPATest"/>
-          <include name="clickSignUpWithEmailTest"/>
-          <include name="startExtent"/>
-          <include name="clickVisualTestingTest"/>
-          <include name="clickErrorReportingTest"/>
-          <include name="clickTestAutomationTest"/>
-          <include name="clickSignUpPrivacyPolicyTest"/>
-          <include name="tearDown"/>
-          <include name="clickTermsOfServiceTest"/>
-          <include name="clickCookiesSettingAndConfirmTest"/>
-          <include name="generateReport"/>
-          <include name="setUp"/>
-          <include name="clickEEATest"/>
-        </methods>
-      </class> <!-- saucedemotests.ClickFunctionality -->
+      </class> <!-- saucedemotests.SearchBar -->
     </classes>
   </test> <!-- com.SauceDemo Tests(failed) -->
 </suite> <!-- Failed suite [CRIP Automation Script] -->
