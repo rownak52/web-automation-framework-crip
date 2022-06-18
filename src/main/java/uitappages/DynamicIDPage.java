@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class ScrollbarsPage extends CommonAPI {
+public class DynamicIDPage extends CommonAPI {
 
     @FindBy(xpath = "//a[contains(text(),'UITAP')]")
     private WebElement logo;
@@ -17,10 +17,10 @@ public class ScrollbarsPage extends CommonAPI {
     @FindBy(xpath = "//a[contains(text(),'Resources')]")
     private WebElement resources;
 
-    @FindBy(css = "#hidingButton")
-    private WebElement hidingBtn;
+    @FindBy(xpath = "/html[1]/body[1]/section[1]/div[1]/button[1]")
+    private WebElement dynamicIDBtn;
 
-    public ScrollbarsPage(WebDriver driver) {
+    public DynamicIDPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
 
@@ -36,12 +36,11 @@ public class ScrollbarsPage extends CommonAPI {
         click(resources);
     }
 
-    public void clickHidingBtn() {
-        click(hidingBtn);
+    public void clickDynIDBtn() {
+        click(dynamicIDBtn);
     }
 
     public boolean checkBtnClickable() {
-        return checkEnabled(hidingBtn);
+        return checkEnabled(dynamicIDBtn);
     }
-
 }

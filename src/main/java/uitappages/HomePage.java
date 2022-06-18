@@ -68,67 +68,137 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//a[contains(text(),'Overlapped Element')]")
     private WebElement overlappedElement;
 
-    public HomePage(WebDriver driver){
+    @FindBy(css = "#github")
+    private WebElement starGitLink;
+
+    @FindBy(css = "div.container:nth-child(4) footer:nth-child(1) div:nth-child(1) div:nth-child(2) > a:nth-child(1)")
+    private WebElement forkGitLink;
+
+    @FindBy(css = "div.container:nth-child(4) footer:nth-child(1) div:nth-child(1) div:nth-child(3) > a:nth-child(1)")
+    private WebElement rapiseExtLink;
+
+    @FindBy(css = "div.container:nth-child(4) footer:nth-child(1) div:nth-child(1) div:nth-child(3) > a:nth-child(2)")
+    private WebElement inflectraCorpLink;
+
+    @FindBy(css = "div.container div.row div.col-sm:nth-child(2) p.text-center small:nth-child(1) > a:nth-child(2)")
+    private WebElement cc4ExtLink;
+
+    @FindBy(xpath = "//a[contains(text(),'Apache License 2.0')]")
+    private WebElement apacheLicenseExtLink;
+
+    @FindBy(css = "section:nth-child(2) div.container div.row div.col-sm:nth-child(2) > img.img-fluid")
+    private WebElement rubiksImg;
+
+    public HomePage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
-    public void clickLogo(){
+
+    public void clickLogo() {
         click(logo);
     }
-    public void clickHome(){
+
+    public void clickHome() {
         click(home);
     }
-    public void clickResources(){
+
+    public void clickResources() {
         click(resources);
     }
-    public void clickDynamicId(){
+
+    public void clickDynamicId() {
         click(dynamicId);
     }
-    public void clickClassAttribute(){
+
+    public void clickClassAttribute() {
         click(classAttribute);
     }
-    public void clickHiddenLayers(){
+
+    public void clickHiddenLayers() {
         click(hiddenLayers);
     }
-    public void clickLoadDelay(){
+
+    public void clickLoadDelay() {
         click(loadDelay);
     }
-    public void clickAjaxData(){
+
+    public void clickAjaxData() {
         click(ajaxData);
     }
-    public void clickClientSideDelay(){
+
+    public void clickClientSideDelay() {
         click(clientSideDelay);
     }
-    public void clickLink(){
+
+    public void clickLink() {
         click(click);
     }
-    public void clickTextInput(){
+
+    public void clickTextInput() {
         click(textInput);
     }
-    public void clickScrollBars(){
+
+    public void clickScrollBars() {
         click(scrollBars);
     }
-    public void clickDynamicTable(){
+
+    public void clickDynamicTable() {
         click(dynamicTable);
     }
-    public void clickVerifyText(){
+
+    public void clickVerifyText() {
         click(verifyText);
     }
-    public void clickProgressBar(){
+
+    public void clickProgressBar() {
         click(progressBar);
     }
-    public void clickVisibility(){
+
+    public void clickVisibility() {
         click(visibility);
     }
-    public void clickSampleApp(){
+
+    public void clickSampleApp() {
         click(sampleApp);
     }
-    public void clickMouseOver(){
+
+    public void clickMouseOver() {
         click(mouseOver);
     }
-    public void clickNonBreakingSpace(){
+
+    public void clickNonBreakingSpace() {
         click(nonBreakingSpace);
     }
-    public void clickOverlappedElement(){
+
+    public void clickOverlappedElement() {
         click(overlappedElement);
     }
+
+    public void clickStarLink() {
+        click(starGitLink);
+    }
+
+    public void clickForkWebsite() {
+        click(forkGitLink);
+    }
+
+    public void clickRapise() {
+        click(rapiseExtLink);
+    }
+
+    public void clickInflectraCorp() {
+        click(inflectraCorpLink);
+    }
+
+    public void clickCC4Link() {
+        click(cc4ExtLink);
+    }
+
+    public void clickApacheLicense() {
+        click(apacheLicenseExtLink);
+    }
+
+    public boolean checkRubikImg() {
+        return checkDisplayed(rubiksImg);
+    }
+
 }

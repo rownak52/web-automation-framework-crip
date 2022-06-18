@@ -11,62 +11,119 @@ public class VisibilityPage extends CommonAPI {
     @FindBy(xpath = "//a[contains(text(),'Home')]")
     private WebElement home;
 
+    @FindBy(xpath = "//tbody/tr[1]/td[2]")
+    private WebElement removedHidden;
+
     @FindBy(xpath = "//a[contains(text(),'UITAP')]")
     private WebElement logo;
 
     @FindBy(xpath = "//a[contains(text(),'Resources')]")
     private WebElement resources;
 
-    @FindBy(css = "#zeroWidthButton")
-    private WebElement zeroWidthButton;
+    @FindBy(css = "#hideButton")
+    private WebElement hideButton;
 
     @FindBy(css = "#removedButton")
     private WebElement removedButton;
-    @FindBy(css = "#hideButton")
-    private WebElement hideButton;
+
+    @FindBy(css = "#zeroWidthButton")
+    private WebElement zeroWidthButton;
 
     @FindBy(css = "#overlappedButton")
     private WebElement overlappedButton;
 
     @FindBy(css = "#transparentButton")
-    private WebElement transparentButton;
+    private WebElement opacity0Btn;
 
     @FindBy(css = "#invisibleButton")
-    private WebElement invisibleButton;
+    private WebElement visibilHiddenBtn;
 
     @FindBy(css = "#notdisplayedButton")
-    private WebElement notDisplayedButton;
+    private WebElement displayNonBtn;
 
     @FindBy(css = "#offscreenButton")
     private WebElement offScreenButton;
 
-    public VisibilityPage(WebDriver driver){
-        PageFactory.initElements(driver,this);
+    public VisibilityPage(WebDriver driver) {
+        PageFactory.initElements(driver, this);
     }
 
-    public void clickLogo(){
+    public void clickLogo() {
         click(logo);
     }
-    public void clickHome(){
+
+    public void clickHome() {
         click(home);
     }
-    public void clickResources(){
+
+    public void clickResources() {
         click(resources);
     }
 
-    public void clickHideButton(){ click(hideButton); }
+    public void clickHideButton() {
+        click(hideButton);
+    }
 
-    public void clickRemoveButton(){ click(removedButton); }
+    public boolean checkHideClickable() {
+        return checkEnabled(hideButton);
+    }
 
-    public void clickZeroWidthButton(){ click(zeroWidthButton); }
+    public void clickRemoveButton() {
+        click(removedButton);
+    }
 
-    public void clickTransparentButton(){ click(transparentButton); }
+    public boolean checkRemovedClickable() {
+        return checkEnabled(removedButton);
+    }
 
-    public void clickInvisibleButton(){ click(invisibleButton); }
+    public void clickZeroWidthButton() {
+        click(zeroWidthButton);
+    }
 
-    public void clickNotDisplayedButton(){ click(notDisplayedButton);}
+    public boolean checkZeroWidClickable() {
+        return checkEnabled(zeroWidthButton);
+    }
 
-    public void clickOffScreenButton(){ click(offScreenButton); }
+    public void clickTransparentButton() {
+        click(opacity0Btn);
+    }
+
+    public boolean checkTransparentClickable() {
+        return checkEnabled(opacity0Btn);
+    }
+
+    public void clickInvisibleButton() {
+        click(visibilHiddenBtn);
+    }
+
+    public boolean checkVisibilHiddenClickable() {
+        return checkEnabled(visibilHiddenBtn);
+    }
+
+    public void clickNotDisplayedButton() {
+        click(displayNonBtn);
+    }
+
+    public boolean checkDisplayNonClickable() {
+        return checkEnabled(displayNonBtn);
+    }
+
+    public void clickOffScreenButton() {
+        click(offScreenButton);
+    }
+
+    public boolean checkOffscreenClickable() {
+        return checkEnabled(offScreenButton);
+    }
+
+    public void clickOverlapButton() {
+        click(overlappedButton);
+    }
+
+    public boolean checkOverlapClickable() {
+        return checkEnabled(overlappedButton);
+    }
+
 
 
 

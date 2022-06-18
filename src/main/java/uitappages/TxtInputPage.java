@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class ScrollbarsPage extends CommonAPI {
+public class TxtInputPage extends CommonAPI {
 
     @FindBy(xpath = "//a[contains(text(),'UITAP')]")
     private WebElement logo;
@@ -17,31 +17,14 @@ public class ScrollbarsPage extends CommonAPI {
     @FindBy(xpath = "//a[contains(text(),'Resources')]")
     private WebElement resources;
 
-    @FindBy(css = "#hidingButton")
-    private WebElement hidingBtn;
-
-    public ScrollbarsPage(WebDriver driver) {
+    public TxtInputPage(WebDriver driver){
         PageFactory.initElements(driver, this);
     }
-
-    public void clickLogo() {
-        click(logo);
-    }
-
-    public void clickHome() {
+    public void clickLogo(){ click(logo); }
+    public void clickHome(){
         click(home);
     }
-
-    public void clickResources() {
+    public void clickResources(){
         click(resources);
     }
-
-    public void clickHidingBtn() {
-        click(hidingBtn);
-    }
-
-    public boolean checkBtnClickable() {
-        return checkEnabled(hidingBtn);
-    }
-
 }
