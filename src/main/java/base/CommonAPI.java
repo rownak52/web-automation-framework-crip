@@ -10,6 +10,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -40,7 +41,7 @@ public class CommonAPI {
 
     private final Logger LOG = LoggerFactory.getLogger(CommonAPI.class);
     Properties prop = Utility.loadProperties();
-    String duration = prop.getProperty("implicit.wait", "10");
+    String duration = prop.getProperty("implicit.wait", "25");
 
     String maximizeBrowser = prop.getProperty("maximize.browser", "true");
     String takeScreenshot = prop.getProperty("take.screenshot", "false");
@@ -195,6 +196,10 @@ public class CommonAPI {
 
     }
 
+    public void refreshPage(){
+        driver.navigate().refresh();
+    }
+
     public String getUrlLink(){
 
         return driver.getCurrentUrl();
@@ -208,7 +213,6 @@ public class CommonAPI {
             return driver.findElement(By.xpath(locator)).getText();
         }
     }
-
     public void click(WebElement element){
         element.click();
     }
@@ -243,10 +247,12 @@ public class CommonAPI {
     }
 
 
-
-    public void hoverOver(WebElement element){
-        Actions actions = new Actions(driver);
-        actions.moveToElement(element).build().perform();
+//
+//    public void hoverOver(WebElement element){
+//        Actions actions = new Actions(getDriver());
+//        WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(10));
+//        wait.until(ExpectedConditions.elementToBeClickable(element));
+//        actions.clickTestAutomation(element).build().perform();
 //            WebElement element;
 //            try {
 //                element = driver.findElement(By.cssSelector(locator));
@@ -254,7 +260,7 @@ public class CommonAPI {
 //                element = driver.findElement(By.xpath(locator));
 //            }
 
-    }
+//    }
 
     public String alertMessage() {
        String alertMessage = getDriver().switchTo().alert().getText();
@@ -362,7 +368,7 @@ public class CommonAPI {
         try {
             FileUtils.copyFile(file, new File(System.getProperty("user.dir")+File.pathSeparator+ "screenshots"+File.pathSeparator+screenshotName+" "+df.format(date)+".png"));
 
-            System.out.println("Screenshot captured");
+            LOG.info("Screenshot captured");
         } catch (Exception e) {
             String path = System.getProperty("user.dir")+ "/screenshots/"+screenshotName+" "+df.format(date)+".png";
             LOG.info(path);

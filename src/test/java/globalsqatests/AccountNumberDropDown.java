@@ -13,15 +13,37 @@ public class AccountNumberDropDown extends CommonAPI {
     private final Logger LOG = LoggerFactory.getLogger(AccountNumberDropDown.class);
 
     @Test
-    public void accountNumberDropDownTest(){
+    public void selectAccountNumberTest(){
         CustomerPage customer = new CustomerPage(getDriver());
         customer.clickCustomerLoginButton();
-        LOG.info("Customer Login Button click successful");
+        LOG.info("Customer login button click successful");
         customer.selectOptionFromCustomerDropDown("Hermoine Granger");
+        LOG.info("Hermoine Granger account is selected");
         customer.clickLoginButton();
         LOG.info("Login successful");
         customer.selectOptionFromAccountNumberDropDown("1003");
         Assert.assertTrue(customer.checkIfAccountNumberIsSelected());
+        LOG.info("1003 account number is selected");
+    }
+
+    @Test
+    public void selectMultipleAccountNumbersTest(){
+        CustomerPage customer = new CustomerPage(getDriver());
+        customer.clickCustomerLoginButton();
+        LOG.info("Customer login button click successful");
+        customer.selectOptionFromCustomerDropDown("Hermoine Granger");
+        LOG.info("Hermoine Granger account is selected");
+        customer.clickLoginButton();
+        LOG.info("Login successful");
+        customer.selectOptionFromAccountNumberDropDown("1003");
+        Assert.assertTrue(customer.checkIfAccountNumberIsSelected());
+        LOG.info("1001 account number is selected");
+        customer.selectOptionFromAccountNumberDropDown("1002");
+        Assert.assertTrue(customer.checkIfAccountNumberIsSelected());
+        LOG.info("1002 account number is selected");
+        customer.selectOptionFromAccountNumberDropDown("1001");
+        Assert.assertTrue(customer.checkIfAccountNumberIsSelected());
+        LOG.info("1003 account number is selected");
     }
 
 

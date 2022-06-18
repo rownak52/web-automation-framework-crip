@@ -15,9 +15,10 @@ public class CustomerLoginButton extends CommonAPI {
         CustomerPage customer = new CustomerPage(getDriver());
         customer.clickCustomerLoginButton();
         waitFor(3);
-        LOG.info("Customer Login Button click successful");
+        LOG.info("Customer login button click successful");
         String expectedUrl = "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/customer";
         Assert.assertEquals(expectedUrl, getUrlLink());
+        LOG.info("Navigate to Customer login page successful");
     }
 
 }

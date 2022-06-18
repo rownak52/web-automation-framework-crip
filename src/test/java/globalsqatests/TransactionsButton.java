@@ -14,13 +14,15 @@ public class TransactionsButton extends CommonAPI {
     public void transactionsButton(){
         CustomerPage customer = new CustomerPage(getDriver());
         customer.clickCustomerLoginButton();
-        LOG.info("Customer Login Button click successful");
+        LOG.info("Customer login button click successful");
         customer.selectOptionFromCustomerDropDown("Hermoine Granger");
+        LOG.info("Hermoine Granger account is selected");
         customer.clickLoginButton();
         LOG.info("Login successful");
-        customer.clickTransactionsTab();
-        LOG.info("Transactions tab click successful");
+        customer.clickTransactionsButton();
+        LOG.info("Transactions button click successful");
         String expectedText = "Transaction Type";
         Assert.assertEquals(expectedText, getElementText("//thead/tr/td[3]/a[1]"));
+        LOG.info("Navigate to Transactions page successful");
     }
 }

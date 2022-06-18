@@ -11,11 +11,9 @@ import org.slf4j.LoggerFactory;
 
 public class BankManagerPage extends CommonAPI {
 
-    private final Logger LOG = LoggerFactory.getLogger(BankManagerPage.class);
+//    private final Logger LOG = LoggerFactory.getLogger(BankManagerPage.class);
     @FindBy(xpath = "//body/div[1]/div[1]/div[2]/div[1]/div[1]/button[1]")
     private WebElement addCustomerButton;
-    @FindBy(xpath = "//td[contains(text(),'Harry')]")
-    private WebElement harryInformation;
     @FindBy(xpath = "//body/div[1]/div[1]/div[2]/div[1]/div[1]/button[2]")
     private WebElement openAccountButton;
     @FindBy(xpath = "//body/div[1]/div[1]/div[2]/div[1]/div[1]/button[3]")
@@ -51,15 +49,15 @@ public class BankManagerPage extends CommonAPI {
         PageFactory.initElements(driver, this);
     }
 
-    public void clickAddCustomerTab() {
+    public void clickAddCustomerButton() {
         click(addCustomerButton);
     }
 
-    public void clickOpenAccountTab() {
+    public void clickOpenAccountButton() {
         click(openAccountButton);
     }
 
-    public void clickCustomersTab() {
+    public void clickCustomersButton() {
         click(customersButton);
     }
 
@@ -80,7 +78,7 @@ public class BankManagerPage extends CommonAPI {
         }catch(Exception e){
             select.selectByValue(option);
         }
-        LOG.info(option + " is selected");
+
     }
 
     public void selectOptionFromCurrencyDropDown(String option) {
@@ -90,7 +88,7 @@ public class BankManagerPage extends CommonAPI {
         }catch(Exception e){
             select.selectByValue(option);
         }
-        LOG.info(option + " currency is selected");
+
     }
 
     public void clickProcess() {
@@ -105,19 +103,15 @@ public class BankManagerPage extends CommonAPI {
         click(bankManagerLoginButton);
     }
 
-    public boolean checkIfSearchCustomerIsDisplayed(){
-        return checkDisplayed(harryInformation);
-    }
-
-    public boolean checkIfAddCustomersTabIsDisplayed(){
+    public boolean checkIfAddCustomersButtonIsDisplayed(){
         return checkDisplayed(addCustomerButton);
     }
 
-    public boolean checkIfOpenAccountTabIsDisplayed(){
+    public boolean checkIfOpenAccountButtonIsDisplayed(){
         return checkDisplayed(openAccountButton);
     }
 
-    public boolean checkIfCustomersTabIsDisplayed(){
+    public boolean checkIfCustomersButtonIsDisplayed(){
         return checkDisplayed(customersButton);
     }
 

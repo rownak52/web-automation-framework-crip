@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="263.708" tests="17" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="454.984" tests="64" errors="0" skipped="0" failures="14">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.15.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\EvilT\AppData\Local\Temp\surefire5117130179985056063\surefirebooter12447289236403766749.jar C:\Users\EvilT\AppData\Local\Temp\surefire5117130179985056063 2022-06-16T03-24-50_954-jvmRun1 surefire18080779765258679346tmp surefire_04590738551880364459tmp"/>
+    <property name="sun.java.command" value="C:\Users\EvilT\AppData\Local\Temp\surefire11897533854956566904\surefirebooter16940663045370989075.jar C:\Users\EvilT\AppData\Local\Temp\surefire11897533854956566904 2022-06-16T20-34-15_651-jvmRun1 surefire10819694425392799914tmp surefire_018374434915677624793tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\EvilT\IdeaProjects\FinalFrameworkProject\web-automation-framework-crip\target\test-classes;C:\Users\EvilT\IdeaProjects\FinalFrameworkProject\web-automation-framework-crip\target\classes;C:\Users\EvilT\.m2\repository\org\seleniumhq\selenium\selenium-server\4.0.0-alpha-2\selenium-server-4.0.0-alpha-2.jar;C:\Users\EvilT\.m2\repository\org\seleniumhq\selenium\grid\4.0.0-alpha-2\grid-4.0.0-alpha-2.jar;C:\Users\EvilT\.m2\repository\org\seleniumhq\selenium\selenium-edgehtml-driver\4.0.0-alpha-2\selenium-edgehtml-driver-4.0.0-alpha-2.jar;C:\Users\EvilT\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830.1\jetty-repacked-9.4.12.v20180830.1.jar;C:\Users\EvilT\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\EvilT\.m2\repository\org\zeromq\jeromq\0.5.1\jeromq-0.5.1.jar;C:\Users\EvilT\.m2\repository\eu\neilalexander\jnacl\1.0.0\jnacl-1.0.0.jar;C:\Users\EvilT\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\EvilT\.m2\repository\org\yaml\snakeyaml\1.24\snakeyaml-1.24.jar;C:\Users\EvilT\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.4\selenium-java-4.1.4.jar;C:\Users\EvilT\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.4\selenium-api-4.1.4.jar;C:\Users\EvilT\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.4\selenium-chrome-driver-4.1.4.jar;C:\Users\EvilT\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\EvilT\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\EvilT\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\EvilT\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\EvilT\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\EvilT\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\EvilT\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\EvilT\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\EvilT\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\EvilT\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\EvilT\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.4\selenium-chromium-driver-4.1.4.jar;C:\Users\EvilT\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.4\selenium-json-4.1.4.jar;C:\Users\EvilT\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v100\4.1.4\selenium-devtools-v100-4.1.4.jar;C:\Users\EvilT\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v101\4.1.4\selenium-devtools-v101-4.1.4.jar;C:\Users\EvilT\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.4\selenium-devtools-v85-4.1.4.jar;C:\Users\EvilT\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v99\4.1.4\selenium-devtools-v99-4.1.4.jar;C:\Users\EvilT\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.4\selenium-edge-driver-4.1.4.jar;C:\Users\EvilT\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.4\selenium-firefox-driver-4.1.4.jar;C:\Users\EvilT\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.4\selenium-ie-driver-4.1.4.jar;C:\Users\EvilT\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.4\selenium-opera-driver-4.1.4.jar;C:\Users\EvilT\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.4\selenium-remote-driver-4.1.4.jar;C:\Users\EvilT\.m2\repository\io\netty\netty-buffer\4.1.76.Final\netty-buffer-4.1.76.Final.jar;C:\Users\EvilT\.m2\repository\io\netty\netty-codec-http\4.1.76.Final\netty-codec-http-4.1.76.Final.jar;C:\Users\EvilT\.m2\repository\io\netty\netty-codec\4.1.76.Final\netty-codec-4.1.76.Final.jar;C:\Users\EvilT\.m2\repository\io\netty\netty-handler\4.1.76.Final\netty-handler-4.1.76.Final.jar;C:\Users\EvilT\.m2\repository\io\netty\netty-common\4.1.76.Final\netty-common-4.1.76.Final.jar;C:\Users\EvilT\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.76.Final\netty-transport-classes-epoll-4.1.76.Final.jar;C:\Users\EvilT\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.76.Final\netty-transport-classes-kqueue-4.1.76.Final.jar;C:\Users\EvilT\.m2\repository\io\netty\netty-transport-native-epoll\4.1.76.Final\netty-transport-native-epoll-4.1.76.Final.jar;C:\Users\EvilT\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.76.Final\netty-transport-native-kqueue-4.1.76.Final.jar;C:\Users\EvilT\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.76.Final\netty-transport-native-unix-common-4.1.76.Final.jar;C:\Users\EvilT\.m2\repository\io\netty\netty-transport\4.1.76.Final\netty-transport-4.1.76.Final.jar;C:\Users\EvilT\.m2\repository\io\netty\netty-resolver\4.1.76.Final\netty-resolver-4.1.76.Final.jar;C:\Users\EvilT\.m2\repository\io\opentelemetry\opentelemetry-api\1.13.0\opentelemetry-api-1.13.0.jar;C:\Users\EvilT\.m2\repository\io\opentelemetry\opentelemetry-context\1.13.0\opentelemetry-context-1.13.0.jar;C:\Users\EvilT\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.13.0\opentelemetry-exporter-logging-1.13.0.jar;C:\Users\EvilT\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.13.0-alpha\opentelemetry-sdk-metrics-1.13.0-alpha.jar;C:\Users\EvilT\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.13.0-alpha\opentelemetry-sdk-logs-1.13.0-alpha.jar;C:\Users\EvilT\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.13.0\opentelemetry-sdk-common-1.13.0.jar;C:\Users\EvilT\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.13.0\opentelemetry-sdk-extension-autoconfigure-spi-1.13.0.jar;C:\Users\EvilT\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.13.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.13.0-alpha.jar;C:\Users\EvilT\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.13.0\opentelemetry-sdk-trace-1.13.0.jar;C:\Users\EvilT\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.13.0\opentelemetry-sdk-1.13.0.jar;C:\Users\EvilT\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.13.0-alpha\opentelemetry-semconv-1.13.0-alpha.jar;C:\Users\EvilT\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\EvilT\.m2\repository\net\bytebuddy\byte-buddy\1.12.9\byte-buddy-1.12.9.jar;C:\Users\EvilT\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\EvilT\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\EvilT\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\EvilT\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\EvilT\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\EvilT\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\EvilT\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\EvilT\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\EvilT\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\EvilT\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\EvilT\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.4\selenium-http-4.1.4.jar;C:\Users\EvilT\.m2\repository\dev\failsafe\failsafe\3.2.3\failsafe-3.2.3.jar;C:\Users\EvilT\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.4\selenium-safari-driver-4.1.4.jar;C:\Users\EvilT\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.4\selenium-support-4.1.4.jar;C:\Users\EvilT\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\EvilT\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\EvilT\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\EvilT\.m2\repository\org\jsoup\jsoup\1.14.3\jsoup-1.14.3.jar;C:\Users\EvilT\.m2\repository\org\apache\poi\poi-ooxml\3.7\poi-ooxml-3.7.jar;C:\Users\EvilT\.m2\repository\org\apache\poi\poi\3.7\poi-3.7.jar;C:\Users\EvilT\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.7\poi-ooxml-schemas-3.7.jar;C:\Users\EvilT\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\EvilT\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\EvilT\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar;C:\Users\EvilT\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\EvilT\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\EvilT\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\EvilT\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\EvilT\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\EvilT\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\EvilT\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\EvilT\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\EvilT\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\EvilT\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\EvilT\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\EvilT\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\EvilT\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\EvilT\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\EvilT\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\EvilT\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\EvilT\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\EvilT\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\EvilT\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\EvilT\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\EvilT\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\EvilT\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\EvilT\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\EvilT\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\EvilT\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\EvilT\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\EvilT\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\EvilT\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\EvilT\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\EvilT\.m2\repository\org\mongodb\mongo-java-driver\3.12.10\mongo-java-driver-3.12.10.jar;C:\Users\EvilT\.m2\repository\mysql\mysql-connector-java\8.0.27\mysql-connector-java-8.0.27.jar;C:\Users\EvilT\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;C:\Users\EvilT\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\EvilT\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\EvilT\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\EvilT\AppData\Local\Temp\surefire5117130179985056063\surefirebooter12447289236403766749.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\EvilT\AppData\Local\Temp\surefire11897533854956566904\surefirebooter16940663045370989075.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.15.1+2-LTS-10"/>
@@ -61,21 +61,502 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="deleteCustomerTest" classname="globalsqatests.DeleteButton" time="2.41"/>
-  <testcase name="resetButtonTest" classname="globalsqatests.ResetButton" time="5.424"/>
-  <testcase name="backButtonTest" classname="globalsqatests.BackButton" time="5.202"/>
-  <testcase name="accountNumberDropDownTest" classname="globalsqatests.AccountNumberDropDown" time="3.983"/>
-  <testcase name="transactionsButton" classname="globalsqatests.TransactionsButton" time="3.492"/>
-  <testcase name="searchCustomerTest" classname="globalsqatests.SearchCustomer" time="2.09"/>
-  <testcase name="addCustomerTest" classname="globalsqatests.AddCustomer" time="3.303"/>
-  <testcase name="withdrawlButtonTest" classname="globalsqatests.WithdrawlButton" time="3.639"/>
-  <testcase name="depositButtonTest" classname="globalsqatests.DepositButton" time="4.123"/>
-  <testcase name="openAccountTest" classname="globalsqatests.OpenAccount" time="3.012"/>
-  <testcase name="harryPotterLoginTest" classname="globalsqatests.UserLogin" time="2.299"/>
-  <testcase name="ronWeaslyLoginTest" classname="globalsqatests.UserLogin" time="2.247"/>
-  <testcase name="logOutTest" classname="globalsqatests.LogoutButton" time="8.15"/>
-  <testcase name="bankManagerHomeButtonTest" classname="globalsqatests.HomeButton" time="1.51"/>
-  <testcase name="customerHomeButtonTest" classname="globalsqatests.HomeButton" time="4.856"/>
-  <testcase name="customerLoginButtonTest" classname="globalsqatests.CustomerLoginButton" time="3.772"/>
-  <testcase name="bankManagerLoginButtonTest" classname="globalsqatests.BankManagerLoginButton" time="3.73"/>
+  <testcase name="addBackPackToCartTest" classname="saucedemotests.AddItemsToCart" time="0.408"/>
+  <testcase name="addBikeLightToCartTest" classname="saucedemotests.AddItemsToCart" time="0.439"/>
+  <testcase name="addBoltShirtToCartTest" classname="saucedemotests.AddItemsToCart" time="0.467"/>
+  <testcase name="addFleeceJacketToCartTest" classname="saucedemotests.AddItemsToCart" time="0.398"/>
+  <testcase name="addMultipleItemsToCartTest" classname="saucedemotests.AddItemsToCart" time="0.641"/>
+  <testcase name="addOnesieToCartTest" classname="saucedemotests.AddItemsToCart" time="0.298"/>
+  <testcase name="addRedShirtToCartTest" classname="saucedemotests.AddItemsToCart" time="0.459"/>
+  <testcase name="mulipleItemsCheckOutTest" classname="saucedemotests.CheckOut" time="0.886"/>
+  <testcase name="singleItemCheckOutTest" classname="saucedemotests.CheckOut" time="0.796"/>
+  <testcase name="clickCCPATest" classname="saucedemotests.ClickFunctionality" time="7.486">
+    <failure message="element click intercepted: Element is not clickable at point (800, 5860)&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;DESKTOP-DNJOJAA&apos;, ip: &apos;172.16.225.38&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [f42b4ee4e343eb8c8fbb7f3d0bafb427, clickElement {id=ed0febd8-3012-4221-804c-47afdc54f5e9}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56691}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56691/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (f42b4ee4e343eb8c8fbb7f3d0bafb427)] -&gt; xpath: //span[contains(text(),&apos;CCPA&apos;)]]&#10;Session ID: f42b4ee4e343eb8c8fbb7f3d0bafb427" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (800, 5860)
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f42b4ee4e343eb8c8fbb7f3d0bafb427, clickElement {id=ed0febd8-3012-4221-804c-47afdc54f5e9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56691}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56691/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f42b4ee4e343eb8c8fbb7f3d0bafb427)] -> xpath: //span[contains(text(),'CCPA')]]
+Session ID: f42b4ee4e343eb8c8fbb7f3d0bafb427
+	at saucedemotests.ClickFunctionality.clickCCPATest(ClickFunctionality.java:204)
+</failure>
+    <system-out><![CDATA[20:34:45.885 [main] INFO  saucedemotests.ClickFunctionality - UserName entered
+20:34:45.951 [main] INFO  saucedemotests.ClickFunctionality - Password entered
+20:34:51.043 [main] INFO  saucedemotests.ClickFunctionality - Login successful
+20:34:51.087 [main] INFO  saucedemotests.ClickFunctionality - Menu Bar click successful
+20:34:52.162 [main] INFO  saucedemotests.ClickFunctionality - About Side Bar click successful
+20:34:52.168 [main] INFO  saucedemotests.ClickFunctionality - Redirected to https://saucelabs.com/
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 53299
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 16, 2022 8:34:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 16, 2022 8:34:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 102, so returning the closest version found: 101
+Jun 16, 2022 8:34:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 102 of 101
+]]></system-err>
+  </testcase>
+  <testcase name="clickCookiesSettingAndConfirmTest" classname="saucedemotests.ClickFunctionality" time="8.493">
+    <failure message="element click intercepted: Element is not clickable at point (873, 5860)&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;DESKTOP-DNJOJAA&apos;, ip: &apos;172.16.225.38&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [856c4694a7cb07dd2eca23d626ba2756, clickElement {id=dc9e5801-9ded-4b58-a582-c4121c5d2cdb}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56792}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56792/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (856c4694a7cb07dd2eca23d626ba2756)] -&gt; xpath: //a[contains(text(),&apos;Cookies Settings&apos;)]]&#10;Session ID: 856c4694a7cb07dd2eca23d626ba2756" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (873, 5860)
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [856c4694a7cb07dd2eca23d626ba2756, clickElement {id=dc9e5801-9ded-4b58-a582-c4121c5d2cdb}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56792}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56792/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (856c4694a7cb07dd2eca23d626ba2756)] -> xpath: //a[contains(text(),'Cookies Settings')]]
+Session ID: 856c4694a7cb07dd2eca23d626ba2756
+	at saucedemotests.ClickFunctionality.clickCookiesSettingAndConfirmTest(ClickFunctionality.java:231)
+</failure>
+    <system-out><![CDATA[20:34:55.631 [main] INFO  saucedemotests.ClickFunctionality - UserName entered
+20:34:55.691 [main] INFO  saucedemotests.ClickFunctionality - Password entered
+20:35:00.784 [main] INFO  saucedemotests.ClickFunctionality - Login successful
+20:35:00.835 [main] INFO  saucedemotests.ClickFunctionality - Menu Bar click successful
+20:35:02.922 [main] INFO  saucedemotests.ClickFunctionality - About Side Bar click successful
+20:35:02.930 [main] INFO  saucedemotests.ClickFunctionality - Redirected to https://saucelabs.com/
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 63179
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 16, 2022 8:34:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 16, 2022 8:34:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 102, so returning the closest version found: 101
+Jun 16, 2022 8:34:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 102 of 101
+]]></system-err>
+  </testcase>
+  <testcase name="clickEEATest" classname="saucedemotests.ClickFunctionality" time="8.171">
+    <failure message="element click intercepted: Element is not clickable at point (752, 5860)&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;DESKTOP-DNJOJAA&apos;, ip: &apos;172.16.225.38&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [1fd59138eac8b30c78c5ec3409d3c3fd, clickElement {id=937c514f-aedb-41e7-a0b6-c66eef75981a}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56900}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56900/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (1fd59138eac8b30c78c5ec3409d3c3fd)] -&gt; xpath: //body/div[4]/div[1]/div[1]/div[2]/ul[1]/li[3]/a[1]]&#10;Session ID: 1fd59138eac8b30c78c5ec3409d3c3fd" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (752, 5860)
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1fd59138eac8b30c78c5ec3409d3c3fd, clickElement {id=937c514f-aedb-41e7-a0b6-c66eef75981a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56900}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56900/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (1fd59138eac8b30c78c5ec3409d3c3fd)] -> xpath: //body/div[4]/div[1]/div[1]/div[2]/ul[1]/li[3]/a[1]]
+Session ID: 1fd59138eac8b30c78c5ec3409d3c3fd
+	at saucedemotests.ClickFunctionality.clickEEATest(ClickFunctionality.java:176)
+</failure>
+    <system-out><![CDATA[20:35:06.329 [main] INFO  saucedemotests.ClickFunctionality - UserName entered
+20:35:06.394 [main] INFO  saucedemotests.ClickFunctionality - Password entered
+20:35:11.491 [main] INFO  saucedemotests.ClickFunctionality - Login successful
+20:35:11.537 [main] INFO  saucedemotests.ClickFunctionality - Menu Bar click successful
+20:35:13.273 [main] INFO  saucedemotests.ClickFunctionality - About Side Bar click successful
+20:35:13.281 [main] INFO  saucedemotests.ClickFunctionality - Redirected to https://saucelabs.com/
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 49616
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 16, 2022 8:35:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 16, 2022 8:35:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 102, so returning the closest version found: 101
+Jun 16, 2022 8:35:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 102 of 101
+]]></system-err>
+  </testcase>
+  <testcase name="clickErrorReportingTest" classname="saucedemotests.ClickFunctionality" time="8.332">
+    <failure message="element click intercepted: Element is not clickable at point (553, 868)&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;DESKTOP-DNJOJAA&apos;, ip: &apos;172.16.225.38&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [2aca2bffb5cd4decf96ba431ba5a79fb, clickElement {id=006fb052-7d26-446e-826d-7c477b053f0f}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57008/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (2aca2bffb5cd4decf96ba431ba5a79fb)] -&gt; xpath: //body/div[@id=&apos;template__page&apos;]/div[1]/section[2]/div[1]/div[2]/div[4]/a[1]/div[1]/div[1]/div[1]/picture[1]/img[1]]&#10;Session ID: 2aca2bffb5cd4decf96ba431ba5a79fb" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (553, 868)
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2aca2bffb5cd4decf96ba431ba5a79fb, clickElement {id=006fb052-7d26-446e-826d-7c477b053f0f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57008/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (2aca2bffb5cd4decf96ba431ba5a79fb)] -> xpath: //body/div[@id='template__page']/div[1]/section[2]/div[1]/div[2]/div[4]/a[1]/div[1]/div[1]/div[1]/picture[1]/img[1]]
+Session ID: 2aca2bffb5cd4decf96ba431ba5a79fb
+	at saucedemotests.ClickFunctionality.clickErrorReportingTest(ClickFunctionality.java:68)
+</failure>
+    <system-out><![CDATA[20:35:16.745 [main] INFO  saucedemotests.ClickFunctionality - UserName entered
+20:35:16.808 [main] INFO  saucedemotests.ClickFunctionality - Password entered
+20:35:21.902 [main] INFO  saucedemotests.ClickFunctionality - Login successful
+20:35:21.947 [main] INFO  saucedemotests.ClickFunctionality - Menu Bar click successful
+20:35:23.823 [main] INFO  saucedemotests.ClickFunctionality - About Side Bar click successful
+20:35:23.831 [main] INFO  saucedemotests.ClickFunctionality - Redirected to https://saucelabs.com/
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 53453
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 16, 2022 8:35:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 16, 2022 8:35:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 102, so returning the closest version found: 101
+Jun 16, 2022 8:35:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 102 of 101
+]]></system-err>
+  </testcase>
+  <testcase name="clickPrivacyTest" classname="saucedemotests.ClickFunctionality" time="7.276">
+    <failure message="element click intercepted: Element is not clickable at point (603, 5860)&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;DESKTOP-DNJOJAA&apos;, ip: &apos;172.16.225.38&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [4b17fd30a16ad8d76c97a5fac763ebaf, clickElement {id=f37d042f-e88a-4a09-81a7-071646fbda3f}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57118}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57118/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (4b17fd30a16ad8d76c97a5fac763ebaf)] -&gt; xpath: //span[contains(text(),&apos;Privacy&apos;)]]&#10;Session ID: 4b17fd30a16ad8d76c97a5fac763ebaf" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (603, 5860)
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4b17fd30a16ad8d76c97a5fac763ebaf, clickElement {id=f37d042f-e88a-4a09-81a7-071646fbda3f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57118}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57118/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (4b17fd30a16ad8d76c97a5fac763ebaf)] -> xpath: //span[contains(text(),'Privacy')]]
+Session ID: 4b17fd30a16ad8d76c97a5fac763ebaf
+	at saucedemotests.ClickFunctionality.clickPrivacyTest(ClickFunctionality.java:149)
+</failure>
+    <system-out><![CDATA[20:35:27.286 [main] INFO  saucedemotests.ClickFunctionality - UserName entered
+20:35:27.344 [main] INFO  saucedemotests.ClickFunctionality - Password entered
+20:35:32.434 [main] INFO  saucedemotests.ClickFunctionality - Login successful
+20:35:32.477 [main] INFO  saucedemotests.ClickFunctionality - Menu Bar click successful
+20:35:33.360 [main] INFO  saucedemotests.ClickFunctionality - About Side Bar click successful
+20:35:33.365 [main] INFO  saucedemotests.ClickFunctionality - Redirected to https://saucelabs.com/
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 49588
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 16, 2022 8:35:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 16, 2022 8:35:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 102, so returning the closest version found: 101
+Jun 16, 2022 8:35:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 102 of 101
+]]></system-err>
+  </testcase>
+  <testcase name="clickSignUpPrivacyPolicyTest" classname="saucedemotests.ClickFunctionality" time="18.807">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Privacy&apos;)]&quot;}&#10;  (Session info: chrome=102.0.5005.115)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;DESKTOP-DNJOJAA&apos;, ip: &apos;172.16.225.38&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [8b961800adaeb33a4b1fb74a9fe497dc, findElement {using=xpath, value=//span[contains(text(),&apos;Privacy&apos;)]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57217}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57217/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 8b961800adaeb33a4b1fb74a9fe497dc" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Privacy')]"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8b961800adaeb33a4b1fb74a9fe497dc, findElement {using=xpath, value=//span[contains(text(),'Privacy')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57217}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57217/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8b961800adaeb33a4b1fb74a9fe497dc
+	at saucedemotests.ClickFunctionality.clickSignUpPrivacyPolicyTest(ClickFunctionality.java:325)
+</failure>
+    <system-out><![CDATA[20:35:36.841 [main] INFO  saucedemotests.ClickFunctionality - UserName entered
+20:35:36.912 [main] INFO  saucedemotests.ClickFunctionality - Password entered
+20:35:42.005 [main] INFO  saucedemotests.ClickFunctionality - Login successful
+20:35:42.047 [main] INFO  saucedemotests.ClickFunctionality - Menu Bar click successful
+20:35:43.900 [main] INFO  saucedemotests.ClickFunctionality - About Side Bar click successful
+20:35:43.909 [main] INFO  saucedemotests.ClickFunctionality - Redirected to https://saucelabs.com/
+20:35:45.492 [main] INFO  saucedemotests.ClickFunctionality - Try it free click successful
+20:35:45.528 [main] INFO  saucedemotests.ClickFunctionality - Redirected to https://saucelabs.com/sign-up
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 53570
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 16, 2022 8:35:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 16, 2022 8:35:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 102, so returning the closest version found: 101
+Jun 16, 2022 8:35:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 102 of 101
+]]></system-err>
+  </testcase>
+  <testcase name="clickSignUpTermsAndConditionsTest" classname="saucedemotests.ClickFunctionality" time="23.36">
+    <failure message="Expected condition failed: waiting for url to be &quot;https://saucelabs.com/terms-of-service&quot;. Current url: &quot;https://saucelabs.com/sign-up&quot; (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;DESKTOP-DNJOJAA&apos;, ip: &apos;172.16.225.38&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57387/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: b3042e457fb3f68a4d217ce2c158f4cf" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for url to be "https://saucelabs.com/terms-of-service". Current url: "https://saucelabs.com/sign-up" (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57387/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b3042e457fb3f68a4d217ce2c158f4cf
+	at saucedemotests.ClickFunctionality.clickSignUpTermsAndConditionsTest(ClickFunctionality.java:294)
+</failure>
+    <system-out><![CDATA[20:35:58.028 [main] INFO  saucedemotests.ClickFunctionality - UserName entered
+20:35:58.186 [main] INFO  saucedemotests.ClickFunctionality - Password entered
+20:36:03.278 [main] INFO  saucedemotests.ClickFunctionality - Login successful
+20:36:03.324 [main] INFO  saucedemotests.ClickFunctionality - Menu Bar click successful
+20:36:04.231 [main] INFO  saucedemotests.ClickFunctionality - About Side Bar click successful
+20:36:04.242 [main] INFO  saucedemotests.ClickFunctionality - Redirected to https://saucelabs.com/
+20:36:05.641 [main] INFO  saucedemotests.ClickFunctionality - Try it free click successful
+20:36:05.693 [main] INFO  saucedemotests.ClickFunctionality - Redirected to https://saucelabs.com/
+20:36:05.777 [main] INFO  saucedemotests.ClickFunctionality - Terms and Conditions click successful
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 49236
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 16, 2022 8:35:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 16, 2022 8:35:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 102, so returning the closest version found: 101
+Jun 16, 2022 8:35:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 102 of 101
+]]></system-err>
+  </testcase>
+  <testcase name="clickSignUpWithEmailTest" classname="saucedemotests.ClickFunctionality" time="24.513">
+    <failure message="Expected condition failed: waiting for url to be &quot;https://saucelabs.com/register&quot;. Current url: &quot;https://saucelabs.com/sign-up/register&quot; (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;DESKTOP-DNJOJAA&apos;, ip: &apos;172.16.225.38&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57574}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57574/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d46e89b0fe8e1e249dc71c921b078f22" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for url to be "https://saucelabs.com/register". Current url: "https://saucelabs.com/sign-up/register" (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57574}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57574/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d46e89b0fe8e1e249dc71c921b078f22
+	at saucedemotests.ClickFunctionality.clickSignUpWithEmailTest(ClickFunctionality.java:361)
+</failure>
+    <system-out><![CDATA[20:36:23.560 [main] INFO  saucedemotests.ClickFunctionality - UserName entered
+20:36:23.617 [main] INFO  saucedemotests.ClickFunctionality - Password entered
+20:36:28.710 [main] INFO  saucedemotests.ClickFunctionality - Login successful
+20:36:28.756 [main] INFO  saucedemotests.ClickFunctionality - Menu Bar click successful
+20:36:30.685 [main] INFO  saucedemotests.ClickFunctionality - About Side Bar click successful
+20:36:30.693 [main] INFO  saucedemotests.ClickFunctionality - Redirected to https://saucelabs.com/
+20:36:32.096 [main] INFO  saucedemotests.ClickFunctionality - Try it free click successful
+20:36:32.124 [main] INFO  saucedemotests.ClickFunctionality - Redirected to https://saucelabs.com/sign-up
+20:36:32.499 [main] INFO  saucedemotests.ClickFunctionality - Sign up with email click successful
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 65203
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 16, 2022 8:36:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 16, 2022 8:36:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 102, so returning the closest version found: 101
+Jun 16, 2022 8:36:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 102 of 101
+]]></system-err>
+  </testcase>
+  <testcase name="clickTermsOfServiceTest" classname="saucedemotests.ClickFunctionality" time="7.979">
+    <failure message="element click intercepted: Element is not clickable at point (680, 5860)&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;DESKTOP-DNJOJAA&apos;, ip: &apos;172.16.225.38&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [add7decdda4835fbe6f678946f2a96a8, clickElement {id=b3eb000a-cefd-43ec-8147-610bf303015d}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57776}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57776/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (add7decdda4835fbe6f678946f2a96a8)] -&gt; xpath: //span[contains(text(),&apos;Terms of Service&apos;)]]&#10;Session ID: add7decdda4835fbe6f678946f2a96a8" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (680, 5860)
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [add7decdda4835fbe6f678946f2a96a8, clickElement {id=b3eb000a-cefd-43ec-8147-610bf303015d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57776}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57776/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (add7decdda4835fbe6f678946f2a96a8)] -> xpath: //span[contains(text(),'Terms of Service')]]
+Session ID: add7decdda4835fbe6f678946f2a96a8
+	at saucedemotests.ClickFunctionality.clickTermsOfServiceTest(ClickFunctionality.java:122)
+</failure>
+    <system-out><![CDATA[20:36:50.278 [main] INFO  saucedemotests.ClickFunctionality - UserName entered
+20:36:50.341 [main] INFO  saucedemotests.ClickFunctionality - Password entered
+20:36:55.437 [main] INFO  saucedemotests.ClickFunctionality - Login successful
+20:36:55.481 [main] INFO  saucedemotests.ClickFunctionality - Menu Bar click successful
+20:36:57.018 [main] INFO  saucedemotests.ClickFunctionality - About Side Bar click successful
+20:36:57.025 [main] INFO  saucedemotests.ClickFunctionality - Redirected to https://saucelabs.com/
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 50576
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 16, 2022 8:36:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 16, 2022 8:36:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 102, so returning the closest version found: 101
+Jun 16, 2022 8:36:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 102 of 101
+]]></system-err>
+  </testcase>
+  <testcase name="clickTestAutomationTest" classname="saucedemotests.ClickFunctionality" time="8.324">
+    <failure message="element click intercepted: Element is not clickable at point (760, 1055)&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;DESKTOP-DNJOJAA&apos;, ip: &apos;172.16.225.38&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [1f28ed26b72fb78f2945fc0b574e8e33, clickElement {id=25ba48f2-ca2f-4504-a592-e8734cbbef9b}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57880}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57880/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (1f28ed26b72fb78f2945fc0b574e8e33)] -&gt; xpath: //h2[contains(text(),&apos;Test Automation&apos;)]]&#10;Session ID: 1f28ed26b72fb78f2945fc0b574e8e33" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (760, 1055)
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1f28ed26b72fb78f2945fc0b574e8e33, clickElement {id=25ba48f2-ca2f-4504-a592-e8734cbbef9b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57880}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57880/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (1f28ed26b72fb78f2945fc0b574e8e33)] -> xpath: //h2[contains(text(),'Test Automation')]]
+Session ID: 1f28ed26b72fb78f2945fc0b574e8e33
+	at saucedemotests.ClickFunctionality.clickTestAutomationTest(ClickFunctionality.java:95)
+</failure>
+    <system-out><![CDATA[20:37:00.715 [main] INFO  saucedemotests.ClickFunctionality - UserName entered
+20:37:00.775 [main] INFO  saucedemotests.ClickFunctionality - Password entered
+20:37:05.863 [main] INFO  saucedemotests.ClickFunctionality - Login successful
+20:37:05.906 [main] INFO  saucedemotests.ClickFunctionality - Menu Bar click successful
+20:37:07.802 [main] INFO  saucedemotests.ClickFunctionality - About Side Bar click successful
+20:37:07.810 [main] INFO  saucedemotests.ClickFunctionality - Redirected to https://saucelabs.com/
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 63288
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 16, 2022 8:37:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 16, 2022 8:37:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 102, so returning the closest version found: 101
+Jun 16, 2022 8:37:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 102 of 101
+]]></system-err>
+  </testcase>
+  <testcase name="clickTryItFreeTest" classname="saucedemotests.ClickFunctionality" time="9.483"/>
+  <testcase name="clickVisualTestingTest" classname="saucedemotests.ClickFunctionality" time="8.566">
+    <failure message="element click intercepted: Element is not clickable at point (289, 1076)&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;DESKTOP-DNJOJAA&apos;, ip: &apos;172.16.225.38&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [a2ee0044b7c1ca63f442780b24c5eeb2, clickElement {id=42025472-cce1-4098-8fdd-ab0819a89491}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58127}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58127/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (a2ee0044b7c1ca63f442780b24c5eeb2)] -&gt; xpath: //body/div[@id=&apos;template__page&apos;]/div[1]/section[2]/div[1]/div[2]/div[7]/a[1]]&#10;Session ID: a2ee0044b7c1ca63f442780b24c5eeb2" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (289, 1076)
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a2ee0044b7c1ca63f442780b24c5eeb2, clickElement {id=42025472-cce1-4098-8fdd-ab0819a89491}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58127}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58127/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a2ee0044b7c1ca63f442780b24c5eeb2)] -> xpath: //body/div[@id='template__page']/div[1]/section[2]/div[1]/div[2]/div[7]/a[1]]
+Session ID: a2ee0044b7c1ca63f442780b24c5eeb2
+	at saucedemotests.ClickFunctionality.clickVisualTestingTest(ClickFunctionality.java:39)
+</failure>
+    <system-out><![CDATA[20:37:22.966 [main] INFO  saucedemotests.ClickFunctionality - UserName entered
+20:37:23.024 [main] INFO  saucedemotests.ClickFunctionality - Password entered
+20:37:28.119 [main] INFO  saucedemotests.ClickFunctionality - Login successful
+20:37:28.161 [main] INFO  saucedemotests.ClickFunctionality - Menu Bar click successful
+20:37:30.282 [main] INFO  saucedemotests.ClickFunctionality - Menu Bar click successful
+20:37:30.290 [main] INFO  saucedemotests.ClickFunctionality - Redirected to https://saucelabs.com/
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 64603
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 16, 2022 8:37:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 16, 2022 8:37:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 102, so returning the closest version found: 101
+Jun 16, 2022 8:37:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 102 of 101
+]]></system-err>
+  </testcase>
+  <testcase name="dragDownAtoZTest" classname="saucedemotests.DropDown" time="0.363"/>
+  <testcase name="dragDownHightoLowTest" classname="saucedemotests.DropDown" time="0.393"/>
+  <testcase name="dragDownLowtoHighTest" classname="saucedemotests.DropDown" time="0.39"/>
+  <testcase name="dragDownZtoATest" classname="saucedemotests.DropDown" time="0.34"/>
+  <testcase name="hoverOverAPITestingAndClickTest" classname="saucedemotests.HoverOver" time="7.325">
+    <failure message="move target out of bounds&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;DESKTOP-DNJOJAA&apos;, ip: &apos;172.16.225.38&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [c89e172ae5a043d6fab5e9f9132e35a8, actions {actions=[org.openqa.selenium.interactions.Sequence@75adb1c0]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58324}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58324/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c89e172ae5a043d6fab5e9f9132e35a8" type="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: 
+move target out of bounds
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c89e172ae5a043d6fab5e9f9132e35a8, actions {actions=[org.openqa.selenium.interactions.Sequence@75adb1c0]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58324}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58324/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c89e172ae5a043d6fab5e9f9132e35a8
+	at saucedemotests.HoverOver.hoverOverAPITestingAndClickTest(HoverOver.java:296)
+</failure>
+    <system-out><![CDATA[20:37:44.182 [main] INFO  saucedemotests.HoverOver - UserName entered
+20:37:44.240 [main] INFO  saucedemotests.HoverOver - Password entered
+20:37:49.333 [main] INFO  saucedemotests.HoverOver - Login successful
+20:37:49.376 [main] INFO  saucedemotests.HoverOver - Menu Bar click successful
+20:37:51.127 [main] INFO  saucedemotests.HoverOver - About Side Bar click successful
+20:37:51.133 [main] INFO  saucedemotests.HoverOver - Redirected to https://saucelabs.com/
+20:37:51.381 [main] INFO  saucedemotests.HoverOver - Visibility of Platform dropdown options is present
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 61736
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 16, 2022 8:37:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 16, 2022 8:37:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 102, so returning the closest version found: 101
+Jun 16, 2022 8:37:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 102 of 101
+]]></system-err>
+  </testcase>
+  <testcase name="hoverOverCompanyTest" classname="saucedemotests.HoverOver" time="7.501"/>
+  <testcase name="hoverOverContactTest" classname="saucedemotests.HoverOver" time="15.309">
+    <failure message="element not interactable&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;DESKTOP-DNJOJAA&apos;, ip: &apos;172.16.225.38&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [a611ace94399e26db172d65c24df556a, clickElement {id=ce68f42d-bf4d-45b3-991e-7fd31f295842}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58529}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58529/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (a611ace94399e26db172d65c24df556a)] -&gt; css selector: #about_sidebar_link]&#10;Session ID: a611ace94399e26db172d65c24df556a" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a611ace94399e26db172d65c24df556a, clickElement {id=ce68f42d-bf4d-45b3-991e-7fd31f295842}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58529}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58529/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a611ace94399e26db172d65c24df556a)] -> css selector: #about_sidebar_link]
+Session ID: a611ace94399e26db172d65c24df556a
+	at saucedemotests.HoverOver.hoverOverContactTest(HoverOver.java:137)
+</failure>
+    <system-out><![CDATA[20:38:03.404 [main] INFO  saucedemotests.HoverOver - UserName entered
+20:38:03.460 [main] INFO  saucedemotests.HoverOver - Password entered
+20:38:08.552 [main] INFO  saucedemotests.HoverOver - Login successful
+20:38:08.554 [main] INFO  saucedemotests.HoverOver - Menu Bar click successful
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 50674
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 16, 2022 8:38:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 16, 2022 8:38:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 102, so returning the closest version found: 101
+Jun 16, 2022 8:38:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 102 of 101
+]]></system-err>
+  </testcase>
+  <testcase name="hoverOverCrossBrowserTestingAndClickTest" classname="saucedemotests.HoverOver" time="7.738"/>
+  <testcase name="hoverOverLowCodeTestingAndClickTest" classname="saucedemotests.HoverOver" time="7.823"/>
+  <testcase name="hoverOverMobileTestingTest" classname="saucedemotests.HoverOver" time="9.968"/>
+  <testcase name="hoverOverPlatformTest" classname="saucedemotests.HoverOver" time="7.55"/>
+  <testcase name="hoverOverPricingTest" classname="saucedemotests.HoverOver" time="9.232"/>
+  <testcase name="hoverOverResourcesTest" classname="saucedemotests.HoverOver" time="7.098"/>
+  <testcase name="hoverOverSolutionsTest" classname="saucedemotests.HoverOver" time="6.319"/>
+  <testcase name="facebookIconTest" classname="saucedemotests.Icons" time="5.353"/>
+  <testcase name="linkedInIconTest" classname="saucedemotests.Icons" time="5.465"/>
+  <testcase name="twitterIconTest" classname="saucedemotests.Icons" time="5.34"/>
+  <testcase name="invalidLogInTest" classname="saucedemotests.Login" time="0.235"/>
+  <testcase name="logInTest" classname="saucedemotests.Login" time="0.278"/>
+  <testcase name="validateLogInButton" classname="saucedemotests.Login" time="0.029"/>
+  <testcase name="menuBarAboutTest" classname="saucedemotests.MenuBar" time="2.746"/>
+  <testcase name="menuBarAllItemsTest" classname="saucedemotests.MenuBar" time="0.658"/>
+  <testcase name="menuBarLogoutTest" classname="saucedemotests.MenuBar" time="0.587"/>
+  <testcase name="playVideoTest" classname="saucedemotests.PlayVideo" time="8.421">
+    <failure message="element click intercepted: Element is not clickable at point (232, 653)&#10;  (Session info: chrome=102.0.5005.115)&#10;Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;&#10;System info: host: &apos;DESKTOP-DNJOJAA&apos;, ip: &apos;172.16.225.38&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [49fc0df6fb5c9bef7618dbfe24380ba0, clickElement {id=ba8d5332-e9e5-427e-90dc-cea18397d189}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59643}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59643/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (49fc0df6fb5c9bef7618dbfe24380ba0)] -&gt; xpath: //body/div[@id=&apos;template__page&apos;]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/a[1]]&#10;Session ID: 49fc0df6fb5c9bef7618dbfe24380ba0" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (232, 653)
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [49fc0df6fb5c9bef7618dbfe24380ba0, clickElement {id=ba8d5332-e9e5-427e-90dc-cea18397d189}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59643}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59643/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (49fc0df6fb5c9bef7618dbfe24380ba0)] -> xpath: //body/div[@id='template__page']/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/a[1]]
+Session ID: 49fc0df6fb5c9bef7618dbfe24380ba0
+	at saucedemotests.PlayVideo.playVideoTest(PlayVideo.java:34)
+</failure>
+    <system-out><![CDATA[20:40:12.305 [main] INFO  saucedemotests.PlayVideo - UserName entered
+20:40:12.360 [main] INFO  saucedemotests.PlayVideo - Password entered
+20:40:17.451 [main] INFO  saucedemotests.PlayVideo - Login successful
+20:40:17.492 [main] INFO  saucedemotests.PlayVideo - Menu Bar click successful
+20:40:19.431 [main] INFO  saucedemotests.PlayVideo - About Side Bar click successful
+20:40:19.439 [main] INFO  saucedemotests.PlayVideo - Redirected to https://saucelabs.com/
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 59783
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 16, 2022 8:40:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 16, 2022 8:40:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 102, so returning the closest version found: 101
+Jun 16, 2022 8:40:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 102 of 101
+]]></system-err>
+  </testcase>
+  <testcase name="menuBarLogoutTest" classname="saucedemotests.ResetAddToCart" time="10.757"/>
+  <testcase name="searchBarTest" classname="saucedemotests.SearchBar" time="9.767"/>
+  <testcase name="deleteCustomerTest" classname="globalsqatests.DeleteButton" time="0.755"/>
+  <testcase name="resetButtonTest" classname="globalsqatests.ResetButton" time="0.939"/>
+  <testcase name="backButtonTest" classname="globalsqatests.BackButton" time="0.986"/>
+  <testcase name="accountNumberDropDownTest" classname="globalsqatests.AccountNumberDropDown" time="0.791"/>
+  <testcase name="transactionsButton" classname="globalsqatests.TransactionsButton" time="0.95"/>
+  <testcase name="searchCustomerTest" classname="globalsqatests.SearchCustomer" time="0.7"/>
+  <testcase name="addCustomerTest" classname="globalsqatests.AddCustomer" time="0.859"/>
+  <testcase name="withdrawlButtonTest" classname="globalsqatests.WithdrawlButton" time="1.093"/>
+  <testcase name="depositButtonTest" classname="globalsqatests.DepositButton" time="1.016"/>
+  <testcase name="openAccountTest" classname="globalsqatests.OpenAccount" time="0.795"/>
+  <testcase name="harryPotterLoginTest" classname="globalsqatests.UserLogin" time="0.722"/>
+  <testcase name="ronWeaslyLoginTest" classname="globalsqatests.UserLogin" time="0.724"/>
+  <testcase name="logOutTest" classname="globalsqatests.LogoutButton" time="6.565"/>
+  <testcase name="bankManagerHomeButtonTest" classname="globalsqatests.HomeButton" time="0.654"/>
+  <testcase name="customerHomeButtonTest" classname="globalsqatests.HomeButton" time="0.63"/>
+  <testcase name="customerLoginButtonTest" classname="globalsqatests.CustomerLoginButton" time="3.284"/>
+  <testcase name="bankManagerLoginButtonTest" classname="globalsqatests.BankManagerLoginButton" time="3.286"/>
 </testsuite>

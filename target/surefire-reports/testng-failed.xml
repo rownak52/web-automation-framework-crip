@@ -1,37 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [CRIP Automation Script]">
-  <test thread-count="5" verbose="0" name="com.GlobalSQA Tests(failed)">
+<suite name="Failed suite [CRIP Automation Script]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="com.SauceDemo Tests(failed)" verbose="0">
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="os" value="windows"/>
     <parameter name="osVersion" value="11"/>
     <parameter name="envName" value="browserstack"/>
     <parameter name="browserVersion" value="102"/>
     <parameter name="browserName" value="chrome"/>
-    <parameter name="url" value="https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login"/>
+    <parameter name="url" value="http://saucedemo.com/"/>
     <classes>
-      <class name="globalsqatests.BackButton">
+      <class name="saucedemotests.HoverOver">
         <methods>
+          <include name="hoverOverContactTest"/>
+          <include name="hoverOverAPITestingAndClickTest"/>
           <include name="afterEachTestMethod"/>
           <include name="tearDown"/>
           <include name="generateReport"/>
           <include name="extentSetup"/>
           <include name="setUp"/>
-          <include name="backButtonTest"/>
           <include name="startExtent"/>
         </methods>
-      </class> <!-- globalsqatests.BackButton -->
-      <class name="globalsqatests.AccountNumberDropDown">
+      </class> <!-- saucedemotests.HoverOver -->
+      <class name="saucedemotests.PlayVideo">
         <methods>
           <include name="afterEachTestMethod"/>
           <include name="tearDown"/>
+          <include name="playVideoTest"/>
           <include name="generateReport"/>
           <include name="extentSetup"/>
           <include name="setUp"/>
-          <include name="accountNumberDropDownTest"/>
           <include name="startExtent"/>
         </methods>
-      </class> <!-- globalsqatests.AccountNumberDropDown -->
+      </class> <!-- saucedemotests.PlayVideo -->
+      <class name="saucedemotests.ClickFunctionality">
+        <methods>
+          <include name="clickSignUpTermsAndConditionsTest"/>
+          <include name="clickPrivacyTest"/>
+          <include name="afterEachTestMethod"/>
+          <include name="extentSetup"/>
+          <include name="clickCCPATest"/>
+          <include name="clickSignUpWithEmailTest"/>
+          <include name="startExtent"/>
+          <include name="clickVisualTestingTest"/>
+          <include name="clickErrorReportingTest"/>
+          <include name="clickTestAutomationTest"/>
+          <include name="clickSignUpPrivacyPolicyTest"/>
+          <include name="tearDown"/>
+          <include name="clickTermsOfServiceTest"/>
+          <include name="clickCookiesSettingAndConfirmTest"/>
+          <include name="generateReport"/>
+          <include name="setUp"/>
+          <include name="clickEEATest"/>
+        </methods>
+      </class> <!-- saucedemotests.ClickFunctionality -->
     </classes>
-  </test> <!-- com.GlobalSQA Tests(failed) -->
+  </test> <!-- com.SauceDemo Tests(failed) -->
 </suite> <!-- Failed suite [CRIP Automation Script] -->

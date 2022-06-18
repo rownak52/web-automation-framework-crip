@@ -10,6 +10,7 @@
     </appender>
 
     <logger name ="globalsqatests" />
+    <logger name ="saucedemotests" />
 
     <root level="INFO">
         <appender-ref ref="CONSOLE"/>

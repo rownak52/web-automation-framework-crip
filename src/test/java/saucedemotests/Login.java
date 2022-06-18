@@ -1,36 +1,125 @@
 package saucedemotests;
 
 import base.CommonAPI;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import saucedemopages.LoginPage;
 
 public class Login extends CommonAPI {
 
+    private final Logger LOG = LoggerFactory.getLogger(Login.class);
     @Test
-    public void logInTest() {
+    public void standardUserLoginTest() {
         LoginPage logIn = new LoginPage(getDriver());
         logIn.enterUserName("standard_user");
+        LOG.info("UserName entered");
         logIn.enterPassword("secret_sauce");
+        LOG.info("Password entered");
         logIn.clickLogInButton();
+        LOG.info("Login successful");
         String expectedUrlLink = "https://www.saucedemo.com/inventory.html";
         Assert.assertEquals(expectedUrlLink, getUrlLink());
+        LOG.info("Redirected to https://saucedemo.com/inventory.html");
+
     }
 
     @Test
-    public void invalidLogInTest() {
+    public void lockedOutUserLoginTest() {
         LoginPage logIn = new LoginPage(getDriver());
-        logIn.enterUserName("standard_user");
-        logIn.enterPassword("secret_sauce!");
+        logIn.enterUserName("locked_out_user");
+        LOG.info("UserName entered");
+        logIn.enterPassword("secret_sauce");
+        LOG.info("Password entered");
         logIn.clickLogInButton();
+        LOG.info("Login unsuccessful: Sorry, this user has been locked out.");
+        String expectedError = "Epic sadface: Sorry, this user has been locked out.";
+        Assert.assertEquals(expectedError, getElementText("h3"));
+    }
+    @Test
+    public void problemUserLoginTest() {
+        LoginPage logIn = new LoginPage(getDriver());
+        logIn.enterUserName("problem_user");
+        LOG.info("UserName entered");
+        logIn.enterPassword("secret_sauce");
+        LOG.info("Password entered");
+        logIn.clickLogInButton();
+        LOG.info("Login successful");
+        String expectedUrlLink = "https://www.saucedemo.com/inventory.html";
+        Assert.assertEquals(expectedUrlLink, getUrlLink());
+        LOG.info("Redirected to https://saucedemo.com/inventory.html");
+    }
+
+    @Test
+    public void performanceGlitchUserLoginTest() {
+        LoginPage logIn = new LoginPage(getDriver());
+        logIn.enterUserName("performance_glitch_user");
+        LOG.info("UserName entered");
+        logIn.enterPassword("secret_sauce");
+        LOG.info("Password entered");
+        logIn.clickLogInButton();
+        LOG.info("Login successful");
+        String expectedUrlLink = "https://www.saucedemo.com/inventory.html";
+        Assert.assertEquals(expectedUrlLink, getUrlLink());
+        LOG.info("Redirected to https://saucedemo.com/inventory.html");
+
+    }
+
+    @Test
+    public void invalidLoginWithPerformanceGlitchUserTest() {
+        LoginPage logIn = new LoginPage(getDriver());
+        logIn.enterUserName("performance_glitch_user");
+        LOG.info("Valid UserName entered");
+        logIn.enterPassword("secret_sauce!");
+        LOG.info("Invalid Password entered");
+        logIn.clickLogInButton();
+        LOG.info("Login unsuccessful: Username and password do not match any user in this service");
         String expectedError = "Epic sadface: Username and password do not match any user in this service";
         Assert.assertEquals(expectedError, getElementText("h3"));
     }
 
     @Test
-    public void validateLogInButton() {
+    public void invalidLoginWithProblemUserTest() {
+        LoginPage logIn = new LoginPage(getDriver());
+        logIn.enterUserName("problem_user");
+        LOG.info("Valid UserName entered");
+        logIn.enterPassword("secret_sauce!");
+        LOG.info("Invalid Password entered");
+        logIn.clickLogInButton();
+        LOG.info("Login unsuccessful: Username and password do not match any user in this service");
+        String expectedError = "Epic sadface: Username and password do not match any user in this service";
+        Assert.assertEquals(expectedError, getElementText("h3"));
+    }
+
+    @Test
+    public void invalidLoginWithStandardUserTest() {
+        LoginPage logIn = new LoginPage(getDriver());
+        logIn.enterUserName("standard_user");
+        LOG.info("Valid UserName entered");
+        logIn.enterPassword("secret_sauce!");
+        LOG.info("Invalid Password entered");
+        logIn.clickLogInButton();
+        LOG.info("Login unsuccessful: Username and password do not match any user in this service");
+        String expectedError = "Epic sadface: Username and password do not match any user in this service";
+        Assert.assertEquals(expectedError, getElementText("h3"));
+    }
+
+    @Test
+    public void validateLoginButtonTest() {
         LoginPage logIn = new LoginPage(getDriver());
         Assert.assertTrue(logIn.checkLogInButton());
+        LOG.info("Login button is present");
+    }
+
+    @Test
+    public void validateLoginButtonWithNoCredentialsTest() {
+        LoginPage logIn = new LoginPage(getDriver());
+        logIn.clickLogInButton();
+        LOG.info("Login button click successful");
+        LOG.info("Login unsuccessful: Username is required");
+        String expectedError = "Epic sadface: Username is required";
+        Assert.assertEquals(expectedError, getElementText("h3"));
     }
 
 

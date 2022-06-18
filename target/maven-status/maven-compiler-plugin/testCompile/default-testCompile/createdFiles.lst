@@ -1,4 +1,5 @@
 saucedemotests\DropDown.class
+saucedemotests\Icons.class
 globalsqatests\DeleteButton.class
 globalsqatests\DepositButton.class
 saucedemotests\CheckOut.class
@@ -17,6 +18,8 @@ globalsqatests\OpenAccount.class
 globalsqatests\AccountNumberDropDown.class
 uitaptests\VerifyOpeningLinks.class
 globalsqatests\HomeButton.class
+saucedemotests\ClickFunctionality.class
 globalsqatests\CustomerLoginButton.class
 globalsqatests\TransactionsButton.class
+saucedemotests\PlayVideo.class
 globalsqatests\BackButton.class

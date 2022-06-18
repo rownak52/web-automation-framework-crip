@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
 
 public class CustomerPage extends CommonAPI {
 
-    private final Logger LOG = LoggerFactory.getLogger(CustomerPage.class);
+//    private final Logger LOG = LoggerFactory.getLogger(CustomerPage.class);
     @FindBy(xpath = "//button[contains(text(),'Customer Login')]")
     private WebElement customerLoginButton;
 
@@ -72,7 +72,7 @@ public class CustomerPage extends CommonAPI {
         }catch(Exception e){
             select.selectByValue(option);
         }
-        LOG.info(option + " is selected");
+
     }
 
     public void selectOptionFromAccountNumberDropDown(String option) {
@@ -82,7 +82,7 @@ public class CustomerPage extends CommonAPI {
         }catch(Exception e){
             select.selectByValue(option);
         }
-        LOG.info(option + " account number is selected");
+
     }
     public void clickCustomerLoginButton(){
         click(customerLoginButton);
@@ -100,7 +100,7 @@ public class CustomerPage extends CommonAPI {
         click(logoutButton);
     }
 
-    public void clickTransactionsTab(){
+    public void clickTransactionsButton(){
         click(transactionsButton);
     }
 
@@ -119,7 +119,6 @@ public class CustomerPage extends CommonAPI {
 
     public void typeDepositAmount(String amount){
         type(depositTextBox, amount);
-        LOG.info(amount + " deposit input successful");
     }
 
     public void confirmDepositAmount(){
@@ -129,7 +128,7 @@ public class CustomerPage extends CommonAPI {
 
     public void typeWithdrawlAmount(String amount){
         type(withdrawlTextBox, amount);
-        LOG.info(amount + " withdrawl input successful");
+
     }
 
     public void confirmWithdrawlAmount(){
@@ -148,7 +147,7 @@ public class CustomerPage extends CommonAPI {
         return checkEnabled(bankManagerLoginButton);
     }
 
-    public boolean checkIfAccountNumberIsSelected(){ return checkDisplayed(expectedAccountNumber); }
+    public boolean checkIfAccountNumberIsSelected(){ return checkDisplayed(accountNumberDropDownOptions); }
 
     public void clickResetButton(){
         click(resetButton);

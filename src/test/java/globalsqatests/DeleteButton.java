@@ -14,10 +14,12 @@ public class DeleteButton extends CommonAPI {
     public void deleteCustomerTest(){
         BankManagerPage bankManager = new BankManagerPage(getDriver());
         bankManager.clickBankManagerLoginButton();
-        LOG.info("Bank Manager Login click successful");
-        bankManager.clickCustomersTab();
-        LOG.info("Customers tab click successful");
+        LOG.info("Bank Manager login button click successful");
+        LOG.info("Login successful");
+        bankManager.clickCustomersButton();
+        LOG.info("Customers button click successful");
         Assert.assertTrue(bankManager.checkIfDeleteButtonIsEnabled());
+        LOG.info("Navigate to Customers List page successful");
         bankManager.clickDeleteButton();
         LOG.info("Delete button click success");
         LOG.info("Albus Dumbledore is deleted");

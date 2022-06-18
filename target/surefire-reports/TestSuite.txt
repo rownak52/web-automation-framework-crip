@@ -1,4 +1,179 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 263.708 s - in TestSuite
+Tests run: 64, Failures: 14, Errors: 0, Skipped: 0, Time elapsed: 454.984 s <<< FAILURE! - in TestSuite
+clickCCPATest(saucedemotests.ClickFunctionality)  Time elapsed: 7.486 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (800, 5860)
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f42b4ee4e343eb8c8fbb7f3d0bafb427, clickElement {id=ed0febd8-3012-4221-804c-47afdc54f5e9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56691}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56691/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f42b4ee4e343eb8c8fbb7f3d0bafb427)] -> xpath: //span[contains(text(),'CCPA')]]
+Session ID: f42b4ee4e343eb8c8fbb7f3d0bafb427
+	at saucedemotests.ClickFunctionality.clickCCPATest(ClickFunctionality.java:204)
+
+clickCookiesSettingAndConfirmTest(saucedemotests.ClickFunctionality)  Time elapsed: 8.493 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (873, 5860)
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [856c4694a7cb07dd2eca23d626ba2756, clickElement {id=dc9e5801-9ded-4b58-a582-c4121c5d2cdb}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56792}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56792/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (856c4694a7cb07dd2eca23d626ba2756)] -> xpath: //a[contains(text(),'Cookies Settings')]]
+Session ID: 856c4694a7cb07dd2eca23d626ba2756
+	at saucedemotests.ClickFunctionality.clickCookiesSettingAndConfirmTest(ClickFunctionality.java:231)
+
+clickEEATest(saucedemotests.ClickFunctionality)  Time elapsed: 8.171 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (752, 5860)
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1fd59138eac8b30c78c5ec3409d3c3fd, clickElement {id=937c514f-aedb-41e7-a0b6-c66eef75981a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56900}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56900/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (1fd59138eac8b30c78c5ec3409d3c3fd)] -> xpath: //body/div[4]/div[1]/div[1]/div[2]/ul[1]/li[3]/a[1]]
+Session ID: 1fd59138eac8b30c78c5ec3409d3c3fd
+	at saucedemotests.ClickFunctionality.clickEEATest(ClickFunctionality.java:176)
+
+clickErrorReportingTest(saucedemotests.ClickFunctionality)  Time elapsed: 8.332 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (553, 868)
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2aca2bffb5cd4decf96ba431ba5a79fb, clickElement {id=006fb052-7d26-446e-826d-7c477b053f0f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57008/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (2aca2bffb5cd4decf96ba431ba5a79fb)] -> xpath: //body/div[@id='template__page']/div[1]/section[2]/div[1]/div[2]/div[4]/a[1]/div[1]/div[1]/div[1]/picture[1]/img[1]]
+Session ID: 2aca2bffb5cd4decf96ba431ba5a79fb
+	at saucedemotests.ClickFunctionality.clickErrorReportingTest(ClickFunctionality.java:68)
+
+clickPrivacyTest(saucedemotests.ClickFunctionality)  Time elapsed: 7.276 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (603, 5860)
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4b17fd30a16ad8d76c97a5fac763ebaf, clickElement {id=f37d042f-e88a-4a09-81a7-071646fbda3f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57118}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57118/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (4b17fd30a16ad8d76c97a5fac763ebaf)] -> xpath: //span[contains(text(),'Privacy')]]
+Session ID: 4b17fd30a16ad8d76c97a5fac763ebaf
+	at saucedemotests.ClickFunctionality.clickPrivacyTest(ClickFunctionality.java:149)
+
+clickSignUpPrivacyPolicyTest(saucedemotests.ClickFunctionality)  Time elapsed: 18.807 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Privacy')]"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8b961800adaeb33a4b1fb74a9fe497dc, findElement {using=xpath, value=//span[contains(text(),'Privacy')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57217}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57217/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8b961800adaeb33a4b1fb74a9fe497dc
+	at saucedemotests.ClickFunctionality.clickSignUpPrivacyPolicyTest(ClickFunctionality.java:325)
+
+clickSignUpTermsAndConditionsTest(saucedemotests.ClickFunctionality)  Time elapsed: 23.36 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for url to be "https://saucelabs.com/terms-of-service". Current url: "https://saucelabs.com/sign-up" (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57387/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b3042e457fb3f68a4d217ce2c158f4cf
+	at saucedemotests.ClickFunctionality.clickSignUpTermsAndConditionsTest(ClickFunctionality.java:294)
+
+clickSignUpWithEmailTest(saucedemotests.ClickFunctionality)  Time elapsed: 24.513 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for url to be "https://saucelabs.com/register". Current url: "https://saucelabs.com/sign-up/register" (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57574}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57574/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d46e89b0fe8e1e249dc71c921b078f22
+	at saucedemotests.ClickFunctionality.clickSignUpWithEmailTest(ClickFunctionality.java:361)
+
+clickTermsOfServiceTest(saucedemotests.ClickFunctionality)  Time elapsed: 7.979 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (680, 5860)
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [add7decdda4835fbe6f678946f2a96a8, clickElement {id=b3eb000a-cefd-43ec-8147-610bf303015d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57776}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57776/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (add7decdda4835fbe6f678946f2a96a8)] -> xpath: //span[contains(text(),'Terms of Service')]]
+Session ID: add7decdda4835fbe6f678946f2a96a8
+	at saucedemotests.ClickFunctionality.clickTermsOfServiceTest(ClickFunctionality.java:122)
+
+clickTestAutomationTest(saucedemotests.ClickFunctionality)  Time elapsed: 8.324 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (760, 1055)
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1f28ed26b72fb78f2945fc0b574e8e33, clickElement {id=25ba48f2-ca2f-4504-a592-e8734cbbef9b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57880}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57880/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (1f28ed26b72fb78f2945fc0b574e8e33)] -> xpath: //h2[contains(text(),'Test Automation')]]
+Session ID: 1f28ed26b72fb78f2945fc0b574e8e33
+	at saucedemotests.ClickFunctionality.clickTestAutomationTest(ClickFunctionality.java:95)
+
+clickVisualTestingTest(saucedemotests.ClickFunctionality)  Time elapsed: 8.566 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (289, 1076)
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a2ee0044b7c1ca63f442780b24c5eeb2, clickElement {id=42025472-cce1-4098-8fdd-ab0819a89491}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58127}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58127/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a2ee0044b7c1ca63f442780b24c5eeb2)] -> xpath: //body/div[@id='template__page']/div[1]/section[2]/div[1]/div[2]/div[7]/a[1]]
+Session ID: a2ee0044b7c1ca63f442780b24c5eeb2
+	at saucedemotests.ClickFunctionality.clickVisualTestingTest(ClickFunctionality.java:39)
+
+hoverOverAPITestingAndClickTest(saucedemotests.HoverOver)  Time elapsed: 7.325 s  <<< FAILURE!
+org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: 
+move target out of bounds
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c89e172ae5a043d6fab5e9f9132e35a8, actions {actions=[org.openqa.selenium.interactions.Sequence@75adb1c0]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58324}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58324/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c89e172ae5a043d6fab5e9f9132e35a8
+	at saucedemotests.HoverOver.hoverOverAPITestingAndClickTest(HoverOver.java:296)
+
+hoverOverContactTest(saucedemotests.HoverOver)  Time elapsed: 15.309 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a611ace94399e26db172d65c24df556a, clickElement {id=ce68f42d-bf4d-45b3-991e-7fd31f295842}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58529}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58529/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a611ace94399e26db172d65c24df556a)] -> css selector: #about_sidebar_link]
+Session ID: a611ace94399e26db172d65c24df556a
+	at saucedemotests.HoverOver.hoverOverContactTest(HoverOver.java:137)
+
+playVideoTest(saucedemotests.PlayVideo)  Time elapsed: 8.421 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (232, 653)
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.225.38', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [49fc0df6fb5c9bef7618dbfe24380ba0, clickElement {id=ba8d5332-e9e5-427e-90dc-cea18397d189}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59643}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59643/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (49fc0df6fb5c9bef7618dbfe24380ba0)] -> xpath: //body/div[@id='template__page']/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/a[1]]
+Session ID: 49fc0df6fb5c9bef7618dbfe24380ba0
+	at saucedemotests.PlayVideo.playVideoTest(PlayVideo.java:34)
+

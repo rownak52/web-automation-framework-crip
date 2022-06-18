@@ -14,14 +14,16 @@ public class ResetButton extends CommonAPI {
     public void resetButtonTest(){
         CustomerPage customer = new CustomerPage(getDriver());
         customer.clickCustomerLoginButton();
-        LOG.info("Customer Login Button click successful");
+        LOG.info("Customer login button click successful");
         customer.selectOptionFromCustomerDropDown("Hermoine Granger");
+        LOG.info("Hermoine Granger account is selected");
         customer.clickLoginButton();
         LOG.info("Login successful");
-        customer.clickTransactionsTab();
-        LOG.info("Transactions tab click successful");
+        customer.clickTransactionsButton();
+        LOG.info("Transactions button click successful");
+        LOG.info("Navigate to Transactions page successful");
         customer.clickResetButton();
-        LOG.info("Reset click successful");
+        LOG.info("Reset button click successful");
         Assert.assertTrue(customer.checkResetButton());
         LOG.info("Customer data is reset");
     }

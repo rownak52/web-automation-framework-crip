@@ -16,8 +16,9 @@ public class BankManagerLoginButton extends CommonAPI {
         BankManagerPage bankManager = new BankManagerPage(getDriver());
         bankManager.clickBankManagerLoginButton();
         waitFor(3);
-        LOG.info("Bank Manager Login click successful");
+        LOG.info("Bank Manager login button click successful");
         String expectedUrl = "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager";
         Assert.assertEquals(expectedUrl, getUrlLink());
+        LOG.info("Login successful");
     }
 }
