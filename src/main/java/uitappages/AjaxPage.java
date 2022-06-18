@@ -5,6 +5,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class AjaxPage extends CommonAPI {
 
@@ -20,6 +24,10 @@ public class AjaxPage extends CommonAPI {
     @FindBy(css = "#ajaxButton")
     private WebElement ajaxButton;
 
+    @FindBy (css = "body:nth-child(2) section:nth-child(2) div.container div:nth-child(8) > p.bg-success")
+    private WebElement ajaxText;
+
+
     public AjaxPage(WebDriver driver){
         PageFactory.initElements(driver, this);
     }
@@ -31,6 +39,8 @@ public class AjaxPage extends CommonAPI {
         click(resources);
     }
     public void clickAjaxButton(){ click(ajaxButton); }
-
+    public boolean checkAjaxTxt(){
+        return checkDisplayed(ajaxText);
+    }
 
 }

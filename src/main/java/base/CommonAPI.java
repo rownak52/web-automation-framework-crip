@@ -242,8 +242,6 @@ public class CommonAPI {
         return select.getOptions();
     }
 
-
-
     public void hoverOver(WebElement element){
         Actions actions = new Actions(driver);
         actions.moveToElement(element).build().perform();
@@ -343,7 +341,6 @@ public class CommonAPI {
         }
     }
 
-
     public void captureScreenshot() {
         File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         try {
@@ -370,5 +367,3 @@ public class CommonAPI {
         }
     }
 }
-
-

@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class DynamicTablePage extends CommonAPI {
+public class MouseOvrPage extends CommonAPI {
 
     @FindBy(xpath = "//a[contains(text(),'UITAP')]")
     private WebElement logo;
@@ -17,10 +17,9 @@ public class DynamicTablePage extends CommonAPI {
     @FindBy(xpath = "//a[contains(text(),'Resources')]")
     private WebElement resources;
 
-    public DynamicTablePage(WebDriver driver){
+    public MouseOvrPage(WebDriver driver){
         PageFactory.initElements(driver, this);
     }
-
     public void clickLogo(){ click(logo); }
     public void clickHome(){
         click(home);
