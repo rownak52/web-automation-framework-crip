@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class OverlappedElPage extends CommonAPI {
+public class VerifyTextPage extends CommonAPI {
 
     @FindBy(xpath = "//a[contains(text(),'UITAP')]")
     private WebElement logo;
@@ -17,26 +17,20 @@ public class OverlappedElPage extends CommonAPI {
     @FindBy(xpath = "//a[contains(text(),'Resources')]")
     private WebElement resources;
 
-    @FindBy(css = "#id")
-    private WebElement idTextField;
+    @FindBy (css = "body:nth-child(2) section:nth-child(2) div.container div.bg-primary:nth-child(12) > span.badge-secondary")
+    private WebElement welcomeUsrTxt;
 
-    @FindBy(css = "#name")
-    private WebElement nameTextField;
-
-    public OverlappedElPage(WebDriver driver){
+    public VerifyTextPage(WebDriver driver){
         PageFactory.initElements(driver, this);
     }
-
-    public void clickLogo(){
-        click(logo);
-    }
+    public void clickLogo(){ click(logo); }
     public void clickHome(){
         click(home);
     }
     public void clickResources(){
         click(resources);
     }
-
-    public void typeId(String text){ type(idTextField, text); }
-    public void typeName(String text){ type(nameTextField, text); }
+    public boolean checkTxtDisplayed(){
+        return checkDisplayed(welcomeUsrTxt);
+    }
 }

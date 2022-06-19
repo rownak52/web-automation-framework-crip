@@ -1,14 +1,13 @@
 package uitaptests;
 
 import base.CommonAPI;
-import globalsqatests.AccountNumberDropDown;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.Test;
 
-public class VerifyValue extends CommonAPI {
+public class Value extends CommonAPI {
 
-    private final Logger LOG = LoggerFactory.getLogger(VerifyValue.class);
+    private final Logger LOG = LoggerFactory.getLogger(Value.class);
 
     @Test //T31 Verify the value of CPU Load on text web element
     public void verifyCPULoadValue(){

@@ -9,14 +9,13 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class CustomerDropDown extends CommonAPI {
+public class CustomerAccounts extends CommonAPI {
 
-    private final Logger LOG = LoggerFactory.getLogger(CustomerDropDown.class);
+    private final Logger LOG = LoggerFactory.getLogger(CustomerAccounts.class);
 
     @Test
     public void CustomerDropDownOptionsVisibilityTest() {

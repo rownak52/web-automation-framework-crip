@@ -8,9 +8,9 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-public class AccountNumberDropDown extends CommonAPI {
+public class AccountNumber extends CommonAPI {
 
-    private final Logger LOG = LoggerFactory.getLogger(AccountNumberDropDown.class);
+    private final Logger LOG = LoggerFactory.getLogger(AccountNumber.class);
 
     @Test
     public void selectAccountNumberTest(){

@@ -1,20 +1,23 @@
 package uitaptests;
 
 import base.CommonAPI;
-import globalsqatests.AccountNumberDropDown;
+import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import uitappages.HomePage;
 import uitappages.SampleAppPage;
 
-public class VerifyLoginFunctionality extends CommonAPI {
+public class Login extends CommonAPI {
 
-    private final Logger LOG = LoggerFactory.getLogger(VerifyLoginFunctionality.class);
+    private final Logger LOG = LoggerFactory.getLogger(Login.class);
 
     @Test //T32 Verify that user is able to log in using valid credentials
     public void verifyValidLogin() {
-        getDriver().get("http://uitestingplayground.com/sampleapp");
+        HomePage home = new HomePage(getDriver());
+        home.clickSampleApp();
+        LOG.info("Sample App click successful");
         LOG.info("Redirect to Sample App successful");
         SampleAppPage autoPage = new SampleAppPage(getDriver());
         autoPage.typeUserName("user");
@@ -30,7 +33,9 @@ public class VerifyLoginFunctionality extends CommonAPI {
 
     @Test //T33 Verify that user is able to log out after logging in with valid credentials
     public void verifyValidLogout() {
-        getDriver().get("http://uitestingplayground.com/sampleapp");
+        HomePage home = new HomePage(getDriver());
+        home.clickSampleApp();
+        LOG.info("Sample App click successful");
         LOG.info("Redirect to Sample App successful");
         SampleAppPage autoPage = new SampleAppPage(getDriver());
         autoPage.typeUserName("user");
@@ -48,7 +53,9 @@ public class VerifyLoginFunctionality extends CommonAPI {
 
     @Test //T34 Verify that user is unable to log in using invalid credentials
     public void verifyInvalidLoginFail() {
-        getDriver().get("http://uitestingplayground.com/sampleapp");
+        HomePage home = new HomePage(getDriver());
+        home.clickSampleApp();
+        LOG.info("Sample App click successful");
         LOG.info("Redirect to Sample App successful");
         SampleAppPage autoPage = new SampleAppPage(getDriver());
         autoPage.typeUserName("user");
@@ -64,7 +71,9 @@ public class VerifyLoginFunctionality extends CommonAPI {
 
     @Test //T55 Verify invalid login with empty fields
     public void verifyEmptyLoginFail() {
-        getDriver().get("http://uitestingplayground.com/sampleapp");
+        HomePage home = new HomePage(getDriver());
+        home.clickSampleApp();
+        LOG.info("Sample App click successful");
         LOG.info("Redirect to Sample App successful");
         SampleAppPage autoPage = new SampleAppPage(getDriver());
         autoPage.clickLogBtn();

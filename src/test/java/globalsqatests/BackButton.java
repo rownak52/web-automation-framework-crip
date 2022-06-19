@@ -72,7 +72,7 @@ public class BackButton extends CommonAPI {
     }
 
     @Test
-    public void ronWeaslyButtonTest(){
+    public void ronWeaslyBackButtonTest(){
         CustomerPage customer = new CustomerPage(getDriver());
         customer.clickCustomerLoginButton();
         LOG.info("Customer login button click successful");

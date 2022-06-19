@@ -1,43 +1,44 @@
 package uitaptests;
 
 import base.CommonAPI;
-import globalsqatests.AccountNumberDropDown;
-import org.openqa.selenium.remote.server.handler.interactions.touch.Scroll;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import uitappages.DynamicIDPage;
+import uitappages.HomePage;
 import uitappages.ScrollbarsPage;
 import uitappages.VisibilityPage;
 
-public class VerifyPageBtns extends CommonAPI {
+public class PageButtons extends CommonAPI {
 
-    private final Logger LOG = LoggerFactory.getLogger(VerifyPageBtns.class);
+    private final Logger LOG = LoggerFactory.getLogger(PageButtons.class);
 
-    //    @Test //T21 Verify the recording of "Button with Dynamic ID" being clicked
-//    public void verifyDynIDBtn() {
-//        getDriver().get("http://uitestingplayground.com/dynamicid");
-//        LOG.info("Redirect to Dynamic ID successful");
-//        DynamicIDPage autoPage = new DynamicIDPage(getDriver());
-//        autoPage.clickDynIDBtn();
-//        LOG.info("Button click was successful");
-//        Assert.assertTrue(autoPage.checkBtnClickable());
-//    }
-//
-//    @Test //T23 Verify "Hiding Button" is clickable
-//    public void verifyHidingClick() {
-//        getDriver().get("http://uitestingplayground.com/scrollbars");
-//        LOG.info("Redirect to Scrollbars webpage successful");
-//        ScrollbarsPage autoPage = new ScrollbarsPage(getDriver());
-//        autoPage.clickHidingBtn();
-//        LOG.info("Hiding Button click was successful");
-//        Assert.assertTrue(autoPage.checkBtnClickable());
-//    }
-//
+    @Test //T21 Verify the recording of "Button with Dynamic ID" being clicked
+    public void verifyDynamicIDButton() {
+        getDriver().get("http://uitestingplayground.com/dynamicid");
+        LOG.info("Redirect to Dynamic ID successful");
+        DynamicIDPage autoPage = new DynamicIDPage(getDriver());
+        autoPage.clickDynIDBtn();
+        LOG.info("Button click was successful");
+        Assert.assertTrue(autoPage.checkBtnClickable());
+    }
+
+    @Test //T23 Verify "Hiding Button" is clickable
+    public void verifyHidingClick() {
+        getDriver().get("http://uitestingplayground.com/scrollbars");
+        LOG.info("Redirect to Scrollbars webpage successful");
+        ScrollbarsPage autoPage = new ScrollbarsPage(getDriver());
+        autoPage.clickHidingBtn();
+        LOG.info("Hiding Button click was successful");
+        Assert.assertTrue(autoPage.checkBtnClickable());
+    }
+
     @Test //T24 Verify eight different button web elements are clickable, with "Hide" button being last
-    public void ClickableRemovedBtn() {
-        getDriver().get("http://uitestingplayground.com/visibility");
+    public void ClickableRemovedButton() {
+        HomePage home = new HomePage(getDriver());
+        home.clickVisibility();
+        LOG.info("Visibility click successful");
         LOG.info("Redirect to Visibility webpage successful");
         VisibilityPage autoPage = new VisibilityPage(getDriver());
         autoPage.clickRemoveButton();
@@ -50,8 +51,10 @@ public class VerifyPageBtns extends CommonAPI {
     }
 
     @Test //T61 Verify eight different button web elements are clickable, with "Hide" button being last
-    public void ClickableZeroWidBtn() {
-        getDriver().get("http://uitestingplayground.com/visibility");
+    public void ClickableZeroWidthButton() {
+        HomePage home = new HomePage(getDriver());
+        home.clickVisibility();
+        LOG.info("Visibility click successful");
         LOG.info("Redirect to Visibility webpage successful");
         VisibilityPage autoPage = new VisibilityPage(getDriver());
         autoPage.clickZeroWidthButton();
@@ -61,8 +64,10 @@ public class VerifyPageBtns extends CommonAPI {
     }
 
     @Test //T61 Verify eight different button web elements are clickable, with "Hide" button being last
-    public void ClickableOverlapBtn() {
-        getDriver().get("http://uitestingplayground.com/visibility");
+    public void ClickableOverlapButton() {
+        HomePage home = new HomePage(getDriver());
+        home.clickVisibility();
+        LOG.info("Visibility click successful");
         LOG.info("Redirect to Visibility webpage successful");
         VisibilityPage autoPage = new VisibilityPage(getDriver());
         autoPage.clickOverlapButton();
@@ -72,8 +77,10 @@ public class VerifyPageBtns extends CommonAPI {
     }
 
     @Test //T62 Verify eight different button web elements are clickable, with "Hide" button being last
-    public void ClickableTransparentBtn() {
-        getDriver().get("http://uitestingplayground.com/visibility");
+    public void ClickableTransparentButton() {
+        HomePage home = new HomePage(getDriver());
+        home.clickVisibility();
+        LOG.info("Visibility click successful");
         LOG.info("Redirect to Visibility webpage successful");
         VisibilityPage autoPage = new VisibilityPage(getDriver());
         autoPage.clickTransparentButton();
@@ -83,8 +90,10 @@ public class VerifyPageBtns extends CommonAPI {
     }
 
     @Test //T63 Verify eight different button web elements are clickable, with "Hide" button being last
-    public void ClickableInvisibleBtn() {
-        getDriver().get("http://uitestingplayground.com/visibility");
+    public void ClickableInvisibleButton() {
+        HomePage home = new HomePage(getDriver());
+        home.clickVisibility();
+        LOG.info("Visibility click successful");
         LOG.info("Redirect to Visibility webpage successful");
         VisibilityPage autoPage = new VisibilityPage(getDriver());
         autoPage.clickInvisibleButton();
@@ -94,8 +103,10 @@ public class VerifyPageBtns extends CommonAPI {
     }
 
     @Test //T64 Verify eight different button web elements are clickable, with "Hide" button being last
-    public void ClickableNotDisplayBtn() {
-        getDriver().get("http://uitestingplayground.com/visibility");
+    public void ClickableNotDisplayButton() {
+        HomePage home = new HomePage(getDriver());
+        home.clickVisibility();
+        LOG.info("Visibility click successful");
         LOG.info("Redirect to Visibility webpage successful");
         VisibilityPage autoPage = new VisibilityPage(getDriver());
         autoPage.clickNotDisplayedButton();
@@ -105,8 +116,10 @@ public class VerifyPageBtns extends CommonAPI {
     }
 
     @Test //T65 Verify eight different button web elements are clickable, with "Hide" button being last
-    public void ClickableOffscreenBtn() {
-        getDriver().get("http://uitestingplayground.com/visibility");
+    public void ClickableOffScreenButton() {
+        HomePage home = new HomePage(getDriver());
+        home.clickVisibility();
+        LOG.info("Visibility click successful");
         LOG.info("Redirect to Visibility webpage successful");
         VisibilityPage autoPage = new VisibilityPage(getDriver());
         autoPage.clickOffScreenButton();
@@ -114,6 +127,8 @@ public class VerifyPageBtns extends CommonAPI {
         Assert.assertTrue(autoPage.checkOffscreenClickable());
         LOG.info("Button clickable successful");
     }
+
+}
 
 
 //    @Test //T25 Verify that clicking on "Hide" element hides all of the other 7 clickable web elements
@@ -132,43 +147,43 @@ public class VerifyPageBtns extends CommonAPI {
 //        Assert.assertFalse(autoPage.checkOverlapClickable());
 //    }
 
-    @Test //26 Verify the text boxes inside Playground scroll-window is clickable
-    public void verifyTxtBxClickable() {
-        LOG.info("TextBox click successful");
-    }
-
-    @Test //28 Verify the three buttons on webpage are clickable
-    public void verifyThreeBtns() {
-        LOG.info("Button click successful");
-    }
-
-    @Test //T35 Verify that user is able to click a second time on "Button" button
-    public void verifySecondClick() {
-        LOG.info("Button click successful");
-    }
-
-    @Test //T36 Verify that user is able to click on a button that reads "Button That Ignores DOM Click Event"
-    public void verifyDOMBtn() {
-        LOG.info("Button click successful");
-    }
-
-    @Test //T41 Verify Start button on Progress Bar Webpage is displayed and clickable
-    public void verifyStartBtn() {
-        LOG.info("Button click successful");
-    }
-
-    @Test //T42 Verify Stop button on Progress Bar Webpage is displayed and clickable
-    public void verifyStopBtn() {
-        LOG.info("Button click successful");
-    }
-
-    @Test //T44 Verify button on Non-Breaking Space Webpage is displayed and clickable
-    public void verifyMyBtn() {
-        LOG.info("Button click successful");
-    }
-
-    @Test //T60 Verify "Button Appearing After Delay" is clickable
-    public void verifyBtnAfterDelay() {
-        LOG.info("Button click successful");
-    }
-}
+//    @Test //26 Verify the text boxes inside Playground scroll-window is clickable
+//    public void verifyTxtBxClickable() {
+//        LOG.info("TextBox click successful");
+//    }
+//
+//    @Test //28 Verify the three buttons on webpage are clickable
+//    public void verifyThreeBtns() {
+//        LOG.info("Button click successful");
+//    }
+//
+//    @Test //T35 Verify that user is able to click a second time on "Button" button
+//    public void verifySecondClick() {
+//        LOG.info("Button click successful");
+//    }
+//
+//    @Test //T36 Verify that user is able to click on a button that reads "Button That Ignores DOM Click Event"
+//    public void verifyDOMButton() {
+//        LOG.info("Button click successful");
+//    }
+//
+//    @Test //T41 Verify Start button on Progress Bar Webpage is displayed and clickable
+//    public void verifyStartButton() {
+//        LOG.info("Button click successful");
+//    }
+//
+//    @Test //T42 Verify Stop button on Progress Bar Webpage is displayed and clickable
+//    public void verifyStopButton() {
+//        LOG.info("Button click successful");
+//    }
+//
+//    @Test //T44 Verify button on Non-Breaking Space Webpage is displayed and clickable
+//    public void verifyMyButton() {
+//        LOG.info("Button click successful");
+//    }
+//
+//    @Test //T60 Verify "Button Appearing After Delay" is clickable
+//    public void verifyBtnAfterDelay() {
+//        LOG.info("Button click successful");
+//    }
+//}

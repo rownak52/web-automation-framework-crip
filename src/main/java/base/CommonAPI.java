@@ -103,6 +103,10 @@ public class CommonAPI {
         }
         driver.quit();
     }
+    @AfterMethod
+    public void endLOG(){
+        LOG.info("Test Case Status: PASS\n");
+    }
     @AfterSuite
     public void generateReport() {
         extent.close();
@@ -123,7 +127,7 @@ public class CommonAPI {
                 System.setProperty("webdriver.gecko.driver", Utility.currentDir+"\\driver\\windows\\geckodriver.exe");
                 driver = new FirefoxDriver();
             }
-        }else if (os.equalsIgnoreCase("mac")){
+        }else if (os.equalsIgnoreCase("OS X")){
             if (browser.equalsIgnoreCase("chrome")){
                 System.setProperty("webdriver.chrome.driver", Utility.currentDir + "\\driver\\mac\\chromedriver");
                 driver = new ChromeDriver();

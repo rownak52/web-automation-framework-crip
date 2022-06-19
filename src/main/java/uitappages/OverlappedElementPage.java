@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class DynamicTblPage extends CommonAPI {
+public class OverlappedElementPage extends CommonAPI {
 
     @FindBy(xpath = "//a[contains(text(),'UITAP')]")
     private WebElement logo;
@@ -17,11 +17,19 @@ public class DynamicTblPage extends CommonAPI {
     @FindBy(xpath = "//a[contains(text(),'Resources')]")
     private WebElement resources;
 
-    public DynamicTblPage(WebDriver driver){
+    @FindBy(css = "#id")
+    private WebElement idTextField;
+
+    @FindBy(css = "#name")
+    private WebElement nameTextField;
+
+    public OverlappedElementPage(WebDriver driver){
         PageFactory.initElements(driver, this);
     }
 
-    public void clickLogo(){ click(logo); }
+    public void clickLogo(){
+        click(logo);
+    }
     public void clickHome(){
         click(home);
     }
@@ -29,4 +37,6 @@ public class DynamicTblPage extends CommonAPI {
         click(resources);
     }
 
+    public void typeId(String text){ type(idTextField, text); }
+    public void typeName(String text){ type(nameTextField, text); }
 }

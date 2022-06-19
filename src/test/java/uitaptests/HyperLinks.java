@@ -1,7 +1,6 @@
 package uitaptests;
 
 import base.CommonAPI;
-import globalsqatests.AccountNumberDropDown;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
@@ -11,8 +10,8 @@ import uitappages.HomePage;
 import java.util.ArrayList;
 import java.util.List;
 
-public class VerifyOpeningLinks extends CommonAPI {
-    private final Logger LOG = LoggerFactory.getLogger(VerifyOpeningLinks.class);
+public class HyperLinks extends CommonAPI {
+    private final Logger LOG = LoggerFactory.getLogger(HyperLinks.class);
 
     @Test //T1 Verify the "Resources" link is usable
     public void clickResourcesTabTest() {
