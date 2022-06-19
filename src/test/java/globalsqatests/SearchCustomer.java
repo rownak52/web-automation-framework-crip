@@ -59,7 +59,36 @@ public class SearchCustomer extends CommonAPI {
         Assert.assertEquals(expectedData, getElementText("//td[contains(text(),'Neville')]"));
         LOG.info("Neville data is visibile");
     }
+    @Test
+    public void searchAlbusDumbledoreTest(){
+        BankManagerPage bankManager = new BankManagerPage(getDriver());
+        bankManager.clickBankManagerLoginButton();
+        LOG.info("Bank Manager login button click successful");
+        LOG.info("Login successful");
+        bankManager.clickCustomersButton();
+        LOG.info("Customers button click successful");
+        LOG.info("Navigate to Customers List page successful");
+        bankManager.searchCustomer("Albus");
+        LOG.info("'Albus' was typed into Search Customer field");
+        String expectedData = "Albus";
+        Assert.assertEquals(expectedData, getElementText("//td[contains(text(),'Albus')]"));
+        LOG.info("Albus data is visibile");
+    }
 
-
+    @Test
+    public void searchRonWeaslyTest(){
+        BankManagerPage bankManager = new BankManagerPage(getDriver());
+        bankManager.clickBankManagerLoginButton();
+        LOG.info("Bank Manager login button click successful");
+        LOG.info("Login successful");
+        bankManager.clickCustomersButton();
+        LOG.info("Customers button click successful");
+        LOG.info("Navigate to Customers List page successful");
+        bankManager.searchCustomer("Ron");
+        LOG.info("'Ron' was typed into Search Customer field");
+        String expectedData = "Ron";
+        Assert.assertEquals(expectedData, getElementText("//td[contains(text(),'Ron')]"));
+        LOG.info("Ron data is visibile");
+    }
 
 }

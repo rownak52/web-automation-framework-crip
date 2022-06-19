@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class TxtInputPage extends CommonAPI {
+public class TextInputPage extends CommonAPI {
 
     @FindBy(xpath = "//a[contains(text(),'UITAP')]")
     private WebElement logo;
@@ -17,7 +17,7 @@ public class TxtInputPage extends CommonAPI {
     @FindBy(xpath = "//a[contains(text(),'Resources')]")
     private WebElement resources;
 
-    public TxtInputPage(WebDriver driver){
+    public TextInputPage(WebDriver driver){
         PageFactory.initElements(driver, this);
     }
     public void clickLogo(){ click(logo); }

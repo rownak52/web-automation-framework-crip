@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class MouseOvrPage extends CommonAPI {
+public class MouseOverPage extends CommonAPI {
 
     @FindBy(xpath = "//a[contains(text(),'UITAP')]")
     private WebElement logo;
@@ -17,7 +17,7 @@ public class MouseOvrPage extends CommonAPI {
     @FindBy(xpath = "//a[contains(text(),'Resources')]")
     private WebElement resources;
 
-    public MouseOvrPage(WebDriver driver){
+    public MouseOverPage(WebDriver driver){
         PageFactory.initElements(driver, this);
     }
     public void clickLogo(){ click(logo); }
