@@ -7,10 +7,41 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import utility.ExcelReader;
+import utility.Utility;
+
+import java.util.List;
 
 public class UserLogin extends CommonAPI {
 
     private final Logger LOG = LoggerFactory.getLogger(UserLogin.class);
+
+//    @Test
+//    public void loginWithExcelTest() {
+//
+//        CustomerPage customer = new CustomerPage(getDriver());
+//        customer.clickCustomerLoginButton();
+//        ExcelReader excelReader = new ExcelReader(currentDir + "/data/CustomerAccounts.xlsx");
+//        List<String> accounts = excelReader.getEntireColumnForGivenHeader("1","Customer Accounts");
+//        for (String account : accounts) {
+//            customer.selectOptionFromCustomerDropDown(account);
+//            LOG.info(account + " account is selected");
+//            customer.clickLoginButton();
+//            LOG.info("Login button click successful");
+//            String expectedMessage = "Welcome " + account + " !!";
+//            Assert.assertEquals(expectedMessage, getElementText("/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/strong[1]"));
+//            LOG.info(account + " login successful");
+//            customer.clickLogoutButton();
+//            LOG.info("Logout click successful");
+//            LOG.info("Logout successful");
+//            waitFor(3);
+//            String expectedLogoutUrl = "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/customer";
+//            Assert.assertEquals(expectedLogoutUrl, getUrlLink());
+//            LOG.info("Navigate to Customer Login page successful");
+//        }
+
+
+
     @Test
     public void harryPotterLoginTest(){
         CustomerPage customer = new CustomerPage(getDriver());
@@ -69,7 +100,7 @@ public class UserLogin extends CommonAPI {
     }
 
     @Test
-    public void createAnAccountAndLoginWithFaieqTest(){
+    public void createAccountAndLoginWithFaieqTest(){
         BankManagerPage bankManager = new BankManagerPage(getDriver());
         bankManager.clickBankManagerLoginButton();
         LOG.info("Bank Manager login button click successful");
@@ -103,7 +134,7 @@ public class UserLogin extends CommonAPI {
     }
 
     @Test
-    public void createAnAccountAndLoginWithJoeTest(){
+    public void createAccountAndLoginWithJoeTest(){
         BankManagerPage bankManager = new BankManagerPage(getDriver());
         bankManager.clickBankManagerLoginButton();
         LOG.info("Bank Manager login button click successful");
@@ -136,8 +167,8 @@ public class UserLogin extends CommonAPI {
         LOG.info("Joe Biden login successful");
     }
 
-    @Test(enabled = true)
-    public void createAnAccountAndLoginWithNacerTest(){
+    @Test
+    public void createAccountAndLoginWithRownakTest(){
         BankManagerPage bankManager = new BankManagerPage(getDriver());
         bankManager.clickBankManagerLoginButton();
         LOG.info("Bank Manager login button click successful");
@@ -184,4 +215,58 @@ public class UserLogin extends CommonAPI {
         LOG.info("Rownak Choudhury login successful");
     }
 
+    @Test
+        public void loginAllCustomersTest() {
+        CustomerPage customer = new CustomerPage(getDriver());
+        customer.clickCustomerLoginButton();
+        LOG.info("Customer login button click successful");
+        customer.selectOptionFromCustomerDropDown("Neville Longbottom");
+        LOG.info("Neville Longbottom account is selected");
+        customer.clickLoginButton();
+        LOG.info("Login button click successful");
+        waitFor(3);
+        String expectedUrl = "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/account";
+        Assert.assertEquals(expectedUrl, getUrlLink());
+        LOG.info("Login successful");
+        customer.clickLogoutButton();
+        LOG.info("Logout click successful");
+        LOG.info("Logout successful");
+        waitFor(3);
+        String expectedLogoutUrl = "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/customer";
+        Assert.assertEquals(expectedLogoutUrl, getUrlLink());
+        LOG.info("Logout successful and navigate to Customer Login page successful");
+        customer.selectOptionFromCustomerDropDown("Harry Potter");
+        LOG.info("Harry Potter account is selected");
+        customer.clickLoginButton();
+        LOG.info("Login button click successful");
+        waitFor(3);
+        String expectedUrl2 = "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/account";
+        Assert.assertEquals(expectedUrl, getUrlLink());
+        LOG.info("Login successful");
+        customer.clickLogoutButton();
+        LOG.info("Logout click successful");
+        LOG.info("Logout successful");
+        waitFor(3);
+        String expectedLogoutUrl2 = "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/customer";
+        Assert.assertEquals(expectedLogoutUrl2, getUrlLink());
+        LOG.info("Logout successful and navigate to Customer Login page successful");
+        customer.selectOptionFromCustomerDropDown("Hermoine Granger");
+        LOG.info("Hermoine Granger account is selected");
+        customer.clickLoginButton();
+        LOG.info("Login button click successful");
+        waitFor(3);
+        String expectedUrl3 = "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/account";
+        Assert.assertEquals(expectedUrl3, getUrlLink());
+        LOG.info("Login successful");
+        customer.clickLogoutButton();
+        LOG.info("Logout click successful");
+        LOG.info("Logout successful");
+        waitFor(3);
+        String expectedLogoutUrl3 = "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/customer";
+        Assert.assertEquals(expectedLogoutUrl, getUrlLink());
+        LOG.info("Logout successful and navigate to Customer Login page successful");
+
+
+
+    }
 }

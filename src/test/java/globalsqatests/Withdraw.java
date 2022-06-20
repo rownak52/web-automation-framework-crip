@@ -16,6 +16,7 @@ import java.time.Duration;
 public class Withdraw extends CommonAPI {
 
     private final Logger LOG = LoggerFactory.getLogger(Withdraw.class);
+
     @Test
     public void withdrawFunctionTest() {
         CustomerPage customer = new CustomerPage(getDriver());
@@ -60,4 +61,6 @@ public class Withdraw extends CommonAPI {
         Assert.assertEquals(expectedConfirmation, getElementText("//span[contains(text(),'Transaction Failed. You can not withdraw amount mo')]"));
         LOG.info("Invalid Transaction successful");
     }
+
+
 }

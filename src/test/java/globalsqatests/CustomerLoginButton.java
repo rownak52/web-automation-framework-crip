@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 public class CustomerLoginButton extends CommonAPI {
 
     private final Logger LOG = LoggerFactory.getLogger(CustomerLoginButton.class);
+
     @Test
     public void customerLoginButtonTest(){
         CustomerPage customer = new CustomerPage(getDriver());

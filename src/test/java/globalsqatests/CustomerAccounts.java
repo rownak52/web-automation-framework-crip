@@ -2,6 +2,7 @@ package globalsqatests;
 
 import base.CommonAPI;
 import globalsqapages.CustomerPage;
+import org.checkerframework.checker.units.qual.C;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -12,6 +13,8 @@ import org.slf4j.LoggerFactory;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
 
 public class CustomerAccounts extends CommonAPI {
 
@@ -29,8 +32,6 @@ public class CustomerAccounts extends CommonAPI {
         WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(20));
         wait.until(ExpectedConditions.visibilityOfAllElements(customerDropDown));
         LOG.info("Visibility of Customer dropdown options is present");
-
     }
-
 
 }

@@ -210,6 +210,10 @@ public class CommonAPI {
 
     }
 
+    public void clear(WebElement element){
+        element.clear();
+    }
+
     public String getElementText(String locator){
         try {
             return driver.findElement(By.cssSelector(locator)).getText();
@@ -297,27 +301,19 @@ public class CommonAPI {
         return flag;
     }
     public boolean checkEnabled(WebElement element){
-        if (element.isEnabled()){
-            flag = true;
-        }
+        flag = (element.isEnabled());
         return flag;
     }
     public boolean checkDisabled(WebElement element){
-        if (!element.isEnabled()){
-            flag = true;
-        }
+        flag = (!element.isEnabled());
         return flag;
     }
     public boolean checkDisplayed(WebElement element){
-        if (element.isDisplayed()){
-            flag = true;
-        }
-        return flag;
+         flag = element.isDisplayed();
+            return flag;
     }
     public boolean checkNotDisplayed(WebElement element){
-        if (!element.isDisplayed()){
-            flag = true;
-        }
+        flag = (!element.isDisplayed());
         return flag;
     }
     public static WebDriver handleNewTab(WebDriver driver1){

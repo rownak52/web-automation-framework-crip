@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [CRIP Automation Script]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="5" name="com.SauceDemo Tests(failed)" verbose="0">
+  <test thread-count="5" name="com.GlobalSQA Tests(failed)" verbose="0">
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="os" value="windows"/>
     <parameter name="osVersion" value="11"/>
     <parameter name="envName" value="browserstack"/>
     <parameter name="browserVersion" value="102"/>
     <parameter name="browserName" value="chrome"/>
-    <parameter name="url" value="http://saucedemo.com/"/>
+    <parameter name="url" value="https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login"/>
     <classes>
-      <class name="saucedemotests.SearchBar">
+      <class name="globalsqatests.TransactionsButton">
         <methods>
-          <include name="searchDogsTest"/>
+          <include name="endLOG"/>
           <include name="afterEachTestMethod"/>
-          <include name="searchAndRedirectBackToHomeTest"/>
           <include name="tearDown"/>
+          <include name="albusTransactionsButtonTest"/>
           <include name="generateReport"/>
           <include name="extentSetup"/>
           <include name="setUp"/>
           <include name="startExtent"/>
         </methods>
-      </class> <!-- saucedemotests.SearchBar -->
+      </class> <!-- globalsqatests.TransactionsButton -->
     </classes>
-  </test> <!-- com.SauceDemo Tests(failed) -->
+  </test> <!-- com.GlobalSQA Tests(failed) -->
 </suite> <!-- Failed suite [CRIP Automation Script] -->

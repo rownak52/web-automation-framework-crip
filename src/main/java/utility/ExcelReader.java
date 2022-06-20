@@ -6,7 +6,9 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.File;
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,7 +28,8 @@ public class ExcelReader {
 
     public String getDataFromCell(String sheet, int rowNum, int colNum) {
         try {
-            FileInputStream excelFile = new FileInputStream(path);
+            File file = new File(path);
+            FileInputStream excelFile = new FileInputStream(file);
             excelWBook = new XSSFWorkbook(excelFile);
             excelWSheet = excelWBook.getSheet(sheet);
             cell = excelWSheet.getRow(rowNum).getCell(colNum);
@@ -42,7 +45,8 @@ public class ExcelReader {
     public List<String> getEntireColumnData(String sheet, int rowStart, int colNum) {
         List<String> columnData = new ArrayList<>();
         try {
-            FileInputStream excelFile = new FileInputStream(path);
+            File file = new File(path);
+            FileInputStream excelFile = new FileInputStream(file);
             excelWBook = new XSSFWorkbook(excelFile);
             excelWSheet = excelWBook.getSheet(sheet);
             for (int i = rowStart; i < excelWSheet.getLastRowNum(); i++) {
@@ -91,10 +95,10 @@ public class ExcelReader {
     }
 
 //    public static void main(String[] args) throws IOException {
-//        String path = "C:\\Users\\EvilT\\IdeaProjects\\FinalFrameworkProject\\web-automation-framework-crip\\data\\excelpractice.xlsx";
+//        String path = "C:\\Users\\EvilT\\IdeaProjects\\FinalFrameworkProject\\web-automation-framework-crip\\data\\CustomerAccounts.xlsx";
 //        XSSFWorkbook excelWBook = new XSSFWorkbook(path);
 //        XSSFSheet excelWSheet = excelWBook.getSheet("Sheet1");
-//        XSSFCell cell = excelWSheet.getRow(2).getCell(1);
+//        XSSFCell cell = excelWSheet.getRow(1).getCell(0);
 //        System.out.println(cell);
 //    }
 

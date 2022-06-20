@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 public class HomeButton extends CommonAPI {
 
     private final Logger LOG = LoggerFactory.getLogger(HomeButton.class);
+
     @Test
     public void customerHomeButtonTest() {
         CustomerPage customer = new CustomerPage(getDriver());

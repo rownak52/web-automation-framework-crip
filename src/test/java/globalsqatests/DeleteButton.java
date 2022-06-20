@@ -10,8 +10,9 @@ import org.testng.annotations.Test;
 public class DeleteButton extends CommonAPI {
 
     private final Logger LOG = LoggerFactory.getLogger(BankManagerPage.class);
+
     @Test
-    public void deleteCustomerTest(){
+    public void deleteAlbusTest(){
         BankManagerPage bankManager = new BankManagerPage(getDriver());
         bankManager.clickBankManagerLoginButton();
         LOG.info("Bank Manager login button click successful");

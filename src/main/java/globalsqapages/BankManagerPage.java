@@ -38,6 +38,20 @@ public class BankManagerPage extends CommonAPI {
     @FindBy(xpath = "//tbody/tr[4]")
     private WebElement albusDataInfo;
 
+    @FindBy(xpath = "//thead/tr/td[1]")
+    private WebElement firstNameTable;
+
+    @FindBy(xpath = "//thead/tr/td[2]")
+    private WebElement lastNameTable;
+
+    @FindBy(xpath = "//thead/tr/td[3]")
+    private WebElement postCodeTable;
+
+    @FindBy(xpath = "//thead/tr/td[4]")
+    private WebElement accountNumberTable;
+
+    @FindBy(xpath = "//thead/tr/td[5]")
+    private WebElement deleteCustomerTable;
     @FindBy(xpath = "//tbody/tr[4]/td[5]/button[1]")
     private WebElement deleteAlbusDumbledore;
     @FindBy(css = "#userSelect")
@@ -99,6 +113,10 @@ public class BankManagerPage extends CommonAPI {
         type(searchCustomer, text);
     }
 
+    public void clearSearch(){
+        clear(searchCustomer);
+    }
+
     public void clickBankManagerLoginButton(){
         click(bankManagerLoginButton);
     }
@@ -126,4 +144,23 @@ public class BankManagerPage extends CommonAPI {
     public boolean checkIfDeleteButtonIsEnabled(){
         return checkEnabled(deleteAlbusDumbledore);
     }
+
+    public boolean checkIfFirstNameDisplayed() {
+        return  checkDisplayed(firstNameTable);
+    }
+    public boolean checkIfLastNameDisplayed() {
+      return  checkDisplayed(lastNameTable);
+    }
+
+    public boolean checkIfPostalCodeDisplayed() {
+      return checkDisplayed(postCodeTable);
+    }
+    public boolean checkIfAccountNumberDisplayed() {
+        return checkDisplayed(accountNumberTable);
+    }
+
+    public boolean checkIfDeleteDisplayed() {
+        return checkDisplayed(deleteCustomerTable);
+    }
+
 }

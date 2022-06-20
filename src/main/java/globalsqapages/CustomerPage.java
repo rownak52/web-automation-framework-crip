@@ -8,11 +8,15 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.annotations.Test;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class CustomerPage extends CommonAPI {
 
-//    private final Logger LOG = LoggerFactory.getLogger(CustomerPage.class);
+    //    private final Logger LOG = LoggerFactory.getLogger(CustomerPage.class);
     @FindBy(xpath = "//button[contains(text(),'Customer Login')]")
     private WebElement customerLoginButton;
 
@@ -61,7 +65,7 @@ public class CustomerPage extends CommonAPI {
     @FindBy(xpath = "//button[contains(text(),'Reset')]")
     private WebElement resetButton;
 
-    public CustomerPage(WebDriver driver){
+    public CustomerPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
 
@@ -69,7 +73,7 @@ public class CustomerPage extends CommonAPI {
         Select select = new Select(customerDropDownOptions);
         try {
             select.selectByVisibleText(option);
-        }catch(Exception e){
+        } catch (Exception e) {
             select.selectByValue(option);
         }
 
@@ -79,81 +83,86 @@ public class CustomerPage extends CommonAPI {
         Select select = new Select(accountNumberDropDownOptions);
         try {
             select.selectByVisibleText(option);
-        }catch(Exception e){
+        } catch (Exception e) {
             select.selectByValue(option);
         }
 
     }
-    public void clickCustomerLoginButton(){
+
+    public void clickCustomerLoginButton() {
         click(customerLoginButton);
     }
 
-    public void clickLoginButton(){
+    public void clickLoginButton() {
         click(loginButton);
     }
 
-    public void clickHomeButton(){
+    public void clickHomeButton() {
         click(homeButton);
     }
 
-    public void clickLogoutButton(){
+    public void clickLogoutButton() {
         click(logoutButton);
     }
 
-    public void clickTransactionsButton(){
+    public void clickTransactionsButton() {
         click(transactionsButton);
     }
 
-    public void clickDepositButton(){
+    public void clickDepositButton() {
         click(depositButton);
     }
 
-    public void clickWithdrawlButton(){
+    public void clickWithdrawlButton() {
         click(withdrawlButton);
     }
 
-    public void clickBackButton(){
+    public void clickBackButton() {
         click(backButton);
 
     }
 
-    public void typeDepositAmount(String amount){
+    public void typeDepositAmount(String amount) {
         type(depositTextBox, amount);
     }
 
-    public void confirmDepositAmount(){
+    public void confirmDepositAmount() {
         click(confirmDepositButton);
 
     }
 
-    public void typeWithdrawlAmount(String amount){
+    public void typeWithdrawlAmount(String amount) {
         type(withdrawlTextBox, amount);
 
     }
 
-    public void confirmWithdrawlAmount(){
+    public void confirmWithdrawlAmount() {
         click(confirmWithdrawButton);
     }
 
-    public boolean checkIfLogoutIsEnabled(){
+    public boolean checkIfLogoutIsEnabled() {
         return checkEnabled(logoutButton);
     }
 
-    public boolean checkIfCustomerLoginIsEnabled(){
+    public boolean checkIfCustomerLoginIsEnabled() {
         return checkEnabled(customerLoginButton);
     }
 
-    public boolean checkIfBankManagerLoginIsEnabled(){
+    public boolean checkIfBankManagerLoginIsEnabled() {
         return checkEnabled(bankManagerLoginButton);
     }
 
-    public boolean checkIfAccountNumberIsSelected(){ return checkDisplayed(accountNumberDropDownOptions); }
+    public boolean checkIfAccountNumberIsSelected() {
+        return checkDisplayed(accountNumberDropDownOptions);
+    }
 
-    public void clickResetButton(){
+    public void clickResetButton() {
         click(resetButton);
     }
 
-    public boolean checkResetButton(){
+    public boolean checkResetButton() {
         return checkEnabled(resetButton);
     }
+
 }
+

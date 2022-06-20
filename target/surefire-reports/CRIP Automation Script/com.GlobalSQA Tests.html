@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>com.GlobalSQA Tests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>39/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>66/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jun 18 12:15:56 EDT 2022</td>
+<td>Started on:</td><td>Sun Jun 19 17:08:45 EDT 2022</td>
 </tr>
-<tr><td>Total time:</td><td>249 seconds (249793 ms)</td>
+<tr><td>Total time:</td><td>348 seconds (348131 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,67 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='globalsqatests.TransactionsButton.albusTransactionsButtonTest()'><b>albusTransactionsButtonTest</b><br>Test class: globalsqatests.TransactionsButton</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate option with value: ALbus Dumbledore
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;DESKTOP-DNJOJAA&apos;, ip: &apos;172.16.226.186&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:287)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:190)
+	at globalsqapages.CustomerPage.selectOptionFromCustomerDropDown(CustomerPage.java:73)
+	at globalsqatests.TransactionsButton.albusTransactionsButtonTest(TransactionsButton.java:84)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace894780981", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace894780981'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate option with value: ALbus Dumbledore
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;DESKTOP-DNJOJAA&apos;, ip: &apos;172.16.226.186&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:287)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:190)
+	at globalsqapages.CustomerPage.selectOptionFromCustomerDropDown(CustomerPage.java:73)
+	at globalsqatests.TransactionsButton.albusTransactionsButtonTest(TransactionsButton.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>50</td>
+<td>globalsqatests.TransactionsButton@1ebea008</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,200 +136,335 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='globalsqatests.CustomerDropDown.CustomerDropDownOptionsVisibilityTest()'><b>CustomerDropDownOptionsVisibilityTest</b><br>Test class: globalsqatests.CustomerDropDown</td>
+<td title='globalsqatests.CustomerAccounts.CustomerDropDownOptionsVisibilityTest()'><b>CustomerDropDownOptionsVisibilityTest</b><br>Test class: globalsqatests.CustomerAccounts</td>
 <td></td>
 <td>0</td>
-<td>globalsqatests.CustomerDropDown@3b5fad2d</td></tr>
+<td>globalsqatests.CustomerAccounts@2ca26d77</td></tr>
 <tr>
 <td title='globalsqatests.AddCustomer.addCustomerFaieqLaskarTest()'><b>addCustomerFaieqLaskarTest</b><br>Test class: globalsqatests.AddCustomer</td>
 <td></td>
-<td>1</td>
-<td>globalsqatests.AddCustomer@34b9f960</td></tr>
+<td>0</td>
+<td>globalsqatests.AddCustomer@1787f2a0</td></tr>
 <tr>
 <td title='globalsqatests.AddCustomer.addCustomerJohnDoeTest()'><b>addCustomerJohnDoeTest</b><br>Test class: globalsqatests.AddCustomer</td>
 <td></td>
-<td>1</td>
-<td>globalsqatests.AddCustomer@34b9f960</td></tr>
+<td>0</td>
+<td>globalsqatests.AddCustomer@1787f2a0</td></tr>
 <tr>
 <td title='globalsqatests.AddCustomer.addCustomerPollakRahmanTest()'><b>addCustomerPollakRahmanTest</b><br>Test class: globalsqatests.AddCustomer</td>
 <td></td>
-<td>1</td>
-<td>globalsqatests.AddCustomer@34b9f960</td></tr>
+<td>0</td>
+<td>globalsqatests.AddCustomer@1787f2a0</td></tr>
 <tr>
 <td title='globalsqatests.AddCustomer.addMultipleCustomerTest()'><b>addMultipleCustomerTest</b><br>Test class: globalsqatests.AddCustomer</td>
 <td></td>
 <td>1</td>
-<td>globalsqatests.AddCustomer@34b9f960</td></tr>
+<td>globalsqatests.AddCustomer@1787f2a0</td></tr>
 <tr>
 <td title='globalsqatests.UserLogin.albusDumbledoreLoginTest()'><b>albusDumbledoreLoginTest</b><br>Test class: globalsqatests.UserLogin</td>
 <td></td>
 <td>0</td>
-<td>globalsqatests.UserLogin@30b6ffe0</td></tr>
+<td>globalsqatests.UserLogin@7905a0b8</td></tr>
 <tr>
 <td title='globalsqatests.Logout.albusDumbledoreLogoutTest()'><b>albusDumbledoreLogoutTest</b><br>Test class: globalsqatests.Logout</td>
 <td></td>
-<td>7</td>
-<td>globalsqatests.Logout@791d1f8b</td></tr>
+<td>6</td>
+<td>globalsqatests.Logout@35a3d49f</td></tr>
+<tr>
+<td title='globalsqatests.HomeButton.bankManagerAddCustomerHomeButtonTest()'><b>bankManagerAddCustomerHomeButtonTest</b><br>Test class: globalsqatests.HomeButton</td>
+<td></td>
+<td>0</td>
+<td>globalsqatests.HomeButton@389b0789</td></tr>
+<tr>
+<td title='globalsqatests.HomeButton.bankManagerCustomersHomeButtonTest()'><b>bankManagerCustomersHomeButtonTest</b><br>Test class: globalsqatests.HomeButton</td>
+<td></td>
+<td>0</td>
+<td>globalsqatests.HomeButton@389b0789</td></tr>
 <tr>
 <td title='globalsqatests.HomeButton.bankManagerHomeButtonTest()'><b>bankManagerHomeButtonTest</b><br>Test class: globalsqatests.HomeButton</td>
 <td></td>
 <td>0</td>
-<td>globalsqatests.HomeButton@2415fc55</td></tr>
+<td>globalsqatests.HomeButton@389b0789</td></tr>
 <tr>
 <td title='globalsqatests.BankManagerLoginButton.bankManagerLoginButtonTest()'><b>bankManagerLoginButtonTest</b><br>Test class: globalsqatests.BankManagerLoginButton</td>
 <td></td>
 <td>3</td>
-<td>globalsqatests.BankManagerLoginButton@13bc8645</td></tr>
+<td>globalsqatests.BankManagerLoginButton@478db956</td></tr>
+<tr>
+<td title='globalsqatests.HomeButton.bankManagerOpenAccountHomeButtonTest()'><b>bankManagerOpenAccountHomeButtonTest</b><br>Test class: globalsqatests.HomeButton</td>
+<td></td>
+<td>0</td>
+<td>globalsqatests.HomeButton@389b0789</td></tr>
+<tr>
+<td title='globalsqatests.AccountNumber.createAccountAndVerifyAccountNumberTest()'><b>createAccountAndVerifyAccountNumberTest</b><br>Test class: globalsqatests.AccountNumber</td>
+<td></td>
+<td>1</td>
+<td>globalsqatests.AccountNumber@13df2a8c</td></tr>
+<tr>
+<td title='globalsqatests.UserLogin.createAnAccountAndLoginWithFaieqTest()'><b>createAnAccountAndLoginWithFaieqTest</b><br>Test class: globalsqatests.UserLogin</td>
+<td></td>
+<td>1</td>
+<td>globalsqatests.UserLogin@7905a0b8</td></tr>
+<tr>
+<td title='globalsqatests.UserLogin.createAnAccountAndLoginWithJoeTest()'><b>createAnAccountAndLoginWithJoeTest</b><br>Test class: globalsqatests.UserLogin</td>
+<td></td>
+<td>1</td>
+<td>globalsqatests.UserLogin@7905a0b8</td></tr>
+<tr>
+<td title='globalsqatests.UserLogin.createAnAccountAndLoginWithRownakTest()'><b>createAnAccountAndLoginWithRownakTest</b><br>Test class: globalsqatests.UserLogin</td>
+<td></td>
+<td>1</td>
+<td>globalsqatests.UserLogin@7905a0b8</td></tr>
+<tr>
+<td title='globalsqatests.Logout.createAnAccountAndLogoutWithFaieqTest()'><b>createAnAccountAndLogoutWithFaieqTest</b><br>Test class: globalsqatests.Logout</td>
+<td></td>
+<td>4</td>
+<td>globalsqatests.Logout@35a3d49f</td></tr>
+<tr>
+<td title='globalsqatests.Logout.createAnAccountAndLogoutWithJoeTest()'><b>createAnAccountAndLogoutWithJoeTest</b><br>Test class: globalsqatests.Logout</td>
+<td></td>
+<td>4</td>
+<td>globalsqatests.Logout@35a3d49f</td></tr>
+<tr>
+<td title='globalsqatests.SearchCustomer.createAnAccountAndSearchRownakTest()'><b>createAnAccountAndSearchRownakTest</b><br>Test class: globalsqatests.SearchCustomer</td>
+<td></td>
+<td>1</td>
+<td>globalsqatests.SearchCustomer@72d6b3ba</td></tr>
 <tr>
 <td title='globalsqatests.HomeButton.customerHomeButtonTest()'><b>customerHomeButtonTest</b><br>Test class: globalsqatests.HomeButton</td>
 <td></td>
-<td>1</td>
-<td>globalsqatests.HomeButton@2415fc55</td></tr>
+<td>0</td>
+<td>globalsqatests.HomeButton@389b0789</td></tr>
 <tr>
 <td title='globalsqatests.CustomerLoginButton.customerLoginButtonTest()'><b>customerLoginButtonTest</b><br>Test class: globalsqatests.CustomerLoginButton</td>
 <td></td>
 <td>3</td>
-<td>globalsqatests.CustomerLoginButton@14f232c4</td></tr>
+<td>globalsqatests.CustomerLoginButton@13d9cbf5</td></tr>
+<tr>
+<td title='globalsqatests.HomeButton.customerLoginHomeButtonTest()'><b>customerLoginHomeButtonTest</b><br>Test class: globalsqatests.HomeButton</td>
+<td></td>
+<td>0</td>
+<td>globalsqatests.HomeButton@389b0789</td></tr>
 <tr>
 <td title='globalsqatests.DeleteButton.deleteCustomerTest()'><b>deleteCustomerTest</b><br>Test class: globalsqatests.DeleteButton</td>
 <td></td>
 <td>0</td>
-<td>globalsqatests.DeleteButton@5e17553a</td></tr>
+<td>globalsqatests.DeleteButton@4808bc9b</td></tr>
 <tr>
-<td title='globalsqatests.Deposit.depositAmount1000Test()'><b>depositAmount1000Test</b><br>Test class: globalsqatests.Deposit</td>
+<td title='globalsqatests.Deposit.depositAlbusTest()'><b>depositAlbusTest</b><br>Test class: globalsqatests.Deposit</td>
 <td></td>
 <td>1</td>
-<td>globalsqatests.Deposit@19b89d4</td></tr>
+<td>globalsqatests.Deposit@163370c2</td></tr>
 <tr>
-<td title='globalsqatests.Deposit.depositAmount30000Test()'><b>depositAmount30000Test</b><br>Test class: globalsqatests.Deposit</td>
+<td title='globalsqatests.Deposit.depositHarryTest()'><b>depositHarryTest</b><br>Test class: globalsqatests.Deposit</td>
 <td></td>
 <td>1</td>
-<td>globalsqatests.Deposit@19b89d4</td></tr>
+<td>globalsqatests.Deposit@163370c2</td></tr>
 <tr>
-<td title='globalsqatests.Deposit.depositAmount5Test()'><b>depositAmount5Test</b><br>Test class: globalsqatests.Deposit</td>
+<td title='globalsqatests.Deposit.depositHermoineTest()'><b>depositHermoineTest</b><br>Test class: globalsqatests.Deposit</td>
+<td></td>
+<td>0</td>
+<td>globalsqatests.Deposit@163370c2</td></tr>
+<tr>
+<td title='globalsqatests.HomeButton.depositHomeButtonTest()'><b>depositHomeButtonTest</b><br>Test class: globalsqatests.HomeButton</td>
+<td></td>
+<td>0</td>
+<td>globalsqatests.HomeButton@389b0789</td></tr>
+<tr>
+<td title='globalsqatests.Deposit.depositNevilleTest()'><b>depositNevilleTest</b><br>Test class: globalsqatests.Deposit</td>
 <td></td>
 <td>1</td>
-<td>globalsqatests.Deposit@19b89d4</td></tr>
+<td>globalsqatests.Deposit@163370c2</td></tr>
 <tr>
-<td title='globalsqatests.Deposit.depositFunctionTest()'><b>depositFunctionTest</b><br>Test class: globalsqatests.Deposit</td>
+<td title='globalsqatests.Deposit.depositRonTest()'><b>depositRonTest</b><br>Test class: globalsqatests.Deposit</td>
 <td></td>
-<td>1</td>
-<td>globalsqatests.Deposit@19b89d4</td></tr>
+<td>0</td>
+<td>globalsqatests.Deposit@163370c2</td></tr>
 <tr>
 <td title='globalsqatests.BackButton.harryPotterBackButtonTest()'><b>harryPotterBackButtonTest</b><br>Test class: globalsqatests.BackButton</td>
 <td></td>
 <td>1</td>
-<td>globalsqatests.BackButton@56dc1551</td></tr>
+<td>globalsqatests.BackButton@2ca923bb</td></tr>
 <tr>
 <td title='globalsqatests.UserLogin.harryPotterLoginTest()'><b>harryPotterLoginTest</b><br>Test class: globalsqatests.UserLogin</td>
 <td></td>
-<td>1</td>
-<td>globalsqatests.UserLogin@30b6ffe0</td></tr>
+<td>0</td>
+<td>globalsqatests.UserLogin@7905a0b8</td></tr>
 <tr>
 <td title='globalsqatests.Logout.harryPotterLogoutTest()'><b>harryPotterLogoutTest</b><br>Test class: globalsqatests.Logout</td>
 <td></td>
 <td>6</td>
-<td>globalsqatests.Logout@791d1f8b</td></tr>
+<td>globalsqatests.Logout@35a3d49f</td></tr>
+<tr>
+<td title='globalsqatests.TransactionsButton.harryTransactionsButtonTest()'><b>harryTransactionsButtonTest</b><br>Test class: globalsqatests.TransactionsButton</td>
+<td></td>
+<td>0</td>
+<td>globalsqatests.TransactionsButton@1ebea008</td></tr>
 <tr>
 <td title='globalsqatests.BackButton.hermoineGrangerBackButtonTest()'><b>hermoineGrangerBackButtonTest</b><br>Test class: globalsqatests.BackButton</td>
 <td></td>
 <td>1</td>
-<td>globalsqatests.BackButton@56dc1551</td></tr>
+<td>globalsqatests.BackButton@2ca923bb</td></tr>
 <tr>
 <td title='globalsqatests.UserLogin.hermoineGrangerLoginTest()'><b>hermoineGrangerLoginTest</b><br>Test class: globalsqatests.UserLogin</td>
 <td></td>
-<td>1</td>
-<td>globalsqatests.UserLogin@30b6ffe0</td></tr>
+<td>0</td>
+<td>globalsqatests.UserLogin@7905a0b8</td></tr>
 <tr>
 <td title='globalsqatests.Logout.hermoineGrangerLogoutTest()'><b>hermoineGrangerLogoutTest</b><br>Test class: globalsqatests.Logout</td>
 <td></td>
 <td>6</td>
-<td>globalsqatests.Logout@791d1f8b</td></tr>
+<td>globalsqatests.Logout@35a3d49f</td></tr>
+<tr>
+<td title='globalsqatests.TransactionsButton.hermoineTransactionsButtonTest()'><b>hermoineTransactionsButtonTest</b><br>Test class: globalsqatests.TransactionsButton</td>
+<td></td>
+<td>0</td>
+<td>globalsqatests.TransactionsButton@1ebea008</td></tr>
 <tr>
 <td title='globalsqatests.BackButton.nevilleLongbottomBackButtonTest()'><b>nevilleLongbottomBackButtonTest</b><br>Test class: globalsqatests.BackButton</td>
 <td></td>
-<td>1</td>
-<td>globalsqatests.BackButton@56dc1551</td></tr>
+<td>0</td>
+<td>globalsqatests.BackButton@2ca923bb</td></tr>
 <tr>
 <td title='globalsqatests.Logout.nevilleLongbottomLogoutTest()'><b>nevilleLongbottomLogoutTest</b><br>Test class: globalsqatests.Logout</td>
 <td></td>
 <td>6</td>
-<td>globalsqatests.Logout@791d1f8b</td></tr>
+<td>globalsqatests.Logout@35a3d49f</td></tr>
+<tr>
+<td title='globalsqatests.TransactionsButton.nevilleTransactionsButtonTest()'><b>nevilleTransactionsButtonTest</b><br>Test class: globalsqatests.TransactionsButton</td>
+<td></td>
+<td>0</td>
+<td>globalsqatests.TransactionsButton@1ebea008</td></tr>
+<tr>
+<td title='globalsqatests.Deposit.newAccountDepositTest()'><b>newAccountDepositTest</b><br>Test class: globalsqatests.Deposit</td>
+<td></td>
+<td>2</td>
+<td>globalsqatests.Deposit@163370c2</td></tr>
+<tr>
+<td title='globalsqatests.TransactionsButton.newCustomerTransactionsButtonTest()'><b>newCustomerTransactionsButtonTest</b><br>Test class: globalsqatests.TransactionsButton</td>
+<td></td>
+<td>2</td>
+<td>globalsqatests.TransactionsButton@1ebea008</td></tr>
 <tr>
 <td title='globalsqatests.OpenAccount.openDollarAccountTest()'><b>openDollarAccountTest</b><br>Test class: globalsqatests.OpenAccount</td>
 <td></td>
+<td>0</td>
+<td>globalsqatests.OpenAccount@51bf5add</td></tr>
+<tr>
+<td title='globalsqatests.OpenAccount.openMultipleAccountsTest()'><b>openMultipleAccountsTest</b><br>Test class: globalsqatests.OpenAccount</td>
+<td></td>
 <td>1</td>
-<td>globalsqatests.OpenAccount@4bbf6d0e</td></tr>
+<td>globalsqatests.OpenAccount@51bf5add</td></tr>
 <tr>
 <td title='globalsqatests.OpenAccount.openPoundAccountTest()'><b>openPoundAccountTest</b><br>Test class: globalsqatests.OpenAccount</td>
 <td></td>
-<td>1</td>
-<td>globalsqatests.OpenAccount@4bbf6d0e</td></tr>
+<td>0</td>
+<td>globalsqatests.OpenAccount@51bf5add</td></tr>
 <tr>
 <td title='globalsqatests.OpenAccount.openRupeeAccountTest()'><b>openRupeeAccountTest</b><br>Test class: globalsqatests.OpenAccount</td>
 <td></td>
-<td>1</td>
-<td>globalsqatests.OpenAccount@4bbf6d0e</td></tr>
+<td>0</td>
+<td>globalsqatests.OpenAccount@51bf5add</td></tr>
 <tr>
 <td title='globalsqatests.ResetButton.resetButtonTest()'><b>resetButtonTest</b><br>Test class: globalsqatests.ResetButton</td>
 <td></td>
 <td>1</td>
-<td>globalsqatests.ResetButton@3eb91815</td></tr>
+<td>globalsqatests.ResetButton@70e38ce1</td></tr>
 <tr>
-<td title='globalsqatests.BackButton.ronWeaslyButtonTest()'><b>ronWeaslyButtonTest</b><br>Test class: globalsqatests.BackButton</td>
+<td title='globalsqatests.TransactionsButton.ronTransactionsButtonTest()'><b>ronTransactionsButtonTest</b><br>Test class: globalsqatests.TransactionsButton</td>
 <td></td>
-<td>1</td>
-<td>globalsqatests.BackButton@56dc1551</td></tr>
+<td>0</td>
+<td>globalsqatests.TransactionsButton@1ebea008</td></tr>
+<tr>
+<td title='globalsqatests.BackButton.ronWeaslyBackButtonTest()'><b>ronWeaslyBackButtonTest</b><br>Test class: globalsqatests.BackButton</td>
+<td></td>
+<td>0</td>
+<td>globalsqatests.BackButton@2ca923bb</td></tr>
 <tr>
 <td title='globalsqatests.UserLogin.ronWeaslyLoginTest()'><b>ronWeaslyLoginTest</b><br>Test class: globalsqatests.UserLogin</td>
 <td></td>
-<td>1</td>
-<td>globalsqatests.UserLogin@30b6ffe0</td></tr>
+<td>0</td>
+<td>globalsqatests.UserLogin@7905a0b8</td></tr>
 <tr>
 <td title='globalsqatests.Logout.ronWeaslyLogoutTest()'><b>ronWeaslyLogoutTest</b><br>Test class: globalsqatests.Logout</td>
 <td></td>
-<td>7</td>
-<td>globalsqatests.Logout@791d1f8b</td></tr>
+<td>6</td>
+<td>globalsqatests.Logout@35a3d49f</td></tr>
+<tr>
+<td title='globalsqatests.SearchCustomer.searchAlbusDumbledoreTest()'><b>searchAlbusDumbledoreTest</b><br>Test class: globalsqatests.SearchCustomer</td>
+<td></td>
+<td>0</td>
+<td>globalsqatests.SearchCustomer@72d6b3ba</td></tr>
 <tr>
 <td title='globalsqatests.SearchCustomer.searchHarryPotterTest()'><b>searchHarryPotterTest</b><br>Test class: globalsqatests.SearchCustomer</td>
 <td></td>
-<td>1</td>
-<td>globalsqatests.SearchCustomer@27912e3</td></tr>
+<td>0</td>
+<td>globalsqatests.SearchCustomer@72d6b3ba</td></tr>
 <tr>
 <td title='globalsqatests.SearchCustomer.searchHermoineGrangerTest()'><b>searchHermoineGrangerTest</b><br>Test class: globalsqatests.SearchCustomer</td>
 <td></td>
-<td>1</td>
-<td>globalsqatests.SearchCustomer@27912e3</td></tr>
+<td>0</td>
+<td>globalsqatests.SearchCustomer@72d6b3ba</td></tr>
 <tr>
 <td title='globalsqatests.SearchCustomer.searchNevilleLongbottomTest()'><b>searchNevilleLongbottomTest</b><br>Test class: globalsqatests.SearchCustomer</td>
 <td></td>
-<td>1</td>
-<td>globalsqatests.SearchCustomer@27912e3</td></tr>
+<td>0</td>
+<td>globalsqatests.SearchCustomer@72d6b3ba</td></tr>
 <tr>
-<td title='globalsqatests.AccountNumberDropDown.selectAccountNumberTest()'><b>selectAccountNumberTest</b><br>Test class: globalsqatests.AccountNumberDropDown</td>
+<td title='globalsqatests.SearchCustomer.searchRonWeaslyTest()'><b>searchRonWeaslyTest</b><br>Test class: globalsqatests.SearchCustomer</td>
+<td></td>
+<td>0</td>
+<td>globalsqatests.SearchCustomer@72d6b3ba</td></tr>
+<tr>
+<td title='globalsqatests.AccountNumber.selectAccountNumberTest()'><b>selectAccountNumberTest</b><br>Test class: globalsqatests.AccountNumber</td>
+<td></td>
+<td>0</td>
+<td>globalsqatests.AccountNumber@13df2a8c</td></tr>
+<tr>
+<td title='globalsqatests.AccountNumber.selectMultipleAccountsForAlbusTest()'><b>selectMultipleAccountsForAlbusTest</b><br>Test class: globalsqatests.AccountNumber</td>
+<td></td>
+<td>0</td>
+<td>globalsqatests.AccountNumber@13df2a8c</td></tr>
+<tr>
+<td title='globalsqatests.AccountNumber.selectMultipleAccountsForHarryTest()'><b>selectMultipleAccountsForHarryTest</b><br>Test class: globalsqatests.AccountNumber</td>
+<td></td>
+<td>0</td>
+<td>globalsqatests.AccountNumber@13df2a8c</td></tr>
+<tr>
+<td title='globalsqatests.AccountNumber.selectMultipleAccountsForHermoineTest()'><b>selectMultipleAccountsForHermoineTest</b><br>Test class: globalsqatests.AccountNumber</td>
+<td></td>
+<td>0</td>
+<td>globalsqatests.AccountNumber@13df2a8c</td></tr>
+<tr>
+<td title='globalsqatests.AccountNumber.selectMultipleAccountsForNevilleTest()'><b>selectMultipleAccountsForNevilleTest</b><br>Test class: globalsqatests.AccountNumber</td>
 <td></td>
 <td>1</td>
-<td>globalsqatests.AccountNumberDropDown@102cec62</td></tr>
+<td>globalsqatests.AccountNumber@13df2a8c</td></tr>
 <tr>
-<td title='globalsqatests.AccountNumberDropDown.selectMultipleAccountNumbersTest()'><b>selectMultipleAccountNumbersTest</b><br>Test class: globalsqatests.AccountNumberDropDown</td>
+<td title='globalsqatests.AccountNumber.selectMultipleAccountsForRonTest()'><b>selectMultipleAccountsForRonTest</b><br>Test class: globalsqatests.AccountNumber</td>
 <td></td>
-<td>1</td>
-<td>globalsqatests.AccountNumberDropDown@102cec62</td></tr>
+<td>0</td>
+<td>globalsqatests.AccountNumber@13df2a8c</td></tr>
 <tr>
-<td title='globalsqatests.TransactionsButton.transactionsButton()'><b>transactionsButton</b><br>Test class: globalsqatests.TransactionsButton</td>
+<td title='globalsqatests.HomeButton.transactionsHomeButtonTest()'><b>transactionsHomeButtonTest</b><br>Test class: globalsqatests.HomeButton</td>
 <td></td>
-<td>1</td>
-<td>globalsqatests.TransactionsButton@74f6c5d8</td></tr>
+<td>0</td>
+<td>globalsqatests.HomeButton@389b0789</td></tr>
+<tr>
+<td title='globalsqatests.HomeButton.withdawlHomeButtonTest()'><b>withdawlHomeButtonTest</b><br>Test class: globalsqatests.HomeButton</td>
+<td></td>
+<td>0</td>
+<td>globalsqatests.HomeButton@389b0789</td></tr>
 <tr>
 <td title='globalsqatests.Withdraw.withdrawFunctionTest()'><b>withdrawFunctionTest</b><br>Test class: globalsqatests.Withdraw</td>
 <td></td>
 <td>1</td>
-<td>globalsqatests.Withdraw@43015c69</td></tr>
+<td>globalsqatests.Withdraw@7de62196</td></tr>
 <tr>
 <td title='globalsqatests.Withdraw.withdrawNegativeTest()'><b>withdrawNegativeTest</b><br>Test class: globalsqatests.Withdraw</td>
 <td></td>
 <td>1</td>
-<td>globalsqatests.Withdraw@43015c69</td></tr>
+<td>globalsqatests.Withdraw@7de62196</td></tr>
 </table><p>
 </body>
 </html>
