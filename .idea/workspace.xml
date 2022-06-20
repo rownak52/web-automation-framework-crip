@@ -6,31 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7af8a1fa-1a94-4245-ae7d-fe301b8bbd75" name="Changes" comment="Merge pull request #2 from FaieqLaskar/master&#10;&#10;trying to push to test lead">
       <changelist_data name="Pollak" email="103900627+pollakrhmn@users.noreply.github.com" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/CRIP Automation Script/com.GlobalSQA Tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/CRIP Automation Script/com.GlobalSQA Tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/CRIP Automation Script/com.GlobalSQA Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/CRIP Automation Script/com.GlobalSQA Tests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/CRIP Automation Script/com.SauceDemo Tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/CRIP Automation Script/com.SauceDemo Tests.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/CRIP Automation Script/com.SauceDemo Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/CRIP Automation Script/com.SauceDemo Tests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/CRIP Automation Script/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/CRIP Automation Script/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-globalsqatests.AccountNumberDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-globalsqatests.AccountNumberDropDown.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-globalsqatests.AddCustomer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-globalsqatests.AddCustomer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-globalsqatests.BackButton.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-globalsqatests.BackButton.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-globalsqatests.BankManagerLoginButton.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-globalsqatests.BankManagerLoginButton.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-globalsqatests.CustomerLoginButton.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-globalsqatests.CustomerLoginButton.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-globalsqatests.DeleteButton.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-globalsqatests.DeleteButton.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-globalsqatests.HomeButton.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-globalsqatests.HomeButton.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-globalsqatests.OpenAccount.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-globalsqatests.OpenAccount.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-globalsqatests.ResetButton.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-globalsqatests.ResetButton.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-globalsqatests.SearchCustomer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-globalsqatests.SearchCustomer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-globalsqatests.TransactionsButton.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-globalsqatests.TransactionsButton.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-globalsqatests.UserLogin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-globalsqatests.UserLogin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-saucedemotests.AddItemsToCart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-saucedemotests.AddItemsToCart.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-saucedemotests.CheckOut.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-saucedemotests.CheckOut.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-saucedemotests.DropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-saucedemotests.DropDown.xml" afterDir="false" />
@@ -40,15 +18,6 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-saucedemotests.MenuBar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-saucedemotests.MenuBar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-saucedemotests.ResetAddToCart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-saucedemotests.ResetAddToCart.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-saucedemotests.SearchBar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-saucedemotests.SearchBar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/methods-not-run.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,6 +180,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Merge pull request #2 from FaieqLaskar/master&#10;&#10;trying to push to test lead" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge pull request #2 from FaieqLaskar/master&#10;&#10;trying to push to test lead" />
   </component>
 </project>
