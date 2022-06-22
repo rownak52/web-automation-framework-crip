@@ -3,6 +3,8 @@ package utility;
 
 import com.mongodb.MongoClient;
 import com.mongodb.client.MongoDatabase;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.sql.*;
@@ -13,6 +15,7 @@ import java.util.Properties;
 
 public class ConnectDB {
 
+    private final Logger LOG = LoggerFactory.getLogger(ConnectDB.class);
     Properties prop = Utility.loadProperties();
 
     public static MongoDatabase mongoDatabase = null;
@@ -34,14 +37,14 @@ public class ConnectDB {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        System.out.println("Database is connected");
+        LOG.info("Database is connected");
         return connect;
     }
     public MongoDatabase connectToMongoDB() {
         String databaseName = prop.getProperty("mongodb.db.name");
         MongoClient mongoClient = new MongoClient();
         mongoDatabase = mongoClient.getDatabase(databaseName);
-        System.out.println("Database Connected");
+        LOG.info("Database Connected");
         return mongoDatabase;
     }
     public List<String> readMysqlDataBaseColumn(String tableName, String columnName){
@@ -98,8 +101,8 @@ public class ConnectDB {
         return data;
     }
 
-//    public static void main(String[] args) {
-//        ConnectDB cdb = new ConnectDB();
-//        cdb.connectToMySql();
-//    }
+    public static void main(String[] args) {
+        ConnectDB cdb = new ConnectDB();
+        cdb.connectToMySql();
+    }
 }

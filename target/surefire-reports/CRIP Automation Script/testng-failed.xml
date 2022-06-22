@@ -10,18 +10,18 @@
     <parameter name="browserName" value="chrome"/>
     <parameter name="url" value="https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login"/>
     <classes>
-      <class name="globalsqatests.TransactionsButton">
+      <class name="globalsqatests.UserLogin">
         <methods>
+          <include name="loginWithExcelTest"/>
           <include name="endLOG"/>
           <include name="afterEachTestMethod"/>
           <include name="tearDown"/>
-          <include name="albusTransactionsButtonTest"/>
           <include name="generateReport"/>
           <include name="extentSetup"/>
           <include name="setUp"/>
           <include name="startExtent"/>
         </methods>
-      </class> <!-- globalsqatests.TransactionsButton -->
+      </class> <!-- globalsqatests.UserLogin -->
     </classes>
   </test> <!-- com.GlobalSQA Tests(failed) -->
 </suite> <!-- Failed suite [CRIP Automation Script] -->

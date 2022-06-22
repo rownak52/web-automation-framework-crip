@@ -59,8 +59,8 @@
         <parameter name="url" value="https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login"/>
 
         <classes>
-            <class name="globalsqatests.CustomerTable"></class>
             <class name="globalsqatests.CustomerAccounts"></class>
+            <class name="globalsqatests.CustomerTable"></class>
             <class name="globalsqatests.DeleteButton"></class>
             <class name="globalsqatests.ResetButton"></class>
             <class name="globalsqatests.BackButton"></class>

@@ -1,787 +1,867 @@
-20:31:11.406 globalsqatests.CustomerTable - Bank Manager login button click successful
-20:31:11.409 globalsqatests.CustomerTable - Login successful
-20:31:11.573 globalsqatests.CustomerTable - Customers button click successful
-20:31:11.573 globalsqatests.CustomerTable - Navigate to Customers List page successful
-20:31:11.726 globalsqatests.CustomerTable - Customer account number is visible in the table
-20:31:12.647 base.CommonAPI - Test Case Status: PASS
-
-20:31:14.654 globalsqatests.CustomerTable - Bank Manager login button click successful
-20:31:14.654 globalsqatests.CustomerTable - Login successful
-20:31:14.819 globalsqatests.CustomerTable - Customers button click successful
-20:31:14.820 globalsqatests.CustomerTable - Navigate to Customers List page successful
-20:31:14.979 globalsqatests.CustomerTable - Delete Customer is visible in the table
-20:31:15.694 base.CommonAPI - Test Case Status: PASS
-
-20:31:17.739 globalsqatests.CustomerTable - Bank Manager login button click successful
-20:31:17.739 globalsqatests.CustomerTable - Login successful
-20:31:17.907 globalsqatests.CustomerTable - Customers button click successful
-20:31:17.907 globalsqatests.CustomerTable - Navigate to Customers List page successful
-20:31:18.166 globalsqatests.CustomerTable - Customer table is visible
-20:31:18.889 base.CommonAPI - Test Case Status: PASS
-
-20:31:20.964 globalsqatests.CustomerTable - Bank Manager login button click successful
-20:31:20.964 globalsqatests.CustomerTable - Login successful
-20:31:21.130 globalsqatests.CustomerTable - Customers button click successful
-20:31:21.130 globalsqatests.CustomerTable - Navigate to Customers List page successful
-20:31:21.287 globalsqatests.CustomerTable - Customer first name is visible in the table
-20:31:21.967 base.CommonAPI - Test Case Status: PASS
-
-20:31:24.087 globalsqatests.CustomerTable - Bank Manager login button click successful
-20:31:24.088 globalsqatests.CustomerTable - Login successful
-20:31:24.259 globalsqatests.CustomerTable - Customers button click successful
-20:31:24.259 globalsqatests.CustomerTable - Navigate to Customers List page successful
-20:31:24.436 globalsqatests.CustomerTable - Customer last name is visible in the table
-20:31:25.140 base.CommonAPI - Test Case Status: PASS
-
-20:31:27.068 globalsqatests.CustomerTable - Bank Manager login button click successful
-20:31:27.068 globalsqatests.CustomerTable - Login successful
-20:31:27.245 globalsqatests.CustomerTable - Customers button click successful
-20:31:27.246 globalsqatests.CustomerTable - Navigate to Customers List page successful
-20:31:27.395 globalsqatests.CustomerTable - Customer postal code is visible in the table
-20:31:28.078 base.CommonAPI - Test Case Status: PASS
-
-20:31:29.905 globalsqatests.CustomerAccounts - Customer login button click successful
-20:31:30.219 globalsqatests.CustomerAccounts - Customer dropdown click successful
-20:31:30.238 globalsqatests.CustomerAccounts - Visibility of Customer dropdown options is present
-20:31:30.926 base.CommonAPI - Test Case Status: PASS
-
-20:31:32.882 globalsqatests.DeleteButton - Bank Manager login button click successful
-20:31:32.883 globalsqatests.DeleteButton - Login successful
-20:31:33.046 globalsqatests.DeleteButton - Customers button click successful
-20:31:33.189 globalsqatests.DeleteButton - Navigate to Customers List page successful
-20:31:33.230 globalsqatests.DeleteButton - Delete button click success
-20:31:33.231 globalsqatests.DeleteButton - Albus Dumbledore is deleted
-20:31:33.906 base.CommonAPI - Test Case Status: PASS
-
-20:31:35.801 globalsqatests.ResetButton - Customer login button click successful
-20:31:36.014 globalsqatests.ResetButton - Hermoine Granger account is selected
-20:31:36.057 globalsqatests.ResetButton - Login successful
-20:31:36.224 globalsqatests.ResetButton - Transactions button click successful
-20:31:36.225 globalsqatests.ResetButton - Navigate to Transactions page successful
-20:31:36.419 globalsqatests.ResetButton - Reset button click successful
-20:31:36.437 globalsqatests.ResetButton - Customer data is reset
-20:31:37.135 base.CommonAPI - Test Case Status: PASS
-
-20:31:38.994 globalsqatests.BackButton - Customer login button click successful
-20:31:39.212 globalsqatests.BackButton - Harry Potter account is selected
-20:31:39.257 globalsqatests.BackButton - Login successful
-20:31:39.417 globalsqatests.BackButton - Transactions button click successful
-20:31:39.417 globalsqatests.BackButton - Navigate to Transactions page successful
-20:31:39.598 globalsqatests.BackButton - Back button click successful
-20:31:39.643 globalsqatests.BackButton - Navigate to Account page successful
-20:31:40.330 base.CommonAPI - Test Case Status: PASS
-
-20:31:42.215 globalsqatests.BackButton - Customer login button click successful
-20:31:42.421 globalsqatests.BackButton - Hermoine Granger account is selected
-20:31:42.466 globalsqatests.BackButton - Login successful
-20:31:42.633 globalsqatests.BackButton - Transactions button click successful
-20:31:42.633 globalsqatests.BackButton - Navigate to Transactions page successful
-20:31:42.838 globalsqatests.BackButton - Back button click successful
-20:31:42.879 globalsqatests.BackButton - Navigate to Account page successful
-20:31:43.562 base.CommonAPI - Test Case Status: PASS
-
-20:31:45.431 globalsqatests.BackButton - Customer login button click successful
-20:31:45.649 globalsqatests.BackButton - Neville Longbottom account is selected
-20:31:45.694 globalsqatests.BackButton - Login successful
-20:31:45.855 globalsqatests.BackButton - Transactions button click successful
-20:31:45.855 globalsqatests.BackButton - Navigate to Transactions page successful
-20:31:46.026 globalsqatests.BackButton - Back button click successful
-20:31:46.068 globalsqatests.BackButton - Navigate to Account page successful
-20:31:46.770 base.CommonAPI - Test Case Status: PASS
-
-20:31:48.782 globalsqatests.BackButton - Customer login button click successful
-20:31:48.994 globalsqatests.BackButton - Ron Weasly account is selected
-20:31:49.047 globalsqatests.BackButton - Login successful
-20:31:49.213 globalsqatests.BackButton - Transactions button click successful
-20:31:49.213 globalsqatests.BackButton - Navigate to Transactions page successful
-20:31:49.371 globalsqatests.BackButton - Back button click successful
-20:31:49.410 globalsqatests.BackButton - Navigate to Account page successful
-20:31:50.102 base.CommonAPI - Test Case Status: PASS
-
-20:31:52.154 globalsqatests.AccountNumber - Bank Manager login button click successful
-20:31:52.155 globalsqatests.AccountNumber - Login successful
-20:31:52.332 globalsqatests.AccountNumber - Add Customer button click successful
-20:31:52.332 globalsqatests.AccountNumber - Navigate to Add Customer page successful
-20:31:52.671 globalsqatests.AccountNumber - Customer information entered
-20:31:52.719 globalsqatests.AccountNumber - Add Customer click successful
-20:31:52.724 globalsqatests.AccountNumber - Customer added successfully with customer id :6
-20:31:52.731 globalsqatests.AccountNumber - Alert accepted
-20:31:52.778 globalsqatests.AccountNumber - Open Account button click successful
-20:31:52.778 globalsqatests.AccountNumber - Navigate to Open Account page successful
-20:31:52.990 globalsqatests.AccountNumber - Rownak Choudhury account is selected
-20:31:53.066 globalsqatests.AccountNumber - Dollar currency is selected
-20:31:53.114 globalsqatests.AccountNumber - Proccess click successful
-20:31:53.118 globalsqatests.AccountNumber - Account created successfully with account number :1016
-20:31:53.122 globalsqatests.AccountNumber - Alert accepted
-20:31:53.171 globalsqatests.AccountNumber - Home button click successful
-20:31:53.177 globalsqatests.AccountNumber - Navigate to Homepage successful
-20:31:53.219 globalsqatests.AccountNumber - Customer login button click successful
-20:31:53.415 globalsqatests.AccountNumber - Rownak Choudhury account is selected
-20:31:53.641 globalsqatests.AccountNumber - Rownak Choudhury login successful
-20:31:53.720 globalsqatests.AccountNumber - 1016 account number is selected
-20:31:54.431 base.CommonAPI - Test Case Status: PASS
-
-20:31:56.508 globalsqatests.AccountNumber - Customer login button click successful
-20:31:56.750 globalsqatests.AccountNumber - Hermoine Granger account is selected
-20:31:56.815 globalsqatests.AccountNumber - Login successful
-20:31:57.052 globalsqatests.AccountNumber - 1003 account number is selected
-20:31:57.963 base.CommonAPI - Test Case Status: PASS
-
-20:32:00.229 globalsqatests.AccountNumber - Customer login button click successful
-20:32:00.485 globalsqatests.AccountNumber - Albus Dumbledore account is selected
-20:32:00.581 globalsqatests.AccountNumber - Login successful
-20:32:00.805 globalsqatests.AccountNumber - 1010 account number is selected
-20:32:00.919 globalsqatests.AccountNumber - 1011 account number is selected
-20:32:01.028 globalsqatests.AccountNumber - 1012 account number is selected
-20:32:01.796 base.CommonAPI - Test Case Status: PASS
-
-20:32:05.301 globalsqatests.AccountNumber - Customer login button click successful
-20:32:05.789 globalsqatests.AccountNumber - Harry Potter account is selected
-20:32:06.017 globalsqatests.AccountNumber - Login successful
-20:32:06.436 globalsqatests.AccountNumber - 1004 account number is selected
-20:32:06.791 globalsqatests.AccountNumber - 1005 account number is selected
-20:32:07.091 globalsqatests.AccountNumber - 1006 account number is selected
-20:32:08.244 base.CommonAPI - Test Case Status: PASS
-
-20:32:12.474 globalsqatests.AccountNumber - Customer login button click successful
-20:32:12.818 globalsqatests.AccountNumber - Hermoine Granger account is selected
-20:32:12.945 globalsqatests.AccountNumber - Login successful
-20:32:13.312 globalsqatests.AccountNumber - 1003 account number is selected
-20:32:13.534 globalsqatests.AccountNumber - 1002 account number is selected
-20:32:13.750 globalsqatests.AccountNumber - 1001 account number is selected
-20:32:14.749 base.CommonAPI - Test Case Status: PASS
-
-20:32:18.232 globalsqatests.AccountNumber - Customer login button click successful
-20:32:18.491 globalsqatests.AccountNumber - Neville Longbottom account is selected
-20:32:18.582 globalsqatests.AccountNumber - Login successful
-20:32:18.848 globalsqatests.AccountNumber - 1013 account number is selected
-20:32:18.993 globalsqatests.AccountNumber - 1014 account number is selected
-20:32:19.145 globalsqatests.AccountNumber - 1015 account number is selected
-20:32:20.012 base.CommonAPI - Test Case Status: PASS
-
-20:32:23.122 globalsqatests.AccountNumber - Customer login button click successful
-20:32:23.446 globalsqatests.AccountNumber - Ron Weasly account is selected
-20:32:23.533 globalsqatests.AccountNumber - Login successful
-20:32:23.817 globalsqatests.AccountNumber - 1007 account number is selected
-20:32:23.990 globalsqatests.AccountNumber - 1008 account number is selected
-20:32:24.156 globalsqatests.AccountNumber - 1009 account number is selected
-20:32:25.086 base.CommonAPI - Test Case Status: PASS
-
-20:32:28.277 globalsqatests.TransactionsButton - Customer login button click successful
-20:32:28.535 globalsqatests.TransactionsButton - Albus Dumbledore account is selected
-20:32:28.607 globalsqatests.TransactionsButton - Login successful
-20:32:28.815 globalsqatests.TransactionsButton - Transactions button click successful
-20:32:28.981 globalsqatests.TransactionsButton - Navigate to Transactions page successful
-20:32:29.829 base.CommonAPI - Test Case Status: PASS
-
-20:32:33.042 globalsqatests.TransactionsButton - Customer login button click successful
-20:32:33.331 globalsqatests.TransactionsButton - Harry Potter account is selected
-20:32:33.422 globalsqatests.TransactionsButton - Login successful
-20:32:33.645 globalsqatests.TransactionsButton - Transactions button click successful
-20:32:33.796 globalsqatests.TransactionsButton - Navigate to Transactions page successful
-20:32:34.670 base.CommonAPI - Test Case Status: PASS
-
-20:32:38.858 globalsqatests.TransactionsButton - Customer login button click successful
-20:32:39.274 globalsqatests.TransactionsButton - Hermoine Granger account is selected
-20:32:39.426 globalsqatests.TransactionsButton - Login successful
-20:32:39.721 globalsqatests.TransactionsButton - Transactions button click successful
-20:32:40.199 globalsqatests.TransactionsButton - Navigate to Transactions page successful
-20:32:41.369 base.CommonAPI - Test Case Status: PASS
-
-20:32:44.693 globalsqatests.TransactionsButton - Customer login button click successful
-20:32:44.978 globalsqatests.TransactionsButton - Neville Longbottom account is selected
-20:32:45.075 globalsqatests.TransactionsButton - Login successful
-20:32:45.285 globalsqatests.TransactionsButton - Transactions button click successful
-20:32:45.451 globalsqatests.TransactionsButton - Navigate to Transactions page successful
-20:32:46.336 base.CommonAPI - Test Case Status: PASS
-
-20:32:50.048 globalsqatests.TransactionsButton - Bank Manager login button click successful
-20:32:50.048 globalsqatests.TransactionsButton - Login successful
-20:32:50.243 globalsqatests.TransactionsButton - Add Customer button click successful
-20:32:50.244 globalsqatests.TransactionsButton - Navigate to Add Customer page successful
-20:32:50.842 globalsqatests.TransactionsButton - Customer information entered
-20:32:50.958 globalsqatests.TransactionsButton - Add Customer click successful
-20:32:50.963 globalsqatests.TransactionsButton - Customer added successfully with customer id :6
-20:32:50.973 globalsqatests.TransactionsButton - Alert accepted
-20:32:51.084 globalsqatests.TransactionsButton - Open Account button click successful
-20:32:51.084 globalsqatests.TransactionsButton - Navigate to Open Account page successful
-20:32:51.385 globalsqatests.TransactionsButton - Rownak Choudhury account is selected
-20:32:51.546 globalsqatests.TransactionsButton - Dollar currency is selected
-20:32:51.649 globalsqatests.TransactionsButton - Proccess click successful
-20:32:51.655 globalsqatests.TransactionsButton - Account created successfully with account number :1016
-20:32:51.663 globalsqatests.TransactionsButton - Alert accepted
-20:32:51.784 globalsqatests.TransactionsButton - Home button click successful
-20:32:51.795 globalsqatests.TransactionsButton - Navigate to Homepage successful
-20:32:51.898 globalsqatests.TransactionsButton - Customer login button click successful
-20:32:52.177 globalsqatests.TransactionsButton - Rownak Choudhury account is selected
-20:32:52.488 globalsqatests.TransactionsButton - Rownak Choudhury login successful
-20:32:52.588 globalsqatests.TransactionsButton - Transactions button click successful
-20:32:52.771 globalsqatests.TransactionsButton - Navigate to Transactions page successful
-20:32:53.635 base.CommonAPI - Test Case Status: PASS
-
-20:32:57.131 globalsqatests.TransactionsButton - Customer login button click successful
-20:32:57.393 globalsqatests.TransactionsButton - Ron Weasly account is selected
-20:32:57.497 globalsqatests.TransactionsButton - Login successful
-20:32:57.721 globalsqatests.TransactionsButton - Transactions button click successful
-20:32:57.901 globalsqatests.TransactionsButton - Navigate to Transactions page successful
-20:32:58.808 base.CommonAPI - Test Case Status: PASS
-
-20:33:02.719 globalsqatests.SearchCustomer - Bank Manager login button click successful
-20:33:02.720 globalsqatests.SearchCustomer - Login successful
-20:33:02.950 globalsqatests.SearchCustomer - Add Customer button click successful
-20:33:02.950 globalsqatests.SearchCustomer - Navigate to Add Customer page successful
-20:33:03.623 globalsqatests.SearchCustomer - Customer information entered
-20:33:03.751 globalsqatests.SearchCustomer - Add Customer click successful
-20:33:03.757 globalsqatests.SearchCustomer - Customer added successfully with customer id :6
-20:33:03.770 globalsqatests.SearchCustomer - Alert accepted
-20:33:03.896 globalsqatests.SearchCustomer - Customers button click successful
-20:33:03.897 globalsqatests.SearchCustomer - Navigate to Customers List page successful
-20:33:04.216 globalsqatests.SearchCustomer - 'Faieq' was typed into Search Customer field
-20:33:04.326 globalsqatests.SearchCustomer - Faieq data is visibile
-20:33:05.304 base.CommonAPI - Test Case Status: PASS
-
-20:33:09.667 globalsqatests.SearchCustomer - Bank Manager login button click successful
-20:33:09.668 globalsqatests.SearchCustomer - Login successful
-20:33:09.918 globalsqatests.SearchCustomer - Add Customer button click successful
-20:33:09.919 globalsqatests.SearchCustomer - Navigate to Add Customer page successful
-20:33:10.611 globalsqatests.SearchCustomer - Customer information entered
-20:33:10.737 globalsqatests.SearchCustomer - Add Customer click successful
-20:33:10.743 globalsqatests.SearchCustomer - Customer added successfully with customer id :6
-20:33:10.755 globalsqatests.SearchCustomer - Alert accepted
-20:33:10.870 globalsqatests.SearchCustomer - Customers button click successful
-20:33:10.871 globalsqatests.SearchCustomer - Navigate to Customers List page successful
-20:33:11.191 globalsqatests.SearchCustomer - 'Rownak' was typed into Search Customer field
-20:33:11.308 globalsqatests.SearchCustomer - Rownak data is visibile
-20:33:12.230 base.CommonAPI - Test Case Status: PASS
-
-20:33:15.767 globalsqatests.SearchCustomer - Bank Manager login button click successful
-20:33:15.767 globalsqatests.SearchCustomer - Login successful
-20:33:15.994 globalsqatests.SearchCustomer - Customers button click successful
-20:33:15.994 globalsqatests.SearchCustomer - Navigate to Customers List page successful
-20:33:16.282 globalsqatests.SearchCustomer - 'Albus' was typed into Search Customer field
-20:33:16.365 globalsqatests.SearchCustomer - Albus data is visibile
-20:33:17.215 base.CommonAPI - Test Case Status: PASS
-
-20:33:20.793 globalsqatests.SearchCustomer - Bank Manager login button click successful
-20:33:20.794 globalsqatests.SearchCustomer - Login successful
-20:33:20.991 globalsqatests.SearchCustomer - Customers button click successful
-20:33:20.992 globalsqatests.SearchCustomer - Navigate to Customers List page successful
-20:33:21.295 globalsqatests.SearchCustomer - 'Harry' was typed into Search Customer field
-20:33:21.394 globalsqatests.SearchCustomer - Harry data is visibile
-20:33:22.258 base.CommonAPI - Test Case Status: PASS
-
-20:33:26.045 globalsqatests.SearchCustomer - Bank Manager login button click successful
-20:33:26.046 globalsqatests.SearchCustomer - Login successful
-20:33:26.286 globalsqatests.SearchCustomer - Customers button click successful
-20:33:26.286 globalsqatests.SearchCustomer - Navigate to Customers List page successful
-20:33:26.635 globalsqatests.SearchCustomer - 'Hermoine' was typed into Search Customer field
-20:33:26.748 globalsqatests.SearchCustomer - Hermoine data is visibile
-20:33:27.687 base.CommonAPI - Test Case Status: PASS
-
-20:33:32.180 globalsqatests.SearchCustomer - Bank Manager login button click successful
-20:33:32.181 globalsqatests.SearchCustomer - Login successful
-20:33:32.431 globalsqatests.SearchCustomer - Customers button click successful
-20:33:32.432 globalsqatests.SearchCustomer - Navigate to Customers List page successful
-20:33:32.802 globalsqatests.SearchCustomer - 'Harry' was typed into Search Customer field
-20:33:32.933 globalsqatests.SearchCustomer - Harry data is visibile
-20:33:33.030 globalsqatests.SearchCustomer - Search text field is cleared
-20:33:33.172 globalsqatests.SearchCustomer - 'Hermoine' was typed into Search Customer field
-20:33:33.286 globalsqatests.SearchCustomer - Hermoine data is visibile
-20:33:33.365 globalsqatests.SearchCustomer - Search text field is cleared
-20:33:33.507 globalsqatests.SearchCustomer - 'Neville' was typed into Search Customer field
-20:33:33.624 globalsqatests.SearchCustomer - Neville data is visibile
-20:33:34.656 base.CommonAPI - Test Case Status: PASS
-
-20:33:39.392 globalsqatests.SearchCustomer - Bank Manager login button click successful
-20:33:39.393 globalsqatests.SearchCustomer - Login successful
-20:33:39.653 globalsqatests.SearchCustomer - Customers button click successful
-20:33:39.654 globalsqatests.SearchCustomer - Navigate to Customers List page successful
-20:33:40.086 globalsqatests.SearchCustomer - 'Neville' was typed into Search Customer field
-20:33:40.233 globalsqatests.SearchCustomer - Neville data is visibile
-20:33:41.280 base.CommonAPI - Test Case Status: PASS
-
-20:33:46.674 globalsqatests.SearchCustomer - Bank Manager login button click successful
-20:33:46.675 globalsqatests.SearchCustomer - Login successful
-20:33:46.926 globalsqatests.SearchCustomer - Customers button click successful
-20:33:46.926 globalsqatests.SearchCustomer - Navigate to Customers List page successful
-20:33:47.361 globalsqatests.SearchCustomer - 'Ron' was typed into Search Customer field
-20:33:47.537 globalsqatests.SearchCustomer - Ron data is visibile
-20:33:48.793 base.CommonAPI - Test Case Status: PASS
-
-20:33:53.405 globalsqatests.SearchCustomer - Bank Manager login button click successful
-20:33:53.405 globalsqatests.SearchCustomer - Login successful
-20:33:53.634 globalsqatests.SearchCustomer - Customers button click successful
-20:33:53.634 globalsqatests.SearchCustomer - Navigate to Customers List page successful
-20:33:53.993 globalsqatests.SearchCustomer - 'Harry' was typed into Search Customer field
-20:33:54.123 globalsqatests.SearchCustomer - Harry data is visibile
-20:33:54.227 globalsqatests.SearchCustomer - Search text field is cleared
-20:33:54.369 globalsqatests.SearchCustomer - 'Hermoine' was typed into Search Customer field
-20:33:54.515 globalsqatests.SearchCustomer - Hermoine data is visibile
-20:33:55.655 base.CommonAPI - Test Case Status: PASS
-
-20:34:01.316 globalsqatests.AddCustomer - Bank Manager login button click successful
-20:34:01.317 globalsqatests.AddCustomer - Login successful
-20:34:01.633 globalsqatests.AddCustomer - Add Customer button click successful
-20:34:01.634 globalsqatests.AddCustomer - Navigate to Add Customer page successful
-20:34:02.548 globalsqatests.AddCustomer - Customer information entered successfully
-20:34:02.744 globalsqatests.AddCustomer - Add Customer click successful
-20:34:02.752 globalsqatests.AddCustomer - Customer added successfully with customer id :6
-20:34:02.778 globalsqatests.AddCustomer - Alert accepted
-20:34:04.426 base.CommonAPI - Test Case Status: PASS
-
-20:34:10.748 globalsqatests.AddCustomer - Bank Manager login button click successful
-20:34:10.749 globalsqatests.AddCustomer - Login successful
-20:34:11.034 globalsqatests.AddCustomer - Add Customer button click successful
-20:34:11.034 globalsqatests.AddCustomer - Navigate to Add Customer page successful
-20:34:12.091 globalsqatests.AddCustomer - Customer information entered successfully
-20:34:12.347 globalsqatests.AddCustomer - Add Customer click successful
-20:34:12.359 globalsqatests.AddCustomer - Customer added successfully with customer id :6
-20:34:12.384 globalsqatests.AddCustomer - Alert accepted
-20:34:14.267 base.CommonAPI - Test Case Status: PASS
-
-20:34:20.063 globalsqatests.AddCustomer - Bank Manager login button click successful
-20:34:20.065 globalsqatests.AddCustomer - Login successful
-20:34:20.418 globalsqatests.AddCustomer - Add Customer button click successful
-20:34:20.419 globalsqatests.AddCustomer - Navigate to Add Customer page successful
-20:34:21.674 globalsqatests.AddCustomer - Customer information entered successfully
-20:34:22.003 globalsqatests.AddCustomer - Add Customer click successful
-20:34:22.013 globalsqatests.AddCustomer - Customer added successfully with customer id :6
-20:34:22.041 globalsqatests.AddCustomer - Alert accepted
-20:34:23.808 base.CommonAPI - Test Case Status: PASS
-
-20:34:30.968 globalsqatests.AddCustomer - Bank Manager login button click successful
-20:34:30.969 globalsqatests.AddCustomer - Login successful
-20:34:31.350 globalsqatests.AddCustomer - Add Customer button click successful
-20:34:31.351 globalsqatests.AddCustomer - Navigate to Add Customer page successful
-20:34:32.773 globalsqatests.AddCustomer - Customer information entered successfully
-20:34:33.077 globalsqatests.AddCustomer - Add Customer click successful
-20:34:33.086 globalsqatests.AddCustomer - Customer added successfully with customer id :6
-20:34:33.109 globalsqatests.AddCustomer - Alert accepted
-20:34:33.909 globalsqatests.AddCustomer - Customer information entered successfully
-20:34:34.080 globalsqatests.AddCustomer - Add Customer click successful
-20:34:34.089 globalsqatests.AddCustomer - Customer added successfully with customer id :7
-20:34:34.113 globalsqatests.AddCustomer - Alert accepted
-20:34:35.698 base.CommonAPI - Test Case Status: PASS
-
-20:34:43.943 globalsqatests.Withdraw - Customer login button click successful
-20:34:44.585 globalsqatests.Withdraw - Hermoine Granger account is selected
-20:34:44.890 globalsqatests.Withdraw - Login successful
-20:34:45.391 globalsqatests.Withdraw - Withdrawl button click successful
-20:34:45.392 globalsqatests.Withdraw - Navigate to Withdrawl page successful
-20:34:45.832 globalsqatests.Withdraw - 500 Withdrawl amount entered
-20:34:46.076 globalsqatests.Withdraw - Confirm withdrawl click successful
-20:34:46.393 globalsqatests.Withdraw - Transaction successful
-20:34:47.589 base.CommonAPI - Test Case Status: PASS
-
-20:34:51.606 globalsqatests.Withdraw - Customer login button click successful
-20:34:51.964 globalsqatests.Withdraw - Harry Potter account is selected
-20:34:52.109 globalsqatests.Withdraw - Login successful
-20:34:52.379 globalsqatests.Withdraw - Withdrawl button click successful
-20:34:52.380 globalsqatests.Withdraw - Navigate to Withdrawl page successful
-20:34:52.706 globalsqatests.Withdraw - 1000 Withdrawl amount entered
-20:34:52.851 globalsqatests.Withdraw - Confirm withdrawl click successful
-20:34:52.975 globalsqatests.Withdraw - Invalid Transaction successful
-20:34:53.888 base.CommonAPI - Test Case Status: PASS
-
-20:34:56.591 globalsqatests.Deposit - Customer login button click successful
-20:34:56.852 globalsqatests.Deposit - Albus Dumbledore account is selected
-20:34:56.930 globalsqatests.Deposit - Login successful
-20:34:57.131 globalsqatests.Deposit - Deposit button click successful
-20:34:57.131 globalsqatests.Deposit - Navigate to Deposit page successful
-20:34:57.357 globalsqatests.Deposit - 5 Deposit amount entered
-20:34:57.438 globalsqatests.Deposit - Confirm deposit click successful 
-20:34:57.499 globalsqatests.Deposit - 5 Deposit successful
-20:34:58.321 base.CommonAPI - Test Case Status: PASS
-
-20:35:01.150 globalsqatests.Deposit - Customer login button click successful
-20:35:01.408 globalsqatests.Deposit - Harry Potter account is selected
-20:35:01.498 globalsqatests.Deposit - Login successful
-20:35:01.703 globalsqatests.Deposit - Deposit button click successful
-20:35:01.703 globalsqatests.Deposit - Navigate to Deposit page successful
-20:35:01.934 globalsqatests.Deposit - 1000 Deposit amount entered
-20:35:02.028 globalsqatests.Deposit - Confirm deposit click successful 
-20:35:02.116 globalsqatests.Deposit - 1,000 Deposit successful
-20:35:02.911 base.CommonAPI - Test Case Status: PASS
-
-20:35:06.378 globalsqatests.Deposit - Customer login button click successful
-20:35:06.718 globalsqatests.Deposit - Hermoine Granger account is selected
-20:35:06.854 globalsqatests.Deposit - Login successful
-20:35:07.117 globalsqatests.Deposit - Deposit button click successful
-20:35:07.117 globalsqatests.Deposit - Navigate to Deposit page successful
-20:35:07.391 globalsqatests.Deposit - 5 Deposit amount entered
-20:35:07.576 globalsqatests.Deposit - Confirm deposit click successful 
-20:35:07.697 globalsqatests.Deposit - 5 Deposit successful
-20:35:08.615 base.CommonAPI - Test Case Status: PASS
-
-20:35:11.943 globalsqatests.Deposit - Customer login button click successful
-20:35:12.223 globalsqatests.Deposit - Neville Longbottom account is selected
-20:35:12.309 globalsqatests.Deposit - Login successful
-20:35:12.521 globalsqatests.Deposit - Deposit button click successful
-20:35:12.522 globalsqatests.Deposit - Navigate to Deposit page successful
-20:35:12.752 globalsqatests.Deposit - 50000 Deposit amount entered
-20:35:12.858 globalsqatests.Deposit - Confirm deposit click successful 
-20:35:12.940 globalsqatests.Deposit - Deposit function successful
-20:35:13.797 base.CommonAPI - Test Case Status: PASS
-
-20:35:17.078 globalsqatests.Deposit - Customer login button click successful
-20:35:17.349 globalsqatests.Deposit - Ron Weasly account is selected
-20:35:17.436 globalsqatests.Deposit - Login successful
-20:35:17.651 globalsqatests.Deposit - Deposit button click successful
-20:35:17.651 globalsqatests.Deposit - Navigate to Deposit page successful
-20:35:17.880 globalsqatests.Deposit - 30000 Deposit amount entered
-20:35:17.986 globalsqatests.Deposit - Confirm deposit click successful 
-20:35:18.082 globalsqatests.Deposit - 30,000 Deposit successful
-20:35:18.995 base.CommonAPI - Test Case Status: PASS
-
-20:35:22.332 globalsqatests.Deposit - Customer login button click successful
-20:35:22.607 globalsqatests.Deposit - Hermoine Granger account is selected
-20:35:22.686 globalsqatests.Deposit - Login successful
-20:35:22.975 globalsqatests.Deposit - 1003 account number is selected
-20:35:23.074 globalsqatests.Deposit - Deposit button click successful
-20:35:23.074 globalsqatests.Deposit - Navigate to Deposit page successful
-20:35:23.344 globalsqatests.Deposit - 10000 Deposit amount entered
-20:35:23.449 globalsqatests.Deposit - Confirm deposit click successful 
-20:35:23.535 globalsqatests.Deposit - 10,000 Deposit successful
-20:35:23.758 globalsqatests.Deposit - 10000 Deposit amount entered
-20:35:23.812 globalsqatests.Deposit - Confirm deposit click successful 
-20:35:23.850 globalsqatests.Deposit - 10,000 Deposit successful
-20:35:23.851 globalsqatests.Deposit - Multiple account deposit successful
-20:35:24.719 base.CommonAPI - Test Case Status: PASS
-
-20:35:28.232 globalsqatests.Deposit - Bank Manager login button click successful
-20:35:28.233 globalsqatests.Deposit - Login successful
-20:35:28.449 globalsqatests.Deposit - Add Customer button click successful
-20:35:28.449 globalsqatests.Deposit - Navigate to Add Customer page successful
-20:35:28.978 globalsqatests.Deposit - Customer information entered
-20:35:29.073 globalsqatests.Deposit - Add Customer click successful
-20:35:29.076 globalsqatests.Deposit - Customer added successfully with customer id :6
-20:35:29.083 globalsqatests.Deposit - Alert accepted
-20:35:29.194 globalsqatests.Deposit - Open Account button click successful
-20:35:29.194 globalsqatests.Deposit - Navigate to Open Account page successful
-20:35:29.487 globalsqatests.Deposit - Rownak Choudhury account is selected
-20:35:29.652 globalsqatests.Deposit - Dollar currency is selected
-20:35:29.756 globalsqatests.Deposit - Proccess click successful
-20:35:29.760 globalsqatests.Deposit - Account created successfully with account number :1016
-20:35:29.766 globalsqatests.Deposit - Alert accepted
-20:35:29.886 globalsqatests.Deposit - Home button click successful
-20:35:29.896 globalsqatests.Deposit - Navigate to Homepage successful
-20:35:30.003 globalsqatests.Deposit - Customer login button click successful
-20:35:30.272 globalsqatests.Deposit - Rownak Choudhury account is selected
-20:35:30.572 globalsqatests.Deposit - Login successful
-20:35:30.683 globalsqatests.Deposit - Deposit button click successful
-20:35:30.683 globalsqatests.Deposit - Navigate to Deposit page successful
-20:35:30.943 globalsqatests.Deposit - 10000 Deposit amount entered
-20:35:31.045 globalsqatests.Deposit - Confirm deposit click successful 
-20:35:31.135 globalsqatests.Deposit - 10,000 Deposit successful
-20:35:31.955 base.CommonAPI - Test Case Status: PASS
-
-20:35:35.443 globalsqatests.OpenAccount - Bank Manager login button click successful
-20:35:35.444 globalsqatests.OpenAccount - Login successful
-20:35:35.632 globalsqatests.OpenAccount - Open Account button click successful
-20:35:35.632 globalsqatests.OpenAccount - Navigate to Open Account page successful
-20:35:35.931 globalsqatests.OpenAccount - Albus Dumbledore account is selected
-20:35:36.115 globalsqatests.OpenAccount - Dollar currency is selected
-20:35:36.241 globalsqatests.OpenAccount - Proccess click successful
-20:35:36.245 globalsqatests.OpenAccount - Account created successfully with account number :1016
-20:35:36.251 globalsqatests.OpenAccount - Alert accepted
-20:35:37.105 base.CommonAPI - Test Case Status: PASS
-
-20:35:41.338 globalsqatests.OpenAccount - Bank Manager login button click successful
-20:35:41.339 globalsqatests.OpenAccount - Login successful
-20:35:41.592 globalsqatests.OpenAccount - Open Account button click successful
-20:35:41.593 globalsqatests.OpenAccount - Navigate to Open Account page successful
-20:35:41.942 globalsqatests.OpenAccount - Albus Dumbledore account is selected
-20:35:42.164 globalsqatests.OpenAccount - Rupee currency is selected
-20:35:42.312 globalsqatests.OpenAccount - Proccess click successful
-20:35:42.316 globalsqatests.OpenAccount - Account created successfully with account number :1016
-20:35:42.323 globalsqatests.OpenAccount - Alert accepted
-20:35:42.483 globalsqatests.OpenAccount - Albus Dumbledore account is selected
-20:35:42.663 globalsqatests.OpenAccount - Pound currency is selected
-20:35:42.745 globalsqatests.OpenAccount - Proccess click successful
-20:35:42.750 globalsqatests.OpenAccount - Account created successfully with account number :1017
-20:35:42.757 globalsqatests.OpenAccount - Alert accepted
-20:35:42.903 globalsqatests.OpenAccount - Albus Dumbledore account is selected
-20:35:43.105 globalsqatests.OpenAccount - Dollar currency is selected
-20:35:43.188 globalsqatests.OpenAccount - Proccess click successful
-20:35:43.193 globalsqatests.OpenAccount - Account created successfully with account number :1018
-20:35:43.200 globalsqatests.OpenAccount - Alert accepted
-20:35:43.201 globalsqatests.OpenAccount - Multiple accounts created successfully
-20:35:44.268 base.CommonAPI - Test Case Status: PASS
-
-20:35:48.938 globalsqatests.OpenAccount - Bank Manager login button click successful
-20:35:48.938 globalsqatests.OpenAccount - Login successful
-20:35:49.201 globalsqatests.OpenAccount - Open Account button click successful
-20:35:49.201 globalsqatests.OpenAccount - Navigate to Open Account page successful
-20:35:49.590 globalsqatests.OpenAccount - Albus Dumbledore account is selected
-20:35:49.839 globalsqatests.OpenAccount - Pound currency is selected
-20:35:50.009 globalsqatests.OpenAccount - Proccess click successful
-20:35:50.015 globalsqatests.OpenAccount - Account created successfully with account number :1016
-20:35:50.028 globalsqatests.OpenAccount - Alert accepted
-20:35:51.333 base.CommonAPI - Test Case Status: PASS
-
-20:35:55.624 globalsqatests.OpenAccount - Bank Manager login button click successful
-20:35:55.624 globalsqatests.OpenAccount - Login successful
-20:35:55.859 globalsqatests.OpenAccount - Open Account button click successful
-20:35:55.860 globalsqatests.OpenAccount - Navigate to Open Account page successful
-20:35:56.184 globalsqatests.OpenAccount - Albus Dumbledore account is selected
-20:35:56.374 globalsqatests.OpenAccount - Rupee currency is selected
-20:35:56.507 globalsqatests.OpenAccount - Proccess click successful
-20:35:56.511 globalsqatests.OpenAccount - Account created successfully with account number :1016
-20:35:56.517 globalsqatests.OpenAccount - Alert accepted
-20:35:57.558 base.CommonAPI - Test Case Status: PASS
-
-20:36:01.957 globalsqatests.UserLogin - Customer login button click successful
-20:36:02.342 globalsqatests.UserLogin - Albus Dumbledore account is selected
-20:36:02.471 globalsqatests.UserLogin - Login button click successful
-20:36:02.671 globalsqatests.UserLogin - Albus Dumbledore login successful
-20:36:04.009 base.CommonAPI - Test Case Status: PASS
-
-20:36:09.907 globalsqatests.UserLogin - Bank Manager login button click successful
-20:36:09.908 globalsqatests.UserLogin - Login successful
-20:36:10.186 globalsqatests.UserLogin - Add Customer button click successful
-20:36:10.186 globalsqatests.UserLogin - Navigate to Add Customer page successful
-20:36:10.999 globalsqatests.UserLogin - Customer information entered
-20:36:11.193 globalsqatests.UserLogin - Add Customer click successful
-20:36:11.200 globalsqatests.UserLogin - Customer added successfully with customer id :6
-20:36:11.215 globalsqatests.UserLogin - Alert accepted
-20:36:11.431 globalsqatests.UserLogin - Home button click successful
-20:36:11.444 globalsqatests.UserLogin - Navigate to Homepage successful
-20:36:11.609 globalsqatests.UserLogin - Customer login button click successful
-20:36:11.998 globalsqatests.UserLogin - Faieq Laskar account is selected
-20:36:12.383 globalsqatests.UserLogin - Faieq Laskar login successful
-20:36:13.512 base.CommonAPI - Test Case Status: PASS
-
-20:36:17.000 globalsqatests.UserLogin - Bank Manager login button click successful
-20:36:17.000 globalsqatests.UserLogin - Login successful
-20:36:17.215 globalsqatests.UserLogin - Add Customer button click successful
-20:36:17.215 globalsqatests.UserLogin - Navigate to Add Customer page successful
-20:36:17.685 globalsqatests.UserLogin - Customer information entered
-20:36:17.767 globalsqatests.UserLogin - Add Customer click successful
-20:36:17.769 globalsqatests.UserLogin - Customer added successfully with customer id :6
-20:36:17.775 globalsqatests.UserLogin - Alert accepted
-20:36:17.858 globalsqatests.UserLogin - Home button click successful
-20:36:17.863 globalsqatests.UserLogin - Navigate to Homepage successful
-20:36:17.948 globalsqatests.UserLogin - Customer login button click successful
-20:36:18.230 globalsqatests.UserLogin - Joe Biden account is selected
-20:36:18.477 globalsqatests.UserLogin - Joe Biden login successful
-20:36:19.248 base.CommonAPI - Test Case Status: PASS
-
-20:36:22.334 globalsqatests.UserLogin - Bank Manager login button click successful
-20:36:22.334 globalsqatests.UserLogin - Login successful
-20:36:22.556 globalsqatests.UserLogin - Add Customer button click successful
-20:36:22.556 globalsqatests.UserLogin - Navigate to Add Customer page successful
-20:36:23.106 globalsqatests.UserLogin - Customer information entered
-20:36:23.194 globalsqatests.UserLogin - Add Customer click successful
-20:36:23.196 globalsqatests.UserLogin - Customer added successfully with customer id :6
-20:36:23.205 globalsqatests.UserLogin - Alert accepted
-20:36:23.290 globalsqatests.UserLogin - Open Account button click successful
-20:36:23.290 globalsqatests.UserLogin - Navigate to Open Account page successful
-20:36:23.571 globalsqatests.UserLogin - Rownak Choudhury account is selected
-20:36:23.723 globalsqatests.UserLogin - Dollar currency is selected
-20:36:23.821 globalsqatests.UserLogin - Proccess click successful
-20:36:23.825 globalsqatests.UserLogin - Account created successfully with account number :1016
-20:36:23.831 globalsqatests.UserLogin - Alert accepted
-20:36:23.936 globalsqatests.UserLogin - Home button click successful
-20:36:23.945 globalsqatests.UserLogin - Navigate to Homepage successful
-20:36:24.033 globalsqatests.UserLogin - Customer login button click successful
-20:36:24.295 globalsqatests.UserLogin - Rownak Choudhury account is selected
-20:36:24.543 globalsqatests.UserLogin - Rownak Choudhury login successful
-20:36:25.396 base.CommonAPI - Test Case Status: PASS
-
-20:36:28.415 globalsqatests.UserLogin - Customer login button click successful
-20:36:28.707 globalsqatests.UserLogin - Harry Potter account is selected
-20:36:28.802 globalsqatests.UserLogin - Login button click successful
-20:36:28.974 globalsqatests.UserLogin - Harry Potter login successful
-20:36:29.827 base.CommonAPI - Test Case Status: PASS
-
-20:36:32.944 globalsqatests.UserLogin - Customer login button click successful
-20:36:33.206 globalsqatests.UserLogin - Hermoine Granger account is selected
-20:36:33.290 globalsqatests.UserLogin - Login button click successful
-20:36:33.448 globalsqatests.UserLogin - Hermoine Granger login successful
-20:36:34.226 base.CommonAPI - Test Case Status: PASS
-
-20:36:37.888 globalsqatests.UserLogin - Customer login button click successful
-20:36:38.256 globalsqatests.UserLogin - Neville Longbottom account is selected
-20:36:38.423 globalsqatests.UserLogin - Login button click successful
-20:36:41.435 globalsqatests.UserLogin - Login successful
-20:36:41.480 globalsqatests.UserLogin - Logout click successful
-20:36:41.481 globalsqatests.UserLogin - Logout successful
-20:36:44.495 globalsqatests.UserLogin - Logout successful and navigate to Customer Login page successful
-20:36:44.576 globalsqatests.UserLogin - Harry Potter account is selected
-20:36:44.633 globalsqatests.UserLogin - Login button click successful
-20:36:47.643 globalsqatests.UserLogin - Login successful
-20:36:47.687 globalsqatests.UserLogin - Logout click successful
-20:36:47.687 globalsqatests.UserLogin - Logout successful
-20:36:50.693 globalsqatests.UserLogin - Logout successful and navigate to Customer Login page successful
-20:36:50.764 globalsqatests.UserLogin - Hermoine Granger account is selected
-20:36:50.812 globalsqatests.UserLogin - Login button click successful
-20:36:53.831 globalsqatests.UserLogin - Login successful
-20:36:53.874 globalsqatests.UserLogin - Logout click successful
-20:36:53.875 globalsqatests.UserLogin - Logout successful
-20:36:56.894 globalsqatests.UserLogin - Logout successful and navigate to Customer Login page successful
-20:36:57.536 base.CommonAPI - Test Case Status: PASS
-
-20:36:59.354 globalsqatests.UserLogin - Customer login button click successful
-20:36:59.562 globalsqatests.UserLogin - Ron Weasly account is selected
-20:36:59.600 globalsqatests.UserLogin - Login button click successful
-20:36:59.765 globalsqatests.UserLogin - Ron Weasly login successful
-20:37:00.391 base.CommonAPI - Test Case Status: PASS
-
-20:37:02.308 globalsqatests.Logout - Customer login button click successful
-20:37:02.489 globalsqatests.Logout - ALbus Dumbledore account is selected
-20:37:02.529 globalsqatests.Logout - Login button click successful
-20:37:05.535 globalsqatests.Logout - Login successful
-20:37:05.574 globalsqatests.Logout - Logout click successful
-20:37:05.574 globalsqatests.Logout - Logout successful
-20:37:08.593 globalsqatests.Logout - Navigate to Customer Login page successful
-20:37:09.253 base.CommonAPI - Test Case Status: PASS
-
-20:37:11.124 globalsqatests.Logout - Bank Manager login button click successful
-20:37:11.124 globalsqatests.Logout - Login successful
-20:37:11.285 globalsqatests.Logout - Add Customer button click successful
-20:37:11.285 globalsqatests.Logout - Navigate to Add Customer page successful
-20:37:11.577 globalsqatests.Logout - Customer information entered
-20:37:11.613 globalsqatests.Logout - Add Customer click successful
-20:37:11.614 globalsqatests.Logout - Customer added successfully with customer id :6
-20:37:11.618 globalsqatests.Logout - Alert accepted
-20:37:11.662 globalsqatests.Logout - Home button click successful
-20:37:11.666 globalsqatests.Logout - Navigate to Homepage successful
-20:37:11.705 globalsqatests.Logout - Customer login button click successful
-20:37:11.893 globalsqatests.Logout - Faieq Laskar account is selected
-20:37:12.099 globalsqatests.Logout - Faieq Laskar login successful
-20:37:12.140 globalsqatests.Logout - Logout click successful
-20:37:12.140 globalsqatests.Logout - Logout successful
-20:37:15.147 globalsqatests.Logout - Navigate to Customer Login page successful
-20:37:15.800 base.CommonAPI - Test Case Status: PASS
-
-20:37:17.680 globalsqatests.Logout - Bank Manager login button click successful
-20:37:17.680 globalsqatests.Logout - Login successful
-20:37:17.842 globalsqatests.Logout - Add Customer button click successful
-20:37:17.842 globalsqatests.Logout - Navigate to Add Customer page successful
-20:37:18.135 globalsqatests.Logout - Customer information entered
-20:37:18.176 globalsqatests.Logout - Add Customer click successful
-20:37:18.177 globalsqatests.Logout - Customer added successfully with customer id :6
-20:37:18.182 globalsqatests.Logout - Alert accepted
-20:37:18.224 globalsqatests.Logout - Home button click successful
-20:37:18.228 globalsqatests.Logout - Navigate to Homepage successful
-20:37:18.262 globalsqatests.Logout - Customer login button click successful
-20:37:18.450 globalsqatests.Logout - Joe Biden account is selected
-20:37:18.651 globalsqatests.Logout - Joe Biden login successful
-20:37:18.691 globalsqatests.Logout - Logout click successful
-20:37:18.691 globalsqatests.Logout - Logout successful
-20:37:21.704 globalsqatests.Logout - Navigate to Customer Login page successful
-20:37:22.372 base.CommonAPI - Test Case Status: PASS
-
-20:37:24.255 globalsqatests.Logout - Customer login button click successful
-20:37:24.441 globalsqatests.Logout - Harry Potter account is selected
-20:37:24.484 globalsqatests.Logout - Login button click successful
-20:37:27.501 globalsqatests.Logout - Login successful
-20:37:27.544 globalsqatests.Logout - Logout click successful
-20:37:27.544 globalsqatests.Logout - Logout successful
-20:37:30.553 globalsqatests.Logout - Navigate to Customer Login page successful
-20:37:31.261 base.CommonAPI - Test Case Status: PASS
-
-20:37:33.399 globalsqatests.Logout - Customer login button click successful
-20:37:33.631 globalsqatests.Logout - Hermoine Granger account is selected
-20:37:33.698 globalsqatests.Logout - Login button click successful
-20:37:36.714 globalsqatests.Logout - Login successful
-20:37:36.758 globalsqatests.Logout - Logout click successful
-20:37:36.758 globalsqatests.Logout - Logout successful
-20:37:39.775 globalsqatests.Logout - Navigate to Customer Login page successful
-20:37:40.472 base.CommonAPI - Test Case Status: PASS
-
-20:37:42.596 globalsqatests.Logout - Customer login button click successful
-20:37:42.824 globalsqatests.Logout - Neville Longbottom account is selected
-20:37:42.885 globalsqatests.Logout - Login button click successful
-20:37:45.893 globalsqatests.Logout - Login successful
-20:37:45.939 globalsqatests.Logout - Logout click successful
-20:37:45.939 globalsqatests.Logout - Logout successful
-20:37:48.957 globalsqatests.Logout - Logout successful and navigate to Customer Login page successful
-20:37:49.638 base.CommonAPI - Test Case Status: PASS
-
-20:37:51.901 globalsqatests.Logout - Customer login button click successful
-20:37:52.278 globalsqatests.Logout - Ron Weasly account is selected
-20:37:52.405 globalsqatests.Logout - Login button click successful
-20:37:55.425 globalsqatests.Logout - Login successful
-20:37:55.481 globalsqatests.Logout - Logout click successful
-20:37:55.482 globalsqatests.Logout - Logout successful
-20:37:58.497 globalsqatests.Logout - Navigate to Customer Login page successful
-20:37:59.208 base.CommonAPI - Test Case Status: PASS
-
-20:38:01.553 globalsqatests.HomeButton - Bank Manager login button click successful
-20:38:01.553 globalsqatests.HomeButton - Login successful
-20:38:01.747 globalsqatests.HomeButton - Add Customer button click successful
-20:38:01.747 globalsqatests.HomeButton - Navigate to Add Customer page successful
-20:38:01.824 globalsqatests.HomeButton - Home button click successful
-20:38:01.831 globalsqatests.HomeButton - Navigate to Homepage successful
-20:38:02.639 base.CommonAPI - Test Case Status: PASS
-
-20:38:05.414 globalsqatests.HomeButton - Bank Manager login button click successful
-20:38:05.414 globalsqatests.HomeButton - Login successful
-20:38:05.618 globalsqatests.HomeButton - Customers button click successful
-20:38:05.618 globalsqatests.HomeButton - Navigate to Customers page successful
-20:38:05.690 globalsqatests.HomeButton - Home button click successful
-20:38:05.697 globalsqatests.HomeButton - Navigate to Homepage successful
-20:38:06.479 base.CommonAPI - Test Case Status: PASS
-
-20:38:09.335 globalsqatests.HomeButton - Bank Manager login button click successful
-20:38:09.335 globalsqatests.HomeButton - Login successful
-20:38:09.697 globalsqatests.HomeButton - Home button click successful
-20:38:09.706 globalsqatests.HomeButton - Navigate to Homepage successful
-20:38:10.493 base.CommonAPI - Test Case Status: PASS
-
-20:38:13.465 globalsqatests.HomeButton - Bank Manager login button click successful
-20:38:13.466 globalsqatests.HomeButton - Login successful
-20:38:13.660 globalsqatests.HomeButton - Open Account button click successful
-20:38:13.661 globalsqatests.HomeButton - Navigate to Open Account page successful
-20:38:13.747 globalsqatests.HomeButton - Home button click successful
-20:38:13.755 globalsqatests.HomeButton - Navigate to Homepage successful
-20:38:14.537 base.CommonAPI - Test Case Status: PASS
-
-20:38:17.467 globalsqatests.HomeButton - Customer login button click successful
-20:38:17.740 globalsqatests.HomeButton - Harry Potter account is selected
-20:38:17.823 globalsqatests.HomeButton - Login successful
-20:38:17.914 globalsqatests.HomeButton - Home button click successful
-20:38:17.974 globalsqatests.HomeButton - Navigate to Homepage successful
-20:38:18.779 base.CommonAPI - Test Case Status: PASS
-
-20:38:21.980 globalsqatests.HomeButton - Customer login button click successful
-20:38:22.065 globalsqatests.HomeButton - Home button click successful
-20:38:22.074 globalsqatests.HomeButton - Navigate to Homepage successful
-20:38:22.919 base.CommonAPI - Test Case Status: PASS
-
-20:38:26.308 globalsqatests.HomeButton - Customer login button click successful
-20:38:26.633 globalsqatests.HomeButton - Harry Potter account is selected
-20:38:26.763 globalsqatests.HomeButton - Login successful
-20:38:26.999 globalsqatests.HomeButton - Deposit button click successful
-20:38:27.000 globalsqatests.HomeButton - Navigate to Deposit page successful
-20:38:27.125 globalsqatests.HomeButton - Home button click successful
-20:38:27.133 globalsqatests.HomeButton - Navigate to Homepage successful
-20:38:27.991 base.CommonAPI - Test Case Status: PASS
-
-20:38:31.204 globalsqatests.HomeButton - Customer login button click successful
-20:38:31.487 globalsqatests.HomeButton - Harry Potter account is selected
-20:38:31.575 globalsqatests.HomeButton - Login successful
-20:38:31.780 globalsqatests.HomeButton - Transactions button click successful
-20:38:31.939 globalsqatests.HomeButton - Navigate to Transactions page successful
-20:38:32.021 globalsqatests.HomeButton - Home button click successful
-20:38:32.029 globalsqatests.HomeButton - Navigate to Homepage successful
-20:38:32.910 base.CommonAPI - Test Case Status: PASS
-
-20:38:36.143 globalsqatests.HomeButton - Customer login button click successful
-20:38:36.393 globalsqatests.HomeButton - Harry Potter account is selected
-20:38:36.479 globalsqatests.HomeButton - Login successful
-20:38:36.680 globalsqatests.HomeButton - Withdrawl button click successful
-20:38:36.680 globalsqatests.HomeButton - Navigate to Withdrawl page successful
-20:38:36.759 globalsqatests.HomeButton - Home button click successful
-20:38:36.765 globalsqatests.HomeButton - Navigate to Homepage successful
-20:38:37.541 base.CommonAPI - Test Case Status: PASS
-
-20:38:44.088 globalsqatests.CustomerLoginButton - Customer login button click successful
-20:38:44.092 globalsqatests.CustomerLoginButton - Navigate to Customer login page successful
-20:38:44.830 base.CommonAPI - Test Case Status: PASS
-
-20:38:50.742 g.BankManagerLoginButton - Bank Manager login button click successful
-20:38:50.748 g.BankManagerLoginButton - Login successful
-20:38:51.434 base.CommonAPI - Test Case Status: PASS
+17:32:13.642 globalsqatests.CustomerTable - Bank Manager login button click successful
+17:32:13.646 globalsqatests.CustomerTable - Login successful
+17:32:13.833 globalsqatests.CustomerTable - Customers button click successful
+17:32:13.833 globalsqatests.CustomerTable - Navigate to Customers List page successful
+17:32:14.023 globalsqatests.CustomerTable - Customer account number is visible in the table
+17:32:15.053 base.CommonAPI - Test Case Status: PASS
+
+17:32:18.196 globalsqatests.CustomerTable - Bank Manager login button click successful
+17:32:18.196 globalsqatests.CustomerTable - Login successful
+17:32:18.414 globalsqatests.CustomerTable - Customers button click successful
+17:32:18.415 globalsqatests.CustomerTable - Navigate to Customers List page successful
+17:32:18.591 globalsqatests.CustomerTable - Delete Customer is visible in the table
+17:32:19.353 base.CommonAPI - Test Case Status: PASS
+
+17:32:21.647 globalsqatests.CustomerTable - Bank Manager login button click successful
+17:32:21.647 globalsqatests.CustomerTable - Login successful
+17:32:21.881 globalsqatests.CustomerTable - Customers button click successful
+17:32:21.881 globalsqatests.CustomerTable - Navigate to Customers List page successful
+17:32:22.198 globalsqatests.CustomerTable - Customer table is visible
+17:32:22.903 base.CommonAPI - Test Case Status: PASS
+
+17:32:25.158 globalsqatests.CustomerTable - Bank Manager login button click successful
+17:32:25.159 globalsqatests.CustomerTable - Login successful
+17:32:25.335 globalsqatests.CustomerTable - Customers button click successful
+17:32:25.335 globalsqatests.CustomerTable - Navigate to Customers List page successful
+17:32:25.519 globalsqatests.CustomerTable - Customer first name is visible in the table
+17:32:26.236 base.CommonAPI - Test Case Status: PASS
+
+17:32:28.655 globalsqatests.CustomerTable - Bank Manager login button click successful
+17:32:28.656 globalsqatests.CustomerTable - Login successful
+17:32:29.020 globalsqatests.CustomerTable - Customers button click successful
+17:32:29.020 globalsqatests.CustomerTable - Navigate to Customers List page successful
+17:32:29.291 globalsqatests.CustomerTable - Customer last name is visible in the table
+17:32:30.011 base.CommonAPI - Test Case Status: PASS
+
+17:32:32.312 globalsqatests.CustomerTable - Bank Manager login button click successful
+17:32:32.312 globalsqatests.CustomerTable - Login successful
+17:32:32.515 globalsqatests.CustomerTable - Customers button click successful
+17:32:32.517 globalsqatests.CustomerTable - Navigate to Customers List page successful
+17:32:32.757 globalsqatests.CustomerTable - Customer postal code is visible in the table
+17:32:33.454 base.CommonAPI - Test Case Status: PASS
+
+17:32:35.646 globalsqatests.CustomerAccounts - Customer login button click successful
+17:32:35.950 globalsqatests.CustomerAccounts - Customer dropdown click successful
+17:32:35.981 globalsqatests.CustomerAccounts - Visibility of Customer dropdown options is present
+17:32:36.716 base.CommonAPI - Test Case Status: PASS
+
+17:32:38.929 globalsqatests.DeleteButton - Bank Manager login button click successful
+17:32:38.929 globalsqatests.DeleteButton - Login successful
+17:32:39.130 globalsqatests.DeleteButton - Customers button click successful
+17:32:39.279 globalsqatests.DeleteButton - Navigate to Customers List page successful
+17:32:39.332 globalsqatests.DeleteButton - Delete button click success
+17:32:39.333 globalsqatests.DeleteButton - Albus Dumbledore is deleted
+17:32:40.055 base.CommonAPI - Test Case Status: PASS
+
+17:32:41.993 globalsqatests.ResetButton - Customer login button click successful
+17:32:42.235 globalsqatests.ResetButton - Hermoine Granger account is selected
+17:32:42.289 globalsqatests.ResetButton - Login successful
+17:32:42.474 globalsqatests.ResetButton - Transactions button click successful
+17:32:42.474 globalsqatests.ResetButton - Navigate to Transactions page successful
+17:32:42.710 globalsqatests.ResetButton - Reset button click successful
+17:32:42.732 globalsqatests.ResetButton - Customer data is reset
+17:32:43.452 base.CommonAPI - Test Case Status: PASS
+
+17:32:45.512 globalsqatests.BackButton - Customer login button click successful
+17:32:45.734 globalsqatests.BackButton - Harry Potter account is selected
+17:32:45.785 globalsqatests.BackButton - Login successful
+17:32:45.956 globalsqatests.BackButton - Transactions button click successful
+17:32:45.956 globalsqatests.BackButton - Navigate to Transactions page successful
+17:32:46.153 globalsqatests.BackButton - Back button click successful
+17:32:46.213 globalsqatests.BackButton - Navigate to Account page successful
+17:32:46.936 base.CommonAPI - Test Case Status: PASS
+
+17:32:48.995 globalsqatests.BackButton - Customer login button click successful
+17:32:49.246 globalsqatests.BackButton - Hermoine Granger account is selected
+17:32:49.325 globalsqatests.BackButton - Login successful
+17:32:49.511 globalsqatests.BackButton - Transactions button click successful
+17:32:49.512 globalsqatests.BackButton - Navigate to Transactions page successful
+17:32:49.744 globalsqatests.BackButton - Back button click successful
+17:32:49.795 globalsqatests.BackButton - Navigate to Account page successful
+17:32:50.500 base.CommonAPI - Test Case Status: PASS
+
+17:32:52.632 globalsqatests.BackButton - Customer login button click successful
+17:32:52.872 globalsqatests.BackButton - Neville Longbottom account is selected
+17:32:52.929 globalsqatests.BackButton - Login successful
+17:32:53.113 globalsqatests.BackButton - Transactions button click successful
+17:32:53.113 globalsqatests.BackButton - Navigate to Transactions page successful
+17:32:53.363 globalsqatests.BackButton - Back button click successful
+17:32:53.418 globalsqatests.BackButton - Navigate to Account page successful
+17:32:54.125 base.CommonAPI - Test Case Status: PASS
+
+17:32:56.370 globalsqatests.BackButton - Customer login button click successful
+17:32:56.598 globalsqatests.BackButton - Ron Weasly account is selected
+17:32:56.659 globalsqatests.BackButton - Login successful
+17:32:56.829 globalsqatests.BackButton - Transactions button click successful
+17:32:56.829 globalsqatests.BackButton - Navigate to Transactions page successful
+17:32:57.035 globalsqatests.BackButton - Back button click successful
+17:32:57.087 globalsqatests.BackButton - Navigate to Account page successful
+17:32:57.811 base.CommonAPI - Test Case Status: PASS
+
+17:33:00.007 globalsqatests.AccountNumber - Bank Manager login button click successful
+17:33:00.007 globalsqatests.AccountNumber - Login successful
+17:33:00.208 globalsqatests.AccountNumber - Add Customer button click successful
+17:33:00.208 globalsqatests.AccountNumber - Navigate to Add Customer page successful
+17:33:00.600 globalsqatests.AccountNumber - Customer information entered
+17:33:00.669 globalsqatests.AccountNumber - Add Customer click successful
+17:33:00.677 globalsqatests.AccountNumber - Customer added successfully with customer id :6
+17:33:00.684 globalsqatests.AccountNumber - Alert accepted
+17:33:00.744 globalsqatests.AccountNumber - Open Account button click successful
+17:33:00.744 globalsqatests.AccountNumber - Navigate to Open Account page successful
+17:33:00.999 globalsqatests.AccountNumber - Rownak Choudhury account is selected
+17:33:01.116 globalsqatests.AccountNumber - Dollar currency is selected
+17:33:01.178 globalsqatests.AccountNumber - Proccess click successful
+17:33:01.184 globalsqatests.AccountNumber - Account created successfully with account number :1016
+17:33:01.191 globalsqatests.AccountNumber - Alert accepted
+17:33:01.261 globalsqatests.AccountNumber - Home button click successful
+17:33:01.269 globalsqatests.AccountNumber - Navigate to Homepage successful
+17:33:01.320 globalsqatests.AccountNumber - Customer login button click successful
+17:33:01.572 globalsqatests.AccountNumber - Rownak Choudhury account is selected
+17:33:01.807 globalsqatests.AccountNumber - Rownak Choudhury login successful
+17:33:01.910 globalsqatests.AccountNumber - 1016 account number is selected
+17:33:02.653 base.CommonAPI - Test Case Status: PASS
+
+17:33:04.900 globalsqatests.AccountNumber - Customer login button click successful
+17:33:05.203 globalsqatests.AccountNumber - Hermoine Granger account is selected
+17:33:05.266 globalsqatests.AccountNumber - Login successful
+17:33:05.532 globalsqatests.AccountNumber - 1003 account number is selected
+17:33:06.266 base.CommonAPI - Test Case Status: PASS
+
+17:33:08.420 globalsqatests.AccountNumber - Customer login button click successful
+17:33:08.697 globalsqatests.AccountNumber - Albus Dumbledore account is selected
+17:33:08.744 globalsqatests.AccountNumber - Login successful
+17:33:08.954 globalsqatests.AccountNumber - 1010 account number is selected
+17:33:09.044 globalsqatests.AccountNumber - 1011 account number is selected
+17:33:09.129 globalsqatests.AccountNumber - 1012 account number is selected
+17:33:09.878 base.CommonAPI - Test Case Status: PASS
+
+17:33:12.040 globalsqatests.AccountNumber - Customer login button click successful
+17:33:12.257 globalsqatests.AccountNumber - Harry Potter account is selected
+17:33:12.313 globalsqatests.AccountNumber - Login successful
+17:33:12.527 globalsqatests.AccountNumber - 1004 account number is selected
+17:33:12.626 globalsqatests.AccountNumber - 1005 account number is selected
+17:33:12.722 globalsqatests.AccountNumber - 1006 account number is selected
+17:33:13.428 base.CommonAPI - Test Case Status: PASS
+
+17:33:15.638 globalsqatests.AccountNumber - Customer login button click successful
+17:33:15.904 globalsqatests.AccountNumber - Hermoine Granger account is selected
+17:33:15.953 globalsqatests.AccountNumber - Login successful
+17:33:16.187 globalsqatests.AccountNumber - 1003 account number is selected
+17:33:16.294 globalsqatests.AccountNumber - 1002 account number is selected
+17:33:16.391 globalsqatests.AccountNumber - 1001 account number is selected
+17:33:17.102 base.CommonAPI - Test Case Status: PASS
+
+17:33:19.062 globalsqatests.AccountNumber - Customer login button click successful
+17:33:19.285 globalsqatests.AccountNumber - Neville Longbottom account is selected
+17:33:19.338 globalsqatests.AccountNumber - Login successful
+17:33:19.585 globalsqatests.AccountNumber - 1013 account number is selected
+17:33:19.687 globalsqatests.AccountNumber - 1014 account number is selected
+17:33:19.805 globalsqatests.AccountNumber - 1015 account number is selected
+17:33:20.501 base.CommonAPI - Test Case Status: PASS
+
+17:33:22.775 globalsqatests.AccountNumber - Customer login button click successful
+17:33:22.996 globalsqatests.AccountNumber - Ron Weasly account is selected
+17:33:23.051 globalsqatests.AccountNumber - Login successful
+17:33:23.257 globalsqatests.AccountNumber - 1007 account number is selected
+17:33:23.345 globalsqatests.AccountNumber - 1008 account number is selected
+17:33:23.432 globalsqatests.AccountNumber - 1009 account number is selected
+17:33:24.132 base.CommonAPI - Test Case Status: PASS
+
+17:33:26.113 globalsqatests.TransactionsButton - Customer login button click successful
+17:33:26.373 globalsqatests.TransactionsButton - Albus Dumbledore account is selected
+17:33:26.426 globalsqatests.TransactionsButton - Login successful
+17:33:26.606 globalsqatests.TransactionsButton - Transactions button click successful
+17:33:26.774 globalsqatests.TransactionsButton - Navigate to Transactions page successful
+17:33:27.486 base.CommonAPI - Test Case Status: PASS
+
+17:33:29.549 globalsqatests.TransactionsButton - Customer login button click successful
+17:33:29.785 globalsqatests.TransactionsButton - Harry Potter account is selected
+17:33:29.843 globalsqatests.TransactionsButton - Login successful
+17:33:30.024 globalsqatests.TransactionsButton - Transactions button click successful
+17:33:30.215 globalsqatests.TransactionsButton - Navigate to Transactions page successful
+17:33:30.903 base.CommonAPI - Test Case Status: PASS
+
+17:33:33.146 globalsqatests.TransactionsButton - Customer login button click successful
+17:33:33.387 globalsqatests.TransactionsButton - Hermoine Granger account is selected
+17:33:33.441 globalsqatests.TransactionsButton - Login successful
+17:33:33.622 globalsqatests.TransactionsButton - Transactions button click successful
+17:33:33.841 globalsqatests.TransactionsButton - Navigate to Transactions page successful
+17:33:34.523 base.CommonAPI - Test Case Status: PASS
+
+17:33:36.564 globalsqatests.TransactionsButton - Customer login button click successful
+17:33:36.815 globalsqatests.TransactionsButton - Neville Longbottom account is selected
+17:33:36.872 globalsqatests.TransactionsButton - Login successful
+17:33:37.065 globalsqatests.TransactionsButton - Transactions button click successful
+17:33:37.217 globalsqatests.TransactionsButton - Navigate to Transactions page successful
+17:33:37.903 base.CommonAPI - Test Case Status: PASS
+
+17:33:40.053 globalsqatests.TransactionsButton - Bank Manager login button click successful
+17:33:40.054 globalsqatests.TransactionsButton - Login successful
+17:33:40.243 globalsqatests.TransactionsButton - Add Customer button click successful
+17:33:40.243 globalsqatests.TransactionsButton - Navigate to Add Customer page successful
+17:33:40.625 globalsqatests.TransactionsButton - Customer information entered
+17:33:40.685 globalsqatests.TransactionsButton - Add Customer click successful
+17:33:40.688 globalsqatests.TransactionsButton - Customer added successfully with customer id :6
+17:33:40.693 globalsqatests.TransactionsButton - Alert accepted
+17:33:40.752 globalsqatests.TransactionsButton - Open Account button click successful
+17:33:40.753 globalsqatests.TransactionsButton - Navigate to Open Account page successful
+17:33:41.118 globalsqatests.TransactionsButton - Faieq Laskar account is selected
+17:33:41.219 globalsqatests.TransactionsButton - Dollar currency is selected
+17:33:41.279 globalsqatests.TransactionsButton - Proccess click successful
+17:33:41.284 globalsqatests.TransactionsButton - Account created successfully with account number :1016
+17:33:41.287 globalsqatests.TransactionsButton - Alert accepted
+17:33:41.356 globalsqatests.TransactionsButton - Home button click successful
+17:33:41.364 globalsqatests.TransactionsButton - Navigate to Homepage successful
+17:33:41.424 globalsqatests.TransactionsButton - Customer login button click successful
+17:33:41.727 globalsqatests.TransactionsButton - Faieq Laskar account is selected
+17:33:41.958 globalsqatests.TransactionsButton - Faieq Laskar login successful
+17:33:42.011 globalsqatests.TransactionsButton - Transactions button click successful
+17:33:42.293 globalsqatests.TransactionsButton - Navigate to Transactions page successful
+17:33:43.006 base.CommonAPI - Test Case Status: PASS
+
+17:33:44.960 globalsqatests.TransactionsButton - Bank Manager login button click successful
+17:33:44.960 globalsqatests.TransactionsButton - Login successful
+17:33:45.147 globalsqatests.TransactionsButton - Add Customer button click successful
+17:33:45.148 globalsqatests.TransactionsButton - Navigate to Add Customer page successful
+17:33:45.511 globalsqatests.TransactionsButton - Customer information entered
+17:33:45.569 globalsqatests.TransactionsButton - Add Customer click successful
+17:33:45.571 globalsqatests.TransactionsButton - Customer added successfully with customer id :6
+17:33:45.579 globalsqatests.TransactionsButton - Alert accepted
+17:33:45.634 globalsqatests.TransactionsButton - Open Account button click successful
+17:33:45.635 globalsqatests.TransactionsButton - Navigate to Open Account page successful
+17:33:45.932 globalsqatests.TransactionsButton - Joe Biden account is selected
+17:33:46.032 globalsqatests.TransactionsButton - Dollar currency is selected
+17:33:46.094 globalsqatests.TransactionsButton - Proccess click successful
+17:33:46.099 globalsqatests.TransactionsButton - Account created successfully with account number :1016
+17:33:46.105 globalsqatests.TransactionsButton - Alert accepted
+17:33:46.169 globalsqatests.TransactionsButton - Home button click successful
+17:33:46.176 globalsqatests.TransactionsButton - Navigate to Homepage successful
+17:33:46.235 globalsqatests.TransactionsButton - Customer login button click successful
+17:33:46.460 globalsqatests.TransactionsButton - Joe Biden account is selected
+17:33:46.662 globalsqatests.TransactionsButton - Joe Biden login successful
+17:33:46.717 globalsqatests.TransactionsButton - Transactions button click successful
+17:33:46.892 globalsqatests.TransactionsButton - Navigate to Transactions page successful
+17:33:47.645 base.CommonAPI - Test Case Status: PASS
+
+17:33:49.840 globalsqatests.TransactionsButton - Bank Manager login button click successful
+17:33:49.842 globalsqatests.TransactionsButton - Login successful
+17:33:50.066 globalsqatests.TransactionsButton - Add Customer button click successful
+17:33:50.067 globalsqatests.TransactionsButton - Navigate to Add Customer page successful
+17:33:50.435 globalsqatests.TransactionsButton - Customer information entered
+17:33:50.498 globalsqatests.TransactionsButton - Add Customer click successful
+17:33:50.501 globalsqatests.TransactionsButton - Customer added successfully with customer id :6
+17:33:50.507 globalsqatests.TransactionsButton - Alert accepted
+17:33:50.564 globalsqatests.TransactionsButton - Open Account button click successful
+17:33:50.565 globalsqatests.TransactionsButton - Navigate to Open Account page successful
+17:33:50.781 globalsqatests.TransactionsButton - Rownak Choudhury account is selected
+17:33:50.872 globalsqatests.TransactionsButton - Dollar currency is selected
+17:33:50.928 globalsqatests.TransactionsButton - Proccess click successful
+17:33:50.932 globalsqatests.TransactionsButton - Account created successfully with account number :1016
+17:33:50.936 globalsqatests.TransactionsButton - Alert accepted
+17:33:51.000 globalsqatests.TransactionsButton - Home button click successful
+17:33:51.007 globalsqatests.TransactionsButton - Navigate to Homepage successful
+17:33:51.059 globalsqatests.TransactionsButton - Customer login button click successful
+17:33:51.357 globalsqatests.TransactionsButton - Rownak Choudhury account is selected
+17:33:51.575 globalsqatests.TransactionsButton - Rownak Choudhury login successful
+17:33:51.618 globalsqatests.TransactionsButton - Transactions button click successful
+17:33:51.796 globalsqatests.TransactionsButton - Navigate to Transactions page successful
+17:33:52.505 base.CommonAPI - Test Case Status: PASS
+
+17:33:54.750 globalsqatests.TransactionsButton - Customer login button click successful
+17:33:54.989 globalsqatests.TransactionsButton - Ron Weasly account is selected
+17:33:55.045 globalsqatests.TransactionsButton - Login successful
+17:33:55.223 globalsqatests.TransactionsButton - Transactions button click successful
+17:33:55.391 globalsqatests.TransactionsButton - Navigate to Transactions page successful
+17:33:56.100 base.CommonAPI - Test Case Status: PASS
+
+17:33:58.191 globalsqatests.SearchCustomer - Bank Manager login button click successful
+17:33:58.191 globalsqatests.SearchCustomer - Login successful
+17:33:58.372 globalsqatests.SearchCustomer - Add Customer button click successful
+17:33:58.372 globalsqatests.SearchCustomer - Navigate to Add Customer page successful
+17:33:58.725 globalsqatests.SearchCustomer - Customer information entered
+17:33:58.774 globalsqatests.SearchCustomer - Add Customer click successful
+17:33:58.777 globalsqatests.SearchCustomer - Customer added successfully with customer id :6
+17:33:58.783 globalsqatests.SearchCustomer - Alert accepted
+17:33:58.834 globalsqatests.SearchCustomer - Customers button click successful
+17:33:58.835 globalsqatests.SearchCustomer - Navigate to Customers List page successful
+17:33:59.053 globalsqatests.SearchCustomer - 'Faieq' was typed into Search Customer field
+17:33:59.097 globalsqatests.SearchCustomer - Faieq data is visibile
+17:33:59.808 base.CommonAPI - Test Case Status: PASS
+
+17:34:02.332 globalsqatests.SearchCustomer - Bank Manager login button click successful
+17:34:02.333 globalsqatests.SearchCustomer - Login successful
+17:34:02.513 globalsqatests.SearchCustomer - Add Customer button click successful
+17:34:02.513 globalsqatests.SearchCustomer - Navigate to Add Customer page successful
+17:34:02.877 globalsqatests.SearchCustomer - Customer information entered
+17:34:02.929 globalsqatests.SearchCustomer - Add Customer click successful
+17:34:02.933 globalsqatests.SearchCustomer - Customer added successfully with customer id :6
+17:34:02.938 globalsqatests.SearchCustomer - Alert accepted
+17:34:02.992 globalsqatests.SearchCustomer - Customers button click successful
+17:34:02.992 globalsqatests.SearchCustomer - Navigate to Customers List page successful
+17:34:03.203 globalsqatests.SearchCustomer - 'Rownak' was typed into Search Customer field
+17:34:03.250 globalsqatests.SearchCustomer - Rownak data is visibile
+17:34:03.946 base.CommonAPI - Test Case Status: PASS
+
+17:34:06.269 globalsqatests.SearchCustomer - Bank Manager login button click successful
+17:34:06.269 globalsqatests.SearchCustomer - Login successful
+17:34:06.508 globalsqatests.SearchCustomer - Customers button click successful
+17:34:06.509 globalsqatests.SearchCustomer - Navigate to Customers List page successful
+17:34:06.779 globalsqatests.SearchCustomer - 'Albus' was typed into Search Customer field
+17:34:06.827 globalsqatests.SearchCustomer - Albus data is visibile
+17:34:07.555 base.CommonAPI - Test Case Status: PASS
+
+17:34:09.685 globalsqatests.SearchCustomer - Bank Manager login button click successful
+17:34:09.685 globalsqatests.SearchCustomer - Login successful
+17:34:09.869 globalsqatests.SearchCustomer - Customers button click successful
+17:34:09.869 globalsqatests.SearchCustomer - Navigate to Customers List page successful
+17:34:10.084 globalsqatests.SearchCustomer - 'Harry' was typed into Search Customer field
+17:34:10.128 globalsqatests.SearchCustomer - Harry data is visibile
+17:34:10.852 base.CommonAPI - Test Case Status: PASS
+
+17:34:12.893 globalsqatests.SearchCustomer - Bank Manager login button click successful
+17:34:12.893 globalsqatests.SearchCustomer - Login successful
+17:34:13.064 globalsqatests.SearchCustomer - Customers button click successful
+17:34:13.065 globalsqatests.SearchCustomer - Navigate to Customers List page successful
+17:34:13.271 globalsqatests.SearchCustomer - 'Hermoine' was typed into Search Customer field
+17:34:13.312 globalsqatests.SearchCustomer - Hermoine data is visibile
+17:34:14.038 base.CommonAPI - Test Case Status: PASS
+
+17:34:16.262 globalsqatests.SearchCustomer - Bank Manager login button click successful
+17:34:16.263 globalsqatests.SearchCustomer - Login successful
+17:34:16.450 globalsqatests.SearchCustomer - Customers button click successful
+17:34:16.451 globalsqatests.SearchCustomer - Navigate to Customers List page successful
+17:34:16.666 globalsqatests.SearchCustomer - 'Harry' was typed into Search Customer field
+17:34:16.710 globalsqatests.SearchCustomer - Harry data is visibile
+17:34:16.748 globalsqatests.SearchCustomer - Search text field is cleared
+17:34:16.798 globalsqatests.SearchCustomer - 'Hermoine' was typed into Search Customer field
+17:34:16.852 globalsqatests.SearchCustomer - Hermoine data is visibile
+17:34:16.877 globalsqatests.SearchCustomer - Search text field is cleared
+17:34:16.925 globalsqatests.SearchCustomer - 'Neville' was typed into Search Customer field
+17:34:16.966 globalsqatests.SearchCustomer - Neville data is visibile
+17:34:17.671 base.CommonAPI - Test Case Status: PASS
+
+17:34:19.944 globalsqatests.SearchCustomer - Bank Manager login button click successful
+17:34:19.945 globalsqatests.SearchCustomer - Login successful
+17:34:20.112 globalsqatests.SearchCustomer - Customers button click successful
+17:34:20.112 globalsqatests.SearchCustomer - Navigate to Customers List page successful
+17:34:20.389 globalsqatests.SearchCustomer - 'Neville' was typed into Search Customer field
+17:34:20.534 globalsqatests.SearchCustomer - Neville data is visibile
+17:34:21.400 base.CommonAPI - Test Case Status: PASS
+
+17:34:23.443 globalsqatests.SearchCustomer - Bank Manager login button click successful
+17:34:23.443 globalsqatests.SearchCustomer - Login successful
+17:34:23.620 globalsqatests.SearchCustomer - Customers button click successful
+17:34:23.620 globalsqatests.SearchCustomer - Navigate to Customers List page successful
+17:34:23.833 globalsqatests.SearchCustomer - 'Ron' was typed into Search Customer field
+17:34:23.875 globalsqatests.SearchCustomer - Ron data is visibile
+17:34:24.605 base.CommonAPI - Test Case Status: PASS
+
+17:34:26.657 globalsqatests.SearchCustomer - Bank Manager login button click successful
+17:34:26.658 globalsqatests.SearchCustomer - Login successful
+17:34:26.832 globalsqatests.SearchCustomer - Customers button click successful
+17:34:26.832 globalsqatests.SearchCustomer - Navigate to Customers List page successful
+17:34:27.050 globalsqatests.SearchCustomer - 'Harry' was typed into Search Customer field
+17:34:27.096 globalsqatests.SearchCustomer - Harry data is visibile
+17:34:27.131 globalsqatests.SearchCustomer - Search text field is cleared
+17:34:27.180 globalsqatests.SearchCustomer - 'Hermoine' was typed into Search Customer field
+17:34:27.220 globalsqatests.SearchCustomer - Hermoine data is visibile
+17:34:27.943 base.CommonAPI - Test Case Status: PASS
+
+17:34:30.022 globalsqatests.AddCustomer - Bank Manager login button click successful
+17:34:30.023 globalsqatests.AddCustomer - Login successful
+17:34:30.193 globalsqatests.AddCustomer - Add Customer button click successful
+17:34:30.193 globalsqatests.AddCustomer - Navigate to Add Customer page successful
+17:34:30.549 globalsqatests.AddCustomer - Customer information entered successfully
+17:34:30.599 globalsqatests.AddCustomer - Add Customer click successful
+17:34:30.602 globalsqatests.AddCustomer - Customer added successfully with customer id :6
+17:34:30.606 globalsqatests.AddCustomer - Alert accepted
+17:34:31.310 base.CommonAPI - Test Case Status: PASS
+
+17:34:33.324 globalsqatests.AddCustomer - Bank Manager login button click successful
+17:34:33.325 globalsqatests.AddCustomer - Login successful
+17:34:33.513 globalsqatests.AddCustomer - Add Customer button click successful
+17:34:33.513 globalsqatests.AddCustomer - Navigate to Add Customer page successful
+17:34:33.886 globalsqatests.AddCustomer - Customer information entered successfully
+17:34:33.937 globalsqatests.AddCustomer - Add Customer click successful
+17:34:33.939 globalsqatests.AddCustomer - Customer added successfully with customer id :6
+17:34:33.943 globalsqatests.AddCustomer - Alert accepted
+17:34:34.646 base.CommonAPI - Test Case Status: PASS
+
+17:34:36.844 globalsqatests.AddCustomer - Bank Manager login button click successful
+17:34:36.844 globalsqatests.AddCustomer - Login successful
+17:34:37.055 globalsqatests.AddCustomer - Add Customer button click successful
+17:34:37.055 globalsqatests.AddCustomer - Navigate to Add Customer page successful
+17:34:37.432 globalsqatests.AddCustomer - Customer information entered successfully
+17:34:37.496 globalsqatests.AddCustomer - Add Customer click successful
+17:34:37.497 globalsqatests.AddCustomer - Customer added successfully with customer id :6
+17:34:37.504 globalsqatests.AddCustomer - Alert accepted
+17:34:38.208 base.CommonAPI - Test Case Status: PASS
+
+17:34:40.471 globalsqatests.AddCustomer - Bank Manager login button click successful
+17:34:40.471 globalsqatests.AddCustomer - Login successful
+17:34:40.672 globalsqatests.AddCustomer - Add Customer button click successful
+17:34:40.672 globalsqatests.AddCustomer - Navigate to Add Customer page successful
+17:34:41.041 globalsqatests.AddCustomer - Customer information entered successfully
+17:34:41.100 globalsqatests.AddCustomer - Add Customer click successful
+17:34:41.102 globalsqatests.AddCustomer - Customer added successfully with customer id :6
+17:34:41.106 globalsqatests.AddCustomer - Alert accepted
+17:34:41.295 globalsqatests.AddCustomer - Customer information entered successfully
+17:34:41.339 globalsqatests.AddCustomer - Add Customer click successful
+17:34:41.341 globalsqatests.AddCustomer - Customer added successfully with customer id :7
+17:34:41.349 globalsqatests.AddCustomer - Alert accepted
+17:34:42.050 base.CommonAPI - Test Case Status: PASS
+
+17:34:43.994 globalsqatests.Withdraw - Customer login button click successful
+17:34:44.216 globalsqatests.Withdraw - Hermoine Granger account is selected
+17:34:44.263 globalsqatests.Withdraw - Login successful
+17:34:44.440 globalsqatests.Withdraw - Withdrawl button click successful
+17:34:44.440 globalsqatests.Withdraw - Navigate to Withdrawl page successful
+17:34:44.640 globalsqatests.Withdraw - 500 Withdrawl amount entered
+17:34:44.705 globalsqatests.Withdraw - Confirm withdrawl click successful
+17:34:44.792 globalsqatests.Withdraw - Transaction successful
+17:34:45.545 base.CommonAPI - Test Case Status: PASS
+
+17:34:47.655 globalsqatests.Withdraw - Customer login button click successful
+17:34:47.867 globalsqatests.Withdraw - Harry Potter account is selected
+17:34:47.928 globalsqatests.Withdraw - Login successful
+17:34:48.112 globalsqatests.Withdraw - Withdrawl button click successful
+17:34:48.112 globalsqatests.Withdraw - Navigate to Withdrawl page successful
+17:34:48.323 globalsqatests.Withdraw - 1000 Withdrawl amount entered
+17:34:48.392 globalsqatests.Withdraw - Confirm withdrawl click successful
+17:34:48.450 globalsqatests.Withdraw - Invalid Transaction successful
+17:34:49.154 base.CommonAPI - Test Case Status: PASS
+
+17:34:51.362 globalsqatests.Deposit - Customer login button click successful
+17:34:51.592 globalsqatests.Deposit - Albus Dumbledore account is selected
+17:34:51.647 globalsqatests.Deposit - Login successful
+17:34:51.816 globalsqatests.Deposit - Deposit button click successful
+17:34:51.816 globalsqatests.Deposit - Navigate to Deposit page successful
+17:34:52.006 globalsqatests.Deposit - 500 Deposit amount entered
+17:34:52.067 globalsqatests.Deposit - Confirm deposit click successful
+17:34:52.118 globalsqatests.Deposit - 500 Deposit successful
+17:34:52.836 base.CommonAPI - Test Case Status: PASS
+
+17:34:54.892 globalsqatests.Deposit - Customer login button click successful
+17:34:55.115 globalsqatests.Deposit - Harry Potter account is selected
+17:34:55.177 globalsqatests.Deposit - Login successful
+17:34:55.362 globalsqatests.Deposit - Deposit button click successful
+17:34:55.362 globalsqatests.Deposit - Navigate to Deposit page successful
+17:34:55.576 globalsqatests.Deposit - 1000 Deposit amount entered
+17:34:55.642 globalsqatests.Deposit - Confirm deposit click successful 
+17:34:55.694 globalsqatests.Deposit - 1,000 Deposit successful
+17:34:56.430 base.CommonAPI - Test Case Status: PASS
+
+17:34:58.827 globalsqatests.Deposit - Customer login button click successful
+17:34:59.140 globalsqatests.Deposit - Hermoine Granger account is selected
+17:34:59.195 globalsqatests.Deposit - Login successful
+17:34:59.379 globalsqatests.Deposit - Deposit button click successful
+17:34:59.379 globalsqatests.Deposit - Navigate to Deposit page successful
+17:34:59.690 globalsqatests.Deposit - 5 Deposit amount entered
+17:34:59.752 globalsqatests.Deposit - Confirm deposit click successful 
+17:34:59.806 globalsqatests.Deposit - 5 Deposit successful
+17:35:00.496 base.CommonAPI - Test Case Status: PASS
+
+17:35:02.782 globalsqatests.Deposit - Customer login button click successful
+17:35:03.019 globalsqatests.Deposit - Neville Longbottom account is selected
+17:35:03.071 globalsqatests.Deposit - Login successful
+17:35:03.245 globalsqatests.Deposit - Deposit button click successful
+17:35:03.245 globalsqatests.Deposit - Navigate to Deposit page successful
+17:35:03.448 globalsqatests.Deposit - 50000 Deposit amount entered
+17:35:03.502 globalsqatests.Deposit - Confirm deposit click successful 
+17:35:03.552 globalsqatests.Deposit - Deposit function successful
+17:35:04.248 base.CommonAPI - Test Case Status: PASS
+
+17:35:06.261 globalsqatests.Deposit - Customer login button click successful
+17:35:06.493 globalsqatests.Deposit - Ron Weasly account is selected
+17:35:06.551 globalsqatests.Deposit - Login successful
+17:35:06.738 globalsqatests.Deposit - Deposit button click successful
+17:35:06.739 globalsqatests.Deposit - Navigate to Deposit page successful
+17:35:06.970 globalsqatests.Deposit - 30000 Deposit amount entered
+17:35:07.034 globalsqatests.Deposit - Confirm deposit click successful 
+17:35:07.086 globalsqatests.Deposit - 30,000 Deposit successful
+17:35:07.785 base.CommonAPI - Test Case Status: PASS
+
+17:35:09.771 globalsqatests.Deposit - Customer login button click successful
+17:35:09.986 globalsqatests.Deposit - Hermoine Granger account is selected
+17:35:10.036 globalsqatests.Deposit - Login successful
+17:35:10.335 globalsqatests.Deposit - 1003 account number is selected
+17:35:10.392 globalsqatests.Deposit - Deposit button click successful
+17:35:10.392 globalsqatests.Deposit - Navigate to Deposit page successful
+17:35:10.605 globalsqatests.Deposit - 10,000 Deposit amount entered
+17:35:10.661 globalsqatests.Deposit - Confirm deposit click successful 
+17:35:10.716 globalsqatests.Deposit - 10,000 Deposit successful
+17:35:10.897 globalsqatests.Deposit - 10,000 Deposit amount entered
+17:35:10.932 globalsqatests.Deposit - Confirm deposit click successful 
+17:35:10.961 globalsqatests.Deposit - 10,000 Deposit successful
+17:35:10.961 globalsqatests.Deposit - Multiple account deposit successful
+17:35:11.682 base.CommonAPI - Test Case Status: PASS
+
+17:35:13.792 globalsqatests.Deposit - Bank Manager login button click successful
+17:35:13.793 globalsqatests.Deposit - Login successful
+17:35:13.995 globalsqatests.Deposit - Add Customer button click successful
+17:35:13.995 globalsqatests.Deposit - Navigate to Add Customer page successful
+17:35:14.375 globalsqatests.Deposit - Customer information entered
+17:35:14.426 globalsqatests.Deposit - Add Customer click successful
+17:35:14.430 globalsqatests.Deposit - Customer added successfully with customer id :6
+17:35:14.435 globalsqatests.Deposit - Alert accepted
+17:35:14.476 globalsqatests.Deposit - Open Account button click successful
+17:35:14.476 globalsqatests.Deposit - Navigate to Open Account page successful
+17:35:14.707 globalsqatests.Deposit - Rownak Choudhury account is selected
+17:35:14.820 globalsqatests.Deposit - Dollar currency is selected
+17:35:14.892 globalsqatests.Deposit - Proccess click successful
+17:35:14.897 globalsqatests.Deposit - Account created successfully with account number :1016
+17:35:14.901 globalsqatests.Deposit - Alert accepted
+17:35:14.964 globalsqatests.Deposit - Home button click successful
+17:35:14.968 globalsqatests.Deposit - Navigate to Homepage successful
+17:35:15.021 globalsqatests.Deposit - Customer login button click successful
+17:35:15.271 globalsqatests.Deposit - Rownak Choudhury account is selected
+17:35:15.472 globalsqatests.Deposit - Login successful
+17:35:15.518 globalsqatests.Deposit - Deposit button click successful
+17:35:15.518 globalsqatests.Deposit - Navigate to Deposit page successful
+17:35:15.742 globalsqatests.Deposit - 10000 Deposit amount entered
+17:35:15.806 globalsqatests.Deposit - Confirm deposit click successful 
+17:35:15.856 globalsqatests.Deposit - 10,000 Deposit successful
+17:35:16.553 base.CommonAPI - Test Case Status: PASS
+
+17:35:18.721 globalsqatests.OpenAccount - Bank Manager login button click successful
+17:35:18.721 globalsqatests.OpenAccount - Login successful
+17:35:18.907 globalsqatests.OpenAccount - Open Account button click successful
+17:35:18.908 globalsqatests.OpenAccount - Navigate to Open Account page successful
+17:35:19.112 globalsqatests.OpenAccount - Albus Dumbledore account is selected
+17:35:19.190 globalsqatests.OpenAccount - Dollar currency is selected
+17:35:19.245 globalsqatests.OpenAccount - Proccess click successful
+17:35:19.248 globalsqatests.OpenAccount - Account created successfully with account number :1016
+17:35:19.251 globalsqatests.OpenAccount - Alert accepted
+17:35:19.990 base.CommonAPI - Test Case Status: PASS
+
+17:35:21.938 globalsqatests.OpenAccount - Bank Manager login button click successful
+17:35:21.939 globalsqatests.OpenAccount - Login successful
+17:35:22.123 globalsqatests.OpenAccount - Open Account button click successful
+17:35:22.123 globalsqatests.OpenAccount - Navigate to Open Account page successful
+17:35:22.375 globalsqatests.OpenAccount - Albus Dumbledore account is selected
+17:35:22.458 globalsqatests.OpenAccount - Rupee currency is selected
+17:35:22.508 globalsqatests.OpenAccount - Proccess click successful
+17:35:22.512 globalsqatests.OpenAccount - Account created successfully with account number :1016
+17:35:22.515 globalsqatests.OpenAccount - Alert accepted
+17:35:22.569 globalsqatests.OpenAccount - Albus Dumbledore account is selected
+17:35:22.647 globalsqatests.OpenAccount - Pound currency is selected
+17:35:22.683 globalsqatests.OpenAccount - Proccess click successful
+17:35:22.686 globalsqatests.OpenAccount - Account created successfully with account number :1017
+17:35:22.690 globalsqatests.OpenAccount - Alert accepted
+17:35:22.767 globalsqatests.OpenAccount - Albus Dumbledore account is selected
+17:35:22.853 globalsqatests.OpenAccount - Dollar currency is selected
+17:35:22.894 globalsqatests.OpenAccount - Proccess click successful
+17:35:22.898 globalsqatests.OpenAccount - Account created successfully with account number :1018
+17:35:22.901 globalsqatests.OpenAccount - Alert accepted
+17:35:22.901 globalsqatests.OpenAccount - Multiple accounts created successfully
+17:35:23.618 base.CommonAPI - Test Case Status: PASS
+
+17:35:25.550 globalsqatests.OpenAccount - Bank Manager login button click successful
+17:35:25.551 globalsqatests.OpenAccount - Login successful
+17:35:25.734 globalsqatests.OpenAccount - Open Account button click successful
+17:35:25.734 globalsqatests.OpenAccount - Navigate to Open Account page successful
+17:35:26.024 globalsqatests.OpenAccount - Albus Dumbledore account is selected
+17:35:26.109 globalsqatests.OpenAccount - Pound currency is selected
+17:35:26.162 globalsqatests.OpenAccount - Proccess click successful
+17:35:26.165 globalsqatests.OpenAccount - Account created successfully with account number :1016
+17:35:26.168 globalsqatests.OpenAccount - Alert accepted
+17:35:26.872 base.CommonAPI - Test Case Status: PASS
+
+17:35:29.129 globalsqatests.OpenAccount - Bank Manager login button click successful
+17:35:29.129 globalsqatests.OpenAccount - Login successful
+17:35:29.304 globalsqatests.OpenAccount - Open Account button click successful
+17:35:29.304 globalsqatests.OpenAccount - Navigate to Open Account page successful
+17:35:29.535 globalsqatests.OpenAccount - Albus Dumbledore account is selected
+17:35:29.622 globalsqatests.OpenAccount - Rupee currency is selected
+17:35:29.679 globalsqatests.OpenAccount - Proccess click successful
+17:35:29.681 globalsqatests.OpenAccount - Account created successfully with account number :1016
+17:35:29.684 globalsqatests.OpenAccount - Alert accepted
+17:35:30.377 base.CommonAPI - Test Case Status: PASS
+
+17:35:32.487 globalsqatests.UserLogin - Customer login button click successful
+17:35:32.706 globalsqatests.UserLogin - Albus Dumbledore account is selected
+17:35:32.755 globalsqatests.UserLogin - Login button click successful
+17:35:32.988 globalsqatests.UserLogin - Albus Dumbledore login successful
+17:35:33.682 base.CommonAPI - Test Case Status: PASS
+
+17:35:35.720 globalsqatests.UserLogin - Bank Manager login button click successful
+17:35:35.720 globalsqatests.UserLogin - Login successful
+17:35:35.898 globalsqatests.UserLogin - Add Customer button click successful
+17:35:35.898 globalsqatests.UserLogin - Navigate to Add Customer page successful
+17:35:36.247 globalsqatests.UserLogin - Customer information entered
+17:35:36.301 globalsqatests.UserLogin - Add Customer click successful
+17:35:36.304 globalsqatests.UserLogin - Customer added successfully with customer id :6
+17:35:36.310 globalsqatests.UserLogin - Alert accepted
+17:35:36.374 globalsqatests.UserLogin - Home button click successful
+17:35:36.382 globalsqatests.UserLogin - Navigate to Homepage successful
+17:35:36.425 globalsqatests.UserLogin - Customer login button click successful
+17:35:36.656 globalsqatests.UserLogin - Faieq Laskar account is selected
+17:35:36.881 globalsqatests.UserLogin - Faieq Laskar login successful
+17:35:37.592 base.CommonAPI - Test Case Status: PASS
+
+17:35:39.575 globalsqatests.UserLogin - Bank Manager login button click successful
+17:35:39.575 globalsqatests.UserLogin - Login successful
+17:35:39.749 globalsqatests.UserLogin - Add Customer button click successful
+17:35:39.750 globalsqatests.UserLogin - Navigate to Add Customer page successful
+17:35:40.104 globalsqatests.UserLogin - Customer information entered
+17:35:40.153 globalsqatests.UserLogin - Add Customer click successful
+17:35:40.156 globalsqatests.UserLogin - Customer added successfully with customer id :6
+17:35:40.163 globalsqatests.UserLogin - Alert accepted
+17:35:40.218 globalsqatests.UserLogin - Home button click successful
+17:35:40.222 globalsqatests.UserLogin - Navigate to Homepage successful
+17:35:40.276 globalsqatests.UserLogin - Customer login button click successful
+17:35:40.509 globalsqatests.UserLogin - Joe Biden account is selected
+17:35:40.719 globalsqatests.UserLogin - Joe Biden login successful
+17:35:41.466 base.CommonAPI - Test Case Status: PASS
+
+17:35:43.713 globalsqatests.UserLogin - Bank Manager login button click successful
+17:35:43.713 globalsqatests.UserLogin - Login successful
+17:35:43.900 globalsqatests.UserLogin - Add Customer button click successful
+17:35:43.900 globalsqatests.UserLogin - Navigate to Add Customer page successful
+17:35:44.264 globalsqatests.UserLogin - Customer information entered
+17:35:44.314 globalsqatests.UserLogin - Add Customer click successful
+17:35:44.317 globalsqatests.UserLogin - Customer added successfully with customer id :6
+17:35:44.322 globalsqatests.UserLogin - Alert accepted
+17:35:44.382 globalsqatests.UserLogin - Open Account button click successful
+17:35:44.382 globalsqatests.UserLogin - Navigate to Open Account page successful
+17:35:44.604 globalsqatests.UserLogin - Rownak Choudhury account is selected
+17:35:44.692 globalsqatests.UserLogin - Dollar currency is selected
+17:35:44.742 globalsqatests.UserLogin - Proccess click successful
+17:35:44.746 globalsqatests.UserLogin - Account created successfully with account number :1016
+17:35:44.750 globalsqatests.UserLogin - Alert accepted
+17:35:44.813 globalsqatests.UserLogin - Home button click successful
+17:35:44.821 globalsqatests.UserLogin - Navigate to Homepage successful
+17:35:44.877 globalsqatests.UserLogin - Customer login button click successful
+17:35:45.096 globalsqatests.UserLogin - Rownak Choudhury account is selected
+17:35:45.333 globalsqatests.UserLogin - Rownak Choudhury login successful
+17:35:46.047 base.CommonAPI - Test Case Status: PASS
+
+17:35:48.253 globalsqatests.UserLogin - Customer login button click successful
+17:35:48.473 globalsqatests.UserLogin - Harry Potter account is selected
+17:35:48.528 globalsqatests.UserLogin - Login button click successful
+17:35:48.693 globalsqatests.UserLogin - Harry Potter login successful
+17:35:49.409 base.CommonAPI - Test Case Status: PASS
+
+17:35:51.584 globalsqatests.UserLogin - Customer login button click successful
+17:35:51.797 globalsqatests.UserLogin - Hermoine Granger account is selected
+17:35:51.847 globalsqatests.UserLogin - Login button click successful
+17:35:51.974 globalsqatests.UserLogin - Hermoine Granger login successful
+17:35:52.684 base.CommonAPI - Test Case Status: PASS
+
+17:35:54.639 globalsqatests.UserLogin - Customer login button click successful
+17:35:54.853 globalsqatests.UserLogin - Neville Longbottom account is selected
+17:35:54.911 globalsqatests.UserLogin - Login button click successful
+17:35:57.925 globalsqatests.UserLogin - Login successful
+17:35:57.979 globalsqatests.UserLogin - Logout click successful
+17:35:57.980 globalsqatests.UserLogin - Logout successful
+17:36:00.985 globalsqatests.UserLogin - Logout successful and navigate to Customer Login page successful
+17:36:01.069 globalsqatests.UserLogin - Harry Potter account is selected
+17:36:01.135 globalsqatests.UserLogin - Login button click successful
+17:36:04.156 globalsqatests.UserLogin - Login successful
+17:36:04.210 globalsqatests.UserLogin - Logout click successful
+17:36:04.210 globalsqatests.UserLogin - Logout successful
+17:36:07.222 globalsqatests.UserLogin - Logout successful and navigate to Customer Login page successful
+17:36:07.313 globalsqatests.UserLogin - Hermoine Granger account is selected
+17:36:07.376 globalsqatests.UserLogin - Login button click successful
+17:36:10.384 globalsqatests.UserLogin - Login successful
+17:36:10.423 globalsqatests.UserLogin - Logout click successful
+17:36:10.423 globalsqatests.UserLogin - Logout successful
+17:36:13.434 globalsqatests.UserLogin - Logout successful and navigate to Customer Login page successful
+17:36:14.331 base.CommonAPI - Test Case Status: PASS
+
+17:36:17.282 globalsqatests.UserLogin - Hermoine Granger account is selected
+17:36:17.333 globalsqatests.UserLogin - Login button click successful
+17:36:17.495 globalsqatests.UserLogin - Hermoine Granger login successful
+17:36:17.546 globalsqatests.UserLogin - Logout click successful
+17:36:17.546 globalsqatests.UserLogin - Logout successful
+17:36:17.550 globalsqatests.UserLogin - Navigate to Customer Login page successful
+17:36:17.626 globalsqatests.UserLogin - Harry Potter account is selected
+17:36:17.677 globalsqatests.UserLogin - Login button click successful
+17:36:17.706 globalsqatests.UserLogin - Harry Potter login successful
+17:36:17.737 globalsqatests.UserLogin - Logout click successful
+17:36:17.737 globalsqatests.UserLogin - Logout successful
+17:36:17.742 globalsqatests.UserLogin - Navigate to Customer Login page successful
+17:36:17.812 globalsqatests.UserLogin - Albus Dumbledore account is selected
+17:36:17.860 globalsqatests.UserLogin - Login button click successful
+17:36:17.890 globalsqatests.UserLogin - Albus Dumbledore login successful
+17:36:17.932 globalsqatests.UserLogin - Logout click successful
+17:36:17.933 globalsqatests.UserLogin - Logout successful
+17:36:17.940 globalsqatests.UserLogin - Navigate to Customer Login page successful
+17:36:18.028 globalsqatests.UserLogin - Neville Longbottom account is selected
+17:36:18.088 globalsqatests.UserLogin - Login button click successful
+17:36:18.120 globalsqatests.UserLogin - Neville Longbottom login successful
+17:36:18.162 globalsqatests.UserLogin - Logout click successful
+17:36:18.163 globalsqatests.UserLogin - Logout successful
+17:36:18.168 globalsqatests.UserLogin - Navigate to Customer Login page successful
+17:36:18.251 globalsqatests.UserLogin - Ron Weasly account is selected
+17:36:18.319 globalsqatests.UserLogin - Login button click successful
+17:36:18.350 globalsqatests.UserLogin - Ron Weasly login successful
+17:36:18.385 globalsqatests.UserLogin - Logout click successful
+17:36:18.385 globalsqatests.UserLogin - Logout successful
+17:36:18.388 globalsqatests.UserLogin - Navigate to Customer Login page successful
+17:36:44.248 base.CommonAPI - Test Case Status: PASS
+
+17:36:46.503 globalsqatests.UserLogin - Customer login button click successful
+17:36:46.795 globalsqatests.UserLogin - Ron Weasly account is selected
+17:36:46.879 globalsqatests.UserLogin - Login button click successful
+17:36:47.049 globalsqatests.UserLogin - Ron Weasly login successful
+17:36:47.792 base.CommonAPI - Test Case Status: PASS
+
+17:36:49.997 globalsqatests.Logout - Customer login button click successful
+17:36:50.222 globalsqatests.Logout - ALbus Dumbledore account is selected
+17:36:50.278 globalsqatests.Logout - Login button click successful
+17:36:53.288 globalsqatests.Logout - Login successful
+17:36:53.349 globalsqatests.Logout - Logout click successful
+17:36:53.349 globalsqatests.Logout - Logout successful
+17:36:56.374 globalsqatests.Logout - Navigate to Customer Login page successful
+17:36:57.113 base.CommonAPI - Test Case Status: PASS
+
+17:37:00.259 globalsqatests.Logout - Bank Manager login button click successful
+17:37:00.259 globalsqatests.Logout - Login successful
+17:37:00.433 globalsqatests.Logout - Add Customer button click successful
+17:37:00.433 globalsqatests.Logout - Navigate to Add Customer page successful
+17:37:00.817 globalsqatests.Logout - Customer information entered
+17:37:00.875 globalsqatests.Logout - Add Customer click successful
+17:37:00.878 globalsqatests.Logout - Customer added successfully with customer id :6
+17:37:00.883 globalsqatests.Logout - Alert accepted
+17:37:00.941 globalsqatests.Logout - Home button click successful
+17:37:00.948 globalsqatests.Logout - Navigate to Homepage successful
+17:37:00.999 globalsqatests.Logout - Customer login button click successful
+17:37:01.248 globalsqatests.Logout - Faieq Laskar account is selected
+17:37:01.445 globalsqatests.Logout - Faieq Laskar login successful
+17:37:01.500 globalsqatests.Logout - Logout click successful
+17:37:01.500 globalsqatests.Logout - Logout successful
+17:37:04.519 globalsqatests.Logout - Navigate to Customer Login page successful
+17:37:05.261 base.CommonAPI - Test Case Status: PASS
+
+17:37:07.475 globalsqatests.Logout - Bank Manager login button click successful
+17:37:07.475 globalsqatests.Logout - Login successful
+17:37:07.709 globalsqatests.Logout - Add Customer button click successful
+17:37:07.709 globalsqatests.Logout - Navigate to Add Customer page successful
+17:37:08.168 globalsqatests.Logout - Customer information entered
+17:37:08.226 globalsqatests.Logout - Add Customer click successful
+17:37:08.230 globalsqatests.Logout - Customer added successfully with customer id :6
+17:37:08.236 globalsqatests.Logout - Alert accepted
+17:37:08.298 globalsqatests.Logout - Home button click successful
+17:37:08.304 globalsqatests.Logout - Navigate to Homepage successful
+17:37:08.348 globalsqatests.Logout - Customer login button click successful
+17:37:08.563 globalsqatests.Logout - Joe Biden account is selected
+17:37:08.803 globalsqatests.Logout - Joe Biden login successful
+17:37:08.863 globalsqatests.Logout - Logout click successful
+17:37:08.864 globalsqatests.Logout - Logout successful
+17:37:11.879 globalsqatests.Logout - Navigate to Customer Login page successful
+17:37:12.608 base.CommonAPI - Test Case Status: PASS
+
+17:37:14.829 globalsqatests.Logout - Customer login button click successful
+17:37:15.100 globalsqatests.Logout - Harry Potter account is selected
+17:37:15.146 globalsqatests.Logout - Login button click successful
+17:37:18.157 globalsqatests.Logout - Login successful
+17:37:18.209 globalsqatests.Logout - Logout click successful
+17:37:18.210 globalsqatests.Logout - Logout successful
+17:37:21.222 globalsqatests.Logout - Navigate to Customer Login page successful
+17:37:21.944 base.CommonAPI - Test Case Status: PASS
+
+17:37:24.475 globalsqatests.Logout - Customer login button click successful
+17:37:24.698 globalsqatests.Logout - Hermoine Granger account is selected
+17:37:24.745 globalsqatests.Logout - Login button click successful
+17:37:27.752 globalsqatests.Logout - Login successful
+17:37:27.805 globalsqatests.Logout - Logout click successful
+17:37:27.805 globalsqatests.Logout - Logout successful
+17:37:30.818 globalsqatests.Logout - Navigate to Customer Login page successful
+17:37:31.542 base.CommonAPI - Test Case Status: PASS
+
+17:37:33.724 globalsqatests.Logout - Customer login button click successful
+17:37:33.973 globalsqatests.Logout - Neville Longbottom account is selected
+17:37:34.025 globalsqatests.Logout - Login button click successful
+17:37:37.041 globalsqatests.Logout - Login successful
+17:37:37.090 globalsqatests.Logout - Logout click successful
+17:37:37.091 globalsqatests.Logout - Logout successful
+17:37:40.109 globalsqatests.Logout - Logout successful and navigate to Customer Login page successful
+17:37:40.913 base.CommonAPI - Test Case Status: PASS
+
+17:37:43.073 globalsqatests.Logout - Customer login button click successful
+17:37:43.333 globalsqatests.Logout - Ron Weasly account is selected
+17:37:43.398 globalsqatests.Logout - Login button click successful
+17:37:46.414 globalsqatests.Logout - Login successful
+17:37:46.469 globalsqatests.Logout - Logout click successful
+17:37:46.469 globalsqatests.Logout - Logout successful
+17:37:49.490 globalsqatests.Logout - Navigate to Customer Login page successful
+17:37:50.230 base.CommonAPI - Test Case Status: PASS
+
+17:37:52.856 globalsqatests.HomeButton - Bank Manager login button click successful
+17:37:52.856 globalsqatests.HomeButton - Login successful
+17:37:53.033 globalsqatests.HomeButton - Add Customer button click successful
+17:37:53.034 globalsqatests.HomeButton - Navigate to Add Customer page successful
+17:37:53.087 globalsqatests.HomeButton - Home button click successful
+17:37:53.094 globalsqatests.HomeButton - Navigate to Homepage successful
+17:37:53.785 base.CommonAPI - Test Case Status: PASS
+
+17:37:55.869 globalsqatests.HomeButton - Bank Manager login button click successful
+17:37:55.869 globalsqatests.HomeButton - Login successful
+17:37:56.052 globalsqatests.HomeButton - Customers button click successful
+17:37:56.053 globalsqatests.HomeButton - Navigate to Customers page successful
+17:37:56.105 globalsqatests.HomeButton - Home button click successful
+17:37:56.114 globalsqatests.HomeButton - Navigate to Homepage successful
+17:37:56.866 base.CommonAPI - Test Case Status: PASS
+
+17:37:58.865 globalsqatests.HomeButton - Bank Manager login button click successful
+17:37:58.866 globalsqatests.HomeButton - Login successful
+17:37:59.136 globalsqatests.HomeButton - Home button click successful
+17:37:59.144 globalsqatests.HomeButton - Navigate to Homepage successful
+17:37:59.857 base.CommonAPI - Test Case Status: PASS
+
+17:38:02.053 globalsqatests.HomeButton - Bank Manager login button click successful
+17:38:02.054 globalsqatests.HomeButton - Login successful
+17:38:02.235 globalsqatests.HomeButton - Open Account button click successful
+17:38:02.235 globalsqatests.HomeButton - Navigate to Open Account page successful
+17:38:02.292 globalsqatests.HomeButton - Home button click successful
+17:38:02.302 globalsqatests.HomeButton - Navigate to Homepage successful
+17:38:02.999 base.CommonAPI - Test Case Status: PASS
+
+17:38:05.248 globalsqatests.HomeButton - Customer login button click successful
+17:38:05.478 globalsqatests.HomeButton - Harry Potter account is selected
+17:38:05.530 globalsqatests.HomeButton - Login successful
+17:38:05.579 globalsqatests.HomeButton - Home button click successful
+17:38:05.622 globalsqatests.HomeButton - Navigate to Homepage successful
+17:38:06.304 base.CommonAPI - Test Case Status: PASS
+
+17:38:08.345 globalsqatests.HomeButton - Customer login button click successful
+17:38:08.397 globalsqatests.HomeButton - Home button click successful
+17:38:08.404 globalsqatests.HomeButton - Navigate to Homepage successful
+17:38:09.114 base.CommonAPI - Test Case Status: PASS
+
+17:38:11.260 globalsqatests.HomeButton - Customer login button click successful
+17:38:11.489 globalsqatests.HomeButton - Harry Potter account is selected
+17:38:11.542 globalsqatests.HomeButton - Login successful
+17:38:11.781 globalsqatests.HomeButton - Deposit button click successful
+17:38:11.781 globalsqatests.HomeButton - Navigate to Deposit page successful
+17:38:11.836 globalsqatests.HomeButton - Home button click successful
+17:38:11.841 globalsqatests.HomeButton - Navigate to Homepage successful
+17:38:12.562 base.CommonAPI - Test Case Status: PASS
+
+17:38:14.525 globalsqatests.HomeButton - Customer login button click successful
+17:38:14.766 globalsqatests.HomeButton - Harry Potter account is selected
+17:38:14.833 globalsqatests.HomeButton - Login successful
+17:38:15.015 globalsqatests.HomeButton - Transactions button click successful
+17:38:15.196 globalsqatests.HomeButton - Navigate to Transactions page successful
+17:38:15.247 globalsqatests.HomeButton - Home button click successful
+17:38:15.255 globalsqatests.HomeButton - Navigate to Homepage successful
+17:38:15.952 base.CommonAPI - Test Case Status: PASS
+
+17:38:17.958 globalsqatests.HomeButton - Customer login button click successful
+17:38:18.169 globalsqatests.HomeButton - Harry Potter account is selected
+17:38:18.225 globalsqatests.HomeButton - Login successful
+17:38:18.392 globalsqatests.HomeButton - Withdrawl button click successful
+17:38:18.392 globalsqatests.HomeButton - Navigate to Withdrawl page successful
+17:38:18.442 globalsqatests.HomeButton - Home button click successful
+17:38:18.449 globalsqatests.HomeButton - Navigate to Homepage successful
+17:38:19.145 base.CommonAPI - Test Case Status: PASS
+
+17:38:24.297 globalsqatests.CustomerLoginButton - Customer login button click successful
+17:38:24.303 globalsqatests.CustomerLoginButton - Navigate to Customer login page successful
+17:38:25.028 base.CommonAPI - Test Case Status: PASS
+
+17:38:29.989 g.BankManagerLoginButton - Bank Manager login button click successful
+17:38:29.994 g.BankManagerLoginButton - Login successful
+17:38:30.708 base.CommonAPI - Test Case Status: PASS
 

@@ -285,6 +285,7 @@ public class CommonAPI {
     public void iFrameHandle(WebElement element){
         driver.switchTo().frame(element);
     }
+
     public void getLinks(String linkText){
         driver.findElement(By.linkText(linkText)).findElement(By.tagName("a")).getText();
     }

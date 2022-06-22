@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 public class Logout extends CommonAPI {
 
     private final Logger LOG = LoggerFactory.getLogger(Logout.class);
+
     @Test
     public void nevilleLongbottomLogoutTest(){
         CustomerPage customer = new CustomerPage(getDriver());

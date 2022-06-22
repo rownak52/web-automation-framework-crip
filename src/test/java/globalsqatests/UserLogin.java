@@ -10,37 +10,41 @@ import org.testng.annotations.Test;
 import utility.ExcelReader;
 import utility.Utility;
 
+import java.io.IOException;
 import java.util.List;
 
 public class UserLogin extends CommonAPI {
 
     private final Logger LOG = LoggerFactory.getLogger(UserLogin.class);
 
-//    @Test
-//    public void loginWithExcelTest() {
-//
-//        CustomerPage customer = new CustomerPage(getDriver());
-//        customer.clickCustomerLoginButton();
-//        ExcelReader excelReader = new ExcelReader(currentDir + "/data/CustomerAccounts.xlsx");
-//        List<String> accounts = excelReader.getEntireColumnForGivenHeader("1","Customer Accounts");
-//        for (String account : accounts) {
-//            customer.selectOptionFromCustomerDropDown(account);
-//            LOG.info(account + " account is selected");
-//            customer.clickLoginButton();
-//            LOG.info("Login button click successful");
-//            String expectedMessage = "Welcome " + account + " !!";
-//            Assert.assertEquals(expectedMessage, getElementText("/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/strong[1]"));
-//            LOG.info(account + " login successful");
-//            customer.clickLogoutButton();
-//            LOG.info("Logout click successful");
-//            LOG.info("Logout successful");
-//            waitFor(3);
-//            String expectedLogoutUrl = "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/customer";
-//            Assert.assertEquals(expectedLogoutUrl, getUrlLink());
-//            LOG.info("Navigate to Customer Login page successful");
-//        }
+    @Test
+    public void loginWithExcelTest() throws IllegalAccessException {
 
+        CustomerPage customer = new CustomerPage(getDriver());
+        customer.clickCustomerLoginButton();
+        ExcelReader excelReader = new ExcelReader(currentDir + "/data/CustomerAccounts.xlsx");
+        List<String> accounts = excelReader.getEntireColumnForGivenHeader("Sheet1", "Customer Accounts");
+        for (String account : accounts) {
+            customer.selectOptionFromCustomerDropDown(account);
+            if (account.equalsIgnoreCase("")) {
+                break;
+            } else {
+                LOG.info(account + " account is selected");
+                customer.clickLoginButton();
+                LOG.info("Login button click successful");
+                String expectedMessage = "Welcome " + account + " !!";
+                Assert.assertEquals(expectedMessage, getElementText("/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/strong[1]"));
+                LOG.info(account + " login successful");
+                customer.clickLogoutButton();
+                LOG.info("Logout click successful");
+                LOG.info("Logout successful");
+                String expectedLogoutUrl = "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/customer";
+                Assert.assertEquals(expectedLogoutUrl, getUrlLink());
+                LOG.info("Navigate to Customer Login page successful");
+            }
+        }
 
+    }
 
     @Test
     public void harryPotterLoginTest(){

@@ -108,13 +108,13 @@ public class Deposit extends CommonAPI {
         customer.clickDepositButton();
         LOG.info("Deposit button click successful");
         LOG.info("Navigate to Deposit page successful");
-        customer.typeDepositAmount("5");
-        LOG.info("5 Deposit amount entered");
+        customer.typeDepositAmount("500");
+        LOG.info("500 Deposit amount entered");
         customer.confirmDepositAmount();
-        LOG.info("Confirm deposit click successful ");
+        LOG.info("Confirm deposit click successful");
         String expectedConfirmation = "Deposit Successful";
         Assert.assertEquals(expectedConfirmation, getElementText("//span[contains(text(),'Deposit Successful')]"));
-        LOG.info("5 Deposit successful");
+        LOG.info("500 Deposit successful");
     }
 
     @Test
@@ -191,7 +191,7 @@ public class Deposit extends CommonAPI {
             LOG.info("Deposit button click successful");
             LOG.info("Navigate to Deposit page successful");
             customer.typeDepositAmount("10000");
-            LOG.info("10000 Deposit amount entered");
+            LOG.info("10,000 Deposit amount entered");
             customer.confirmDepositAmount();
             LOG.info("Confirm deposit click successful ");
             String expectedConfirmation = "Deposit Successful";
@@ -200,7 +200,7 @@ public class Deposit extends CommonAPI {
             customer.selectOptionFromAccountNumberDropDown("1002");
             Assert.assertTrue(customer.checkIfAccountNumberIsSelected());
             customer.typeDepositAmount("10000");
-            LOG.info("10000 Deposit amount entered");
+            LOG.info("10,000 Deposit amount entered");
             customer.confirmDepositAmount();
             LOG.info("Confirm deposit click successful ");
             String expectedConfirmation2 = "Deposit Successful";

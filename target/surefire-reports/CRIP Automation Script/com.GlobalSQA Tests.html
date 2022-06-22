@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>com.GlobalSQA Tests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>66/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Jun 19 17:08:45 EDT 2022</td>
+<td>Started on:</td><td>Tue Jun 21 16:23:18 EDT 2022</td>
 </tr>
-<tr><td>Total time:</td><td>348 seconds (348131 ms)</td>
+<tr><td>Total time:</td><td>25 seconds (25255 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,26 +75,52 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='globalsqatests.TransactionsButton.albusTransactionsButtonTest()'><b>albusTransactionsButtonTest</b><br>Test class: globalsqatests.TransactionsButton</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate option with value: ALbus Dumbledore
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+<td title='globalsqatests.UserLogin.loginWithExcelTest()'><b>loginWithExcelTest</b><br>Test class: globalsqatests.UserLogin</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=102.0.5005.115)
 Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
-System info: host: &apos;DESKTOP-DNJOJAA&apos;, ip: &apos;172.16.226.186&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:287)
-	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:190)
-	at globalsqapages.CustomerPage.selectOptionFromCustomerDropDown(CustomerPage.java:73)
-	at globalsqatests.TransactionsButton.albusTransactionsButtonTest(TransactionsButton.java:84)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace894780981", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace894780981'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate option with value: ALbus Dumbledore
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+System info: host: &apos;DESKTOP-DNJOJAA&apos;, ip: &apos;172.16.225.38&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2579c5215a7be60900d666b54be50817, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60095}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60095/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2579c5215a7be60900d666b54be50817
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:342)
+	at base.CommonAPI.getUrlLink(CommonAPI.java:209)
+	at globalsqatests.UserLogin.loginWithExcelTest(UserLogin.java:39)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1874542689", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1874542689'><pre>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=102.0.5005.115)
 Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
-System info: host: &apos;DESKTOP-DNJOJAA&apos;, ip: &apos;172.16.226.186&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:287)
-	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:190)
-	at globalsqapages.CustomerPage.selectOptionFromCustomerDropDown(CustomerPage.java:73)
-	at globalsqatests.TransactionsButton.albusTransactionsButtonTest(TransactionsButton.java:84)
+System info: host: &apos;DESKTOP-DNJOJAA&apos;, ip: &apos;172.16.225.38&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2579c5215a7be60900d666b54be50817, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\EvilT\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60095}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60095/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2579c5215a7be60900d666b54be50817
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:342)
+	at base.CommonAPI.getUrlLink(CommonAPI.java:209)
+	at globalsqatests.UserLogin.loginWithExcelTest(UserLogin.java:39)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -125,346 +151,8 @@ Driver info: driver.version: unknown
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 </pre></div></td>
-<td>50</td>
-<td>globalsqatests.TransactionsButton@1ebea008</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='globalsqatests.CustomerAccounts.CustomerDropDownOptionsVisibilityTest()'><b>CustomerDropDownOptionsVisibilityTest</b><br>Test class: globalsqatests.CustomerAccounts</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.CustomerAccounts@2ca26d77</td></tr>
-<tr>
-<td title='globalsqatests.AddCustomer.addCustomerFaieqLaskarTest()'><b>addCustomerFaieqLaskarTest</b><br>Test class: globalsqatests.AddCustomer</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.AddCustomer@1787f2a0</td></tr>
-<tr>
-<td title='globalsqatests.AddCustomer.addCustomerJohnDoeTest()'><b>addCustomerJohnDoeTest</b><br>Test class: globalsqatests.AddCustomer</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.AddCustomer@1787f2a0</td></tr>
-<tr>
-<td title='globalsqatests.AddCustomer.addCustomerPollakRahmanTest()'><b>addCustomerPollakRahmanTest</b><br>Test class: globalsqatests.AddCustomer</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.AddCustomer@1787f2a0</td></tr>
-<tr>
-<td title='globalsqatests.AddCustomer.addMultipleCustomerTest()'><b>addMultipleCustomerTest</b><br>Test class: globalsqatests.AddCustomer</td>
-<td></td>
-<td>1</td>
-<td>globalsqatests.AddCustomer@1787f2a0</td></tr>
-<tr>
-<td title='globalsqatests.UserLogin.albusDumbledoreLoginTest()'><b>albusDumbledoreLoginTest</b><br>Test class: globalsqatests.UserLogin</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.UserLogin@7905a0b8</td></tr>
-<tr>
-<td title='globalsqatests.Logout.albusDumbledoreLogoutTest()'><b>albusDumbledoreLogoutTest</b><br>Test class: globalsqatests.Logout</td>
-<td></td>
-<td>6</td>
-<td>globalsqatests.Logout@35a3d49f</td></tr>
-<tr>
-<td title='globalsqatests.HomeButton.bankManagerAddCustomerHomeButtonTest()'><b>bankManagerAddCustomerHomeButtonTest</b><br>Test class: globalsqatests.HomeButton</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.HomeButton@389b0789</td></tr>
-<tr>
-<td title='globalsqatests.HomeButton.bankManagerCustomersHomeButtonTest()'><b>bankManagerCustomersHomeButtonTest</b><br>Test class: globalsqatests.HomeButton</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.HomeButton@389b0789</td></tr>
-<tr>
-<td title='globalsqatests.HomeButton.bankManagerHomeButtonTest()'><b>bankManagerHomeButtonTest</b><br>Test class: globalsqatests.HomeButton</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.HomeButton@389b0789</td></tr>
-<tr>
-<td title='globalsqatests.BankManagerLoginButton.bankManagerLoginButtonTest()'><b>bankManagerLoginButtonTest</b><br>Test class: globalsqatests.BankManagerLoginButton</td>
-<td></td>
-<td>3</td>
-<td>globalsqatests.BankManagerLoginButton@478db956</td></tr>
-<tr>
-<td title='globalsqatests.HomeButton.bankManagerOpenAccountHomeButtonTest()'><b>bankManagerOpenAccountHomeButtonTest</b><br>Test class: globalsqatests.HomeButton</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.HomeButton@389b0789</td></tr>
-<tr>
-<td title='globalsqatests.AccountNumber.createAccountAndVerifyAccountNumberTest()'><b>createAccountAndVerifyAccountNumberTest</b><br>Test class: globalsqatests.AccountNumber</td>
-<td></td>
-<td>1</td>
-<td>globalsqatests.AccountNumber@13df2a8c</td></tr>
-<tr>
-<td title='globalsqatests.UserLogin.createAnAccountAndLoginWithFaieqTest()'><b>createAnAccountAndLoginWithFaieqTest</b><br>Test class: globalsqatests.UserLogin</td>
-<td></td>
-<td>1</td>
-<td>globalsqatests.UserLogin@7905a0b8</td></tr>
-<tr>
-<td title='globalsqatests.UserLogin.createAnAccountAndLoginWithJoeTest()'><b>createAnAccountAndLoginWithJoeTest</b><br>Test class: globalsqatests.UserLogin</td>
-<td></td>
-<td>1</td>
-<td>globalsqatests.UserLogin@7905a0b8</td></tr>
-<tr>
-<td title='globalsqatests.UserLogin.createAnAccountAndLoginWithRownakTest()'><b>createAnAccountAndLoginWithRownakTest</b><br>Test class: globalsqatests.UserLogin</td>
-<td></td>
-<td>1</td>
-<td>globalsqatests.UserLogin@7905a0b8</td></tr>
-<tr>
-<td title='globalsqatests.Logout.createAnAccountAndLogoutWithFaieqTest()'><b>createAnAccountAndLogoutWithFaieqTest</b><br>Test class: globalsqatests.Logout</td>
-<td></td>
-<td>4</td>
-<td>globalsqatests.Logout@35a3d49f</td></tr>
-<tr>
-<td title='globalsqatests.Logout.createAnAccountAndLogoutWithJoeTest()'><b>createAnAccountAndLogoutWithJoeTest</b><br>Test class: globalsqatests.Logout</td>
-<td></td>
-<td>4</td>
-<td>globalsqatests.Logout@35a3d49f</td></tr>
-<tr>
-<td title='globalsqatests.SearchCustomer.createAnAccountAndSearchRownakTest()'><b>createAnAccountAndSearchRownakTest</b><br>Test class: globalsqatests.SearchCustomer</td>
-<td></td>
-<td>1</td>
-<td>globalsqatests.SearchCustomer@72d6b3ba</td></tr>
-<tr>
-<td title='globalsqatests.HomeButton.customerHomeButtonTest()'><b>customerHomeButtonTest</b><br>Test class: globalsqatests.HomeButton</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.HomeButton@389b0789</td></tr>
-<tr>
-<td title='globalsqatests.CustomerLoginButton.customerLoginButtonTest()'><b>customerLoginButtonTest</b><br>Test class: globalsqatests.CustomerLoginButton</td>
-<td></td>
-<td>3</td>
-<td>globalsqatests.CustomerLoginButton@13d9cbf5</td></tr>
-<tr>
-<td title='globalsqatests.HomeButton.customerLoginHomeButtonTest()'><b>customerLoginHomeButtonTest</b><br>Test class: globalsqatests.HomeButton</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.HomeButton@389b0789</td></tr>
-<tr>
-<td title='globalsqatests.DeleteButton.deleteCustomerTest()'><b>deleteCustomerTest</b><br>Test class: globalsqatests.DeleteButton</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.DeleteButton@4808bc9b</td></tr>
-<tr>
-<td title='globalsqatests.Deposit.depositAlbusTest()'><b>depositAlbusTest</b><br>Test class: globalsqatests.Deposit</td>
-<td></td>
-<td>1</td>
-<td>globalsqatests.Deposit@163370c2</td></tr>
-<tr>
-<td title='globalsqatests.Deposit.depositHarryTest()'><b>depositHarryTest</b><br>Test class: globalsqatests.Deposit</td>
-<td></td>
-<td>1</td>
-<td>globalsqatests.Deposit@163370c2</td></tr>
-<tr>
-<td title='globalsqatests.Deposit.depositHermoineTest()'><b>depositHermoineTest</b><br>Test class: globalsqatests.Deposit</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.Deposit@163370c2</td></tr>
-<tr>
-<td title='globalsqatests.HomeButton.depositHomeButtonTest()'><b>depositHomeButtonTest</b><br>Test class: globalsqatests.HomeButton</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.HomeButton@389b0789</td></tr>
-<tr>
-<td title='globalsqatests.Deposit.depositNevilleTest()'><b>depositNevilleTest</b><br>Test class: globalsqatests.Deposit</td>
-<td></td>
-<td>1</td>
-<td>globalsqatests.Deposit@163370c2</td></tr>
-<tr>
-<td title='globalsqatests.Deposit.depositRonTest()'><b>depositRonTest</b><br>Test class: globalsqatests.Deposit</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.Deposit@163370c2</td></tr>
-<tr>
-<td title='globalsqatests.BackButton.harryPotterBackButtonTest()'><b>harryPotterBackButtonTest</b><br>Test class: globalsqatests.BackButton</td>
-<td></td>
-<td>1</td>
-<td>globalsqatests.BackButton@2ca923bb</td></tr>
-<tr>
-<td title='globalsqatests.UserLogin.harryPotterLoginTest()'><b>harryPotterLoginTest</b><br>Test class: globalsqatests.UserLogin</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.UserLogin@7905a0b8</td></tr>
-<tr>
-<td title='globalsqatests.Logout.harryPotterLogoutTest()'><b>harryPotterLogoutTest</b><br>Test class: globalsqatests.Logout</td>
-<td></td>
-<td>6</td>
-<td>globalsqatests.Logout@35a3d49f</td></tr>
-<tr>
-<td title='globalsqatests.TransactionsButton.harryTransactionsButtonTest()'><b>harryTransactionsButtonTest</b><br>Test class: globalsqatests.TransactionsButton</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.TransactionsButton@1ebea008</td></tr>
-<tr>
-<td title='globalsqatests.BackButton.hermoineGrangerBackButtonTest()'><b>hermoineGrangerBackButtonTest</b><br>Test class: globalsqatests.BackButton</td>
-<td></td>
-<td>1</td>
-<td>globalsqatests.BackButton@2ca923bb</td></tr>
-<tr>
-<td title='globalsqatests.UserLogin.hermoineGrangerLoginTest()'><b>hermoineGrangerLoginTest</b><br>Test class: globalsqatests.UserLogin</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.UserLogin@7905a0b8</td></tr>
-<tr>
-<td title='globalsqatests.Logout.hermoineGrangerLogoutTest()'><b>hermoineGrangerLogoutTest</b><br>Test class: globalsqatests.Logout</td>
-<td></td>
-<td>6</td>
-<td>globalsqatests.Logout@35a3d49f</td></tr>
-<tr>
-<td title='globalsqatests.TransactionsButton.hermoineTransactionsButtonTest()'><b>hermoineTransactionsButtonTest</b><br>Test class: globalsqatests.TransactionsButton</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.TransactionsButton@1ebea008</td></tr>
-<tr>
-<td title='globalsqatests.BackButton.nevilleLongbottomBackButtonTest()'><b>nevilleLongbottomBackButtonTest</b><br>Test class: globalsqatests.BackButton</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.BackButton@2ca923bb</td></tr>
-<tr>
-<td title='globalsqatests.Logout.nevilleLongbottomLogoutTest()'><b>nevilleLongbottomLogoutTest</b><br>Test class: globalsqatests.Logout</td>
-<td></td>
-<td>6</td>
-<td>globalsqatests.Logout@35a3d49f</td></tr>
-<tr>
-<td title='globalsqatests.TransactionsButton.nevilleTransactionsButtonTest()'><b>nevilleTransactionsButtonTest</b><br>Test class: globalsqatests.TransactionsButton</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.TransactionsButton@1ebea008</td></tr>
-<tr>
-<td title='globalsqatests.Deposit.newAccountDepositTest()'><b>newAccountDepositTest</b><br>Test class: globalsqatests.Deposit</td>
-<td></td>
-<td>2</td>
-<td>globalsqatests.Deposit@163370c2</td></tr>
-<tr>
-<td title='globalsqatests.TransactionsButton.newCustomerTransactionsButtonTest()'><b>newCustomerTransactionsButtonTest</b><br>Test class: globalsqatests.TransactionsButton</td>
-<td></td>
-<td>2</td>
-<td>globalsqatests.TransactionsButton@1ebea008</td></tr>
-<tr>
-<td title='globalsqatests.OpenAccount.openDollarAccountTest()'><b>openDollarAccountTest</b><br>Test class: globalsqatests.OpenAccount</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.OpenAccount@51bf5add</td></tr>
-<tr>
-<td title='globalsqatests.OpenAccount.openMultipleAccountsTest()'><b>openMultipleAccountsTest</b><br>Test class: globalsqatests.OpenAccount</td>
-<td></td>
-<td>1</td>
-<td>globalsqatests.OpenAccount@51bf5add</td></tr>
-<tr>
-<td title='globalsqatests.OpenAccount.openPoundAccountTest()'><b>openPoundAccountTest</b><br>Test class: globalsqatests.OpenAccount</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.OpenAccount@51bf5add</td></tr>
-<tr>
-<td title='globalsqatests.OpenAccount.openRupeeAccountTest()'><b>openRupeeAccountTest</b><br>Test class: globalsqatests.OpenAccount</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.OpenAccount@51bf5add</td></tr>
-<tr>
-<td title='globalsqatests.ResetButton.resetButtonTest()'><b>resetButtonTest</b><br>Test class: globalsqatests.ResetButton</td>
-<td></td>
-<td>1</td>
-<td>globalsqatests.ResetButton@70e38ce1</td></tr>
-<tr>
-<td title='globalsqatests.TransactionsButton.ronTransactionsButtonTest()'><b>ronTransactionsButtonTest</b><br>Test class: globalsqatests.TransactionsButton</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.TransactionsButton@1ebea008</td></tr>
-<tr>
-<td title='globalsqatests.BackButton.ronWeaslyBackButtonTest()'><b>ronWeaslyBackButtonTest</b><br>Test class: globalsqatests.BackButton</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.BackButton@2ca923bb</td></tr>
-<tr>
-<td title='globalsqatests.UserLogin.ronWeaslyLoginTest()'><b>ronWeaslyLoginTest</b><br>Test class: globalsqatests.UserLogin</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.UserLogin@7905a0b8</td></tr>
-<tr>
-<td title='globalsqatests.Logout.ronWeaslyLogoutTest()'><b>ronWeaslyLogoutTest</b><br>Test class: globalsqatests.Logout</td>
-<td></td>
-<td>6</td>
-<td>globalsqatests.Logout@35a3d49f</td></tr>
-<tr>
-<td title='globalsqatests.SearchCustomer.searchAlbusDumbledoreTest()'><b>searchAlbusDumbledoreTest</b><br>Test class: globalsqatests.SearchCustomer</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.SearchCustomer@72d6b3ba</td></tr>
-<tr>
-<td title='globalsqatests.SearchCustomer.searchHarryPotterTest()'><b>searchHarryPotterTest</b><br>Test class: globalsqatests.SearchCustomer</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.SearchCustomer@72d6b3ba</td></tr>
-<tr>
-<td title='globalsqatests.SearchCustomer.searchHermoineGrangerTest()'><b>searchHermoineGrangerTest</b><br>Test class: globalsqatests.SearchCustomer</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.SearchCustomer@72d6b3ba</td></tr>
-<tr>
-<td title='globalsqatests.SearchCustomer.searchNevilleLongbottomTest()'><b>searchNevilleLongbottomTest</b><br>Test class: globalsqatests.SearchCustomer</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.SearchCustomer@72d6b3ba</td></tr>
-<tr>
-<td title='globalsqatests.SearchCustomer.searchRonWeaslyTest()'><b>searchRonWeaslyTest</b><br>Test class: globalsqatests.SearchCustomer</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.SearchCustomer@72d6b3ba</td></tr>
-<tr>
-<td title='globalsqatests.AccountNumber.selectAccountNumberTest()'><b>selectAccountNumberTest</b><br>Test class: globalsqatests.AccountNumber</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.AccountNumber@13df2a8c</td></tr>
-<tr>
-<td title='globalsqatests.AccountNumber.selectMultipleAccountsForAlbusTest()'><b>selectMultipleAccountsForAlbusTest</b><br>Test class: globalsqatests.AccountNumber</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.AccountNumber@13df2a8c</td></tr>
-<tr>
-<td title='globalsqatests.AccountNumber.selectMultipleAccountsForHarryTest()'><b>selectMultipleAccountsForHarryTest</b><br>Test class: globalsqatests.AccountNumber</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.AccountNumber@13df2a8c</td></tr>
-<tr>
-<td title='globalsqatests.AccountNumber.selectMultipleAccountsForHermoineTest()'><b>selectMultipleAccountsForHermoineTest</b><br>Test class: globalsqatests.AccountNumber</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.AccountNumber@13df2a8c</td></tr>
-<tr>
-<td title='globalsqatests.AccountNumber.selectMultipleAccountsForNevilleTest()'><b>selectMultipleAccountsForNevilleTest</b><br>Test class: globalsqatests.AccountNumber</td>
-<td></td>
-<td>1</td>
-<td>globalsqatests.AccountNumber@13df2a8c</td></tr>
-<tr>
-<td title='globalsqatests.AccountNumber.selectMultipleAccountsForRonTest()'><b>selectMultipleAccountsForRonTest</b><br>Test class: globalsqatests.AccountNumber</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.AccountNumber@13df2a8c</td></tr>
-<tr>
-<td title='globalsqatests.HomeButton.transactionsHomeButtonTest()'><b>transactionsHomeButtonTest</b><br>Test class: globalsqatests.HomeButton</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.HomeButton@389b0789</td></tr>
-<tr>
-<td title='globalsqatests.HomeButton.withdawlHomeButtonTest()'><b>withdawlHomeButtonTest</b><br>Test class: globalsqatests.HomeButton</td>
-<td></td>
-<td>0</td>
-<td>globalsqatests.HomeButton@389b0789</td></tr>
-<tr>
-<td title='globalsqatests.Withdraw.withdrawFunctionTest()'><b>withdrawFunctionTest</b><br>Test class: globalsqatests.Withdraw</td>
-<td></td>
-<td>1</td>
-<td>globalsqatests.Withdraw@7de62196</td></tr>
-<tr>
-<td title='globalsqatests.Withdraw.withdrawNegativeTest()'><b>withdrawNegativeTest</b><br>Test class: globalsqatests.Withdraw</td>
-<td></td>
-<td>1</td>
-<td>globalsqatests.Withdraw@7de62196</td></tr>
+<td>20</td>
+<td>globalsqatests.UserLogin@3b6d844d</td></tr>
 </table><p>
 </body>
 </html>
