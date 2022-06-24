@@ -8,9 +8,7 @@ import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import utility.ExcelReader;
-import utility.Utility;
 
-import java.io.IOException;
 import java.util.List;
 
 public class UserLogin extends CommonAPI {
@@ -18,7 +16,7 @@ public class UserLogin extends CommonAPI {
     private final Logger LOG = LoggerFactory.getLogger(UserLogin.class);
 
     @Test
-    public void loginWithExcelTest() throws IllegalAccessException {
+    public void loginWithExcelTest() {
 
         CustomerPage customer = new CustomerPage(getDriver());
         customer.clickCustomerLoginButton();
