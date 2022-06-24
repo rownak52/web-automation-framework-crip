@@ -5,17 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7af8a1fa-1a94-4245-ae7d-fe301b8bbd75" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;logs/globalsqatestcases.logs">
+      <change afterPath="$PROJECT_DIR$/logs/uitaptestcases.logs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uitappages/NonBreakingSpacePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/uitaptests/GetValueOrLoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/uitaptests/PageRedirects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/uitaptests/ZTestRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utility/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utility/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/globalsqatests/UserLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/globalsqatests/UserLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/globalsqatestcases.logs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/AjaxPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/AjaxPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/ClassAttributePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/ClassAttributePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/ClickPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/ClickPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/ClientDelayPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/ClientDelayPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/DynamicIDPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/DynamicIDPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/DynamicTablePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/DynamicTablePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/HiddenLayersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/HiddenLayersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/LoadDelayPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/LoadDelayPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/MouseOverPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/MouseOverPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/NonBreakingSpPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/OverlappedElementPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/OverlappedElementPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/ProgressBarPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/ProgressBarPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/SampleAppPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/SampleAppPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/ScrollbarsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/ScrollbarsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/ShadowDOMPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/ShadowDOMPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/TextInputPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/TextInputPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/VerifyTextPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/VerifyTextPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/VisibilityPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/VisibilityPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/uitaptests/HyperLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uitaptests/HyperLinks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/uitaptests/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uitaptests/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/uitaptests/PageButtons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uitaptests/PageButtons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/uitaptests/PopUps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uitaptests/PopUps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/uitaptests/ScrollBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uitaptests/ScrollBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/uitaptests/TestRun.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/uitaptests/TextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uitaptests/TextField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/uitaptests/Value.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/uitaptests/VerifyExistingElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uitaptests/ExistingElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/logback-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logback-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utility/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utility/Utility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/globalsqatests/UserLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/globalsqatests/UserLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logback-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/logback-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/saucedemotests/HoverOver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/saucedemotests/HoverOver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/runner.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,17 +88,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/EvilT/IdeaProjects/LearnJava&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/rowna/IdeaProjects/NewFolderForCRIP0624/web-automation-framework-crip",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\EvilT\IdeaProjects\FinalFrameworkProject\web-automation-framework-crip\testcases" />
