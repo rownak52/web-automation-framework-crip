@@ -23,7 +23,6 @@
             <class name="uitaptests.PopUps"></class>
             <class name="uitaptests.ScrollBar"></class>
             <class name="uitaptests.TextField"></class>
-            <class name="uitaptests.ZTestRun"></class>
         </classes>
 
     </test>

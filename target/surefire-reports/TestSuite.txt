@@ -1,13 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 67, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 349.133 s <<< FAILURE! - in TestSuite
-albusTransactionsButtonTest(globalsqatests.TransactionsButton)  Time elapsed: 50.595 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-Cannot locate option with value: ALbus Dumbledore
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'DESKTOP-DNJOJAA', ip: '172.16.226.186', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
-Driver info: driver.version: unknown
-	at globalsqatests.TransactionsButton.albusTransactionsButtonTest(TransactionsButton.java:84)
-
+Tests run: 81, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 301.441 s - in TestSuite

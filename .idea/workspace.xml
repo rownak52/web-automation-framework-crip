@@ -4,45 +4,75 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7af8a1fa-1a94-4245-ae7d-fe301b8bbd75" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;logs/globalsqatestcases.logs">
-      <change afterPath="$PROJECT_DIR$/logs/uitaptestcases.logs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/uitappages/NonBreakingSpacePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/uitaptests/GetValueOrLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/uitaptests/PageRedirects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/uitaptests/ZTestRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="7af8a1fa-1a94-4245-ae7d-fe301b8bbd75" name="Changes" comment="updated suitexml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/globalsqatestcases.logs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/AjaxPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/AjaxPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/ClassAttributePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/ClassAttributePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/ClickPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/ClickPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/ClientDelayPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/ClientDelayPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/DynamicIDPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/DynamicIDPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/DynamicTablePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/DynamicTablePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/HiddenLayersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/HiddenLayersPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/LoadDelayPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/LoadDelayPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/MouseOverPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/MouseOverPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/NonBreakingSpPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/OverlappedElementPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/OverlappedElementPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/ProgressBarPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/ProgressBarPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/SampleAppPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/SampleAppPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/ScrollbarsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/ScrollbarsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/ShadowDOMPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/ShadowDOMPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/TextInputPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/TextInputPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/VerifyTextPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/VerifyTextPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uitappages/VisibilityPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uitappages/VisibilityPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/uitaptests/HyperLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uitaptests/HyperLinks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/uitaptests/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uitaptests/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/uitaptests/PageButtons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uitaptests/PageButtons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/uitaptests/PopUps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uitaptests/PopUps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/uitaptests/ScrollBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uitaptests/ScrollBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/uitaptests/TestRun.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/uitaptestcases.logs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/uitaptests/TextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uitaptests/TextField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/uitaptests/Value.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/uitaptests/VerifyExistingElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uitaptests/ExistingElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logback-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logback-test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uitappages/AjaxPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uitappages/AjaxPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uitappages/ClassAttributePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uitappages/ClassAttributePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uitappages/ClickPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uitappages/ClickPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uitappages/ClientDelayPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uitappages/ClientDelayPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uitappages/DynamicIDPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uitappages/DynamicIDPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uitappages/DynamicTablePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uitappages/DynamicTablePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uitappages/DynamicTblPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uitappages/HiddenLayersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uitappages/HiddenLayersPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uitappages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uitappages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uitappages/LoadDelayPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uitappages/LoadDelayPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uitappages/MouseOverPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uitappages/MouseOverPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uitappages/MouseOvrPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uitappages/NonBreakingSpPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uitappages/OverlappedElPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uitappages/OverlappedElementPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uitappages/OverlappedElementPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uitappages/ProgressBarPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uitappages/ProgressBarPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uitappages/SampleAppPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uitappages/SampleAppPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uitappages/ScrollbarsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uitappages/ScrollbarsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uitappages/ShadowDOMPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uitappages/ShadowDOMPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uitappages/TextInputPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uitappages/TextInputPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uitappages/TxtInputPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uitappages/VerifyTextPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uitappages/VerifyTextPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uitappages/VerifyTxtPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uitappages/VisibilityPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uitappages/VisibilityPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/CRIP Automation Script/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/CRIP Automation Script/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/reporter-output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/CRIP Automation Script/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logback-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/logback-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/saucedemotests/HoverOver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/saucedemotests/HoverOver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/uitaptests/HyperLinks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/uitaptests/HyperLinks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/uitaptests/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/uitaptests/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/uitaptests/PageButtons.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/uitaptests/PageButtons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/uitaptests/PopUps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/uitaptests/PopUps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/uitaptests/ScrollBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/uitaptests/ScrollBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/uitaptests/TextField.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/uitaptests/TextField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/uitaptests/Value.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/uitaptests/VerifyExistingElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/uitaptests/VerifyLoginFunctionality.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/uitaptests/VerifyPageBtns.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/uitaptests/VerifyPopUps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/uitaptests/VerifyScroll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/uitaptests/VerifyTyping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/uitaptests/VerifyValue.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +93,6 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="TestNG" name="$PROJECT_DIR$/src/test/resources/runner.xml" />
-    </enabled-run-configurations>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -101,6 +126,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rowna\IdeaProjects\NewFolderForCRIP0624\web-automation-framework-crip\data" />
       <recent name="C:\Users\EvilT\IdeaProjects\FinalFrameworkProject\web-automation-framework-crip\testcases" />
       <recent name="C:\Users\EvilT\IdeaProjects\FinalFrameworkProject\web-automation-framework-crip\driver\mac" />
     </key>
@@ -238,7 +264,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655935249874</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="final push - row">
+      <created>1656114146611</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656114146611</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated suitexml">
+      <created>1656115342219</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656115342219</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -261,6 +301,8 @@
     <MESSAGE value="forgot to add mac driver, sorry" />
     <MESSAGE value="final push for Pollak" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;logs/globalsqatestcases.logs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;logs/globalsqatestcases.logs" />
+    <MESSAGE value="final push - row" />
+    <MESSAGE value="updated suitexml" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated suitexml" />
   </component>
 </project>

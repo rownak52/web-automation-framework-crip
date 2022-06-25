@@ -10,6 +10,9 @@ import uitappages.HomePage;
 import uitappages.OverlappedElementPage;
 import uitappages.ShadowDOMPage;
 import uitappages.TextInputPage;
+import utility.ExcelReader;
+
+import java.util.List;
 
 public class TextField extends CommonAPI {
 
@@ -61,6 +64,22 @@ public class TextField extends CommonAPI {
         autoPage.typeInTextBox(inputText);
         Assert.assertEquals(inputText, autoPage.getTextFromBox());
         LOG.info("The input text and expected text match Successful");
+    }
+
+    @Test
+    public void typeWithExcelReader() {
+        HomePage home = new HomePage(getDriver());
+        home.clickTextInput();
+        TextInputPage autoPage = new TextInputPage(getDriver());
+        ExcelReader excelReader = new ExcelReader(currentDir + "/data/TextFieldInputs.xlsx");
+        List<String> buttonInput = excelReader.getEntireColumnForGivenHeader("Sheet1", "Button Change");
+        for (String input : buttonInput) {
+            autoPage.typeInTextBox(input);
+            autoPage.clickTextChangeButton();
+            LOG.info("Text " + "'" + input + "'" + " change successful for button");
+        }
+
+
     }
 
 //    @Test //T77 Verify text box can be typed into

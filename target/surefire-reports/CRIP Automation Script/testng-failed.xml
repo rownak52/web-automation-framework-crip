@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [CRIP Automation Script]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="5" name="com.GlobalSQA Tests(failed)" verbose="0">
+  <test thread-count="5" name="com.UITAP Tests(failed)" verbose="0">
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="os" value="windows"/>
     <parameter name="osVersion" value="11"/>
     <parameter name="envName" value="browserstack"/>
     <parameter name="browserVersion" value="102"/>
     <parameter name="browserName" value="chrome"/>
-    <parameter name="url" value="https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login"/>
+    <parameter name="url" value="http://uitestingplayground.com/"/>
     <classes>
-      <class name="globalsqatests.UserLogin">
+      <class name="uitaptests.PageRedirects">
         <methods>
-          <include name="loginWithExcelTest"/>
           <include name="endLOG"/>
           <include name="afterEachTestMethod"/>
+          <include name="visibilityToHome"/>
           <include name="tearDown"/>
           <include name="generateReport"/>
           <include name="extentSetup"/>
           <include name="setUp"/>
           <include name="startExtent"/>
         </methods>
-      </class> <!-- globalsqatests.UserLogin -->
+      </class> <!-- uitaptests.PageRedirects -->
     </classes>
-  </test> <!-- com.GlobalSQA Tests(failed) -->
+  </test> <!-- com.UITAP Tests(failed) -->
 </suite> <!-- Failed suite [CRIP Automation Script] -->
