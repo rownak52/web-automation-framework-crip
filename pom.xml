@@ -118,7 +118,7 @@
                 <configuration>
 
                     <suiteXmlFiles>
-                        <suiteXmlFile>C:\Users\EvilT\IdeaProjects\FinalFrameworkProject\web-automation-framework-crip\src\test\resources\runner.xml</suiteXmlFile>
+                        <suiteXmlFile>C:\Users\rowna\IdeaProjects\NewFolderForCRIP0624\web-automation-framework-crip\src\test\resources\runner.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
