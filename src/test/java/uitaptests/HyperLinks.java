@@ -13,14 +13,14 @@ import java.util.List;
 public class HyperLinks extends CommonAPI {
     private final Logger LOG = LoggerFactory.getLogger(HyperLinks.class);
 
-    @Test //T1 Verify the "Resources" link is usable
-    public void clickResourcesTabTest() {
-        HomePage home = new HomePage(getDriver());
-        home.clickResources();
-//        String expectedUrlLink = "http://uitestingplayground.com/resources";
-//        Assert.assertEquals(expectedUrlLink, getUrlLink());
-        LOG.info("Webpage match successful");
-    }
+//    @Test //T1 Verify the "Resources" link is usable
+//    public void clickResourcesTabTest() {
+//        HomePage home = new HomePage(getDriver());
+//        home.clickResources();
+////        String expectedUrlLink = "http://uitestingplayground.com/resources";
+////        Assert.assertEquals(expectedUrlLink, getUrlLink());
+//        LOG.info("Webpage match successful");
+//    }
 
 
     @Test //T2 Verify the logo link is usable
@@ -32,14 +32,14 @@ public class HyperLinks extends CommonAPI {
         LOG.info("Webpage match successful");
     }
 
-    @Test //T3 Verify the "Home" link is usable
-    public void clickHomeTabTest() {
-        HomePage home = new HomePage(getDriver());
-        home.clickHome();
-//        String expectedUrlLink = "http://uitestingplayground.com/home";
-//        Assert.assertEquals(expectedUrlLink, getUrlLink());
-        LOG.info("Webpage match successful");
-    }
+//    @Test //T3 Verify the "Home" link is usable
+//    public void clickHomeTabTest() {
+//        HomePage home = new HomePage(getDriver());
+//        home.clickHome();
+////        String expectedUrlLink = "http://uitestingplayground.com/home";
+////        Assert.assertEquals(expectedUrlLink, getUrlLink());
+//        LOG.info("Webpage match successful");
+//    }
 
     @Test //T4 Verify the "Scrollbars" link is usable
     public void clickScrollBarsLinkTest() {

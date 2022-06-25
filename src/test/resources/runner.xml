@@ -19,7 +19,7 @@
             <class name="uitaptests.HyperLinks"></class>
             <class name="uitaptests.Login"></class>
             <class name="uitaptests.PageButtons"></class>
-            <class name="uitaptests.PageRedirects"></class>
+<!--            <class name="uitaptests.PageRedirects"></class>-->
             <class name="uitaptests.PopUps"></class>
             <class name="uitaptests.ScrollBar"></class>
             <class name="uitaptests.TextField"></class>
